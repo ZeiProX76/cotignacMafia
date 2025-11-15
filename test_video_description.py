@@ -15,36 +15,21 @@ def test_video_description():
     )
 
     # Path to your local video file
-    video_path = "/home/hugues/clipping/frontend/public/image/videoplayback (1).mp4"
+    video_path = "https://efuozhjlnyrcyritksiy.supabase.co/storage/v1/object/public/cotignac/Wispr%20Flow%20for%20iPhone%20-%20Wispr%20Flow%20AI%20(1080p,%20h264).mp4"
 
     print("Testing video description with Qwen VL model...")
     print(f"Video path: {video_path}")
     print("-" * 50)
 
-    # Check if video file exists
-    if not os.path.exists(video_path):
-        raise FileNotFoundError(f"Video file not found: {video_path}")
-
-    # For local files, we need to encode them in base64 and use data URL format
-    import base64
-    with open(video_path, 'rb') as video_file:
-        video_data = base64.b64encode(video_file.read()).decode('utf-8')
-
-    # Create data URL with base64 encoded video
-    video_url = f"data:video/mp4;base64,{video_data}"
-
-    print(f"Video encoded (size: {len(video_data)} bytes base64)")
-    print("-" * 50)
-
     # Make the API call with streaming
     completion = client.chat.completions.create(
-        model="qwen3-vl-32b-thinking",
+        model="qwen-vl-max",
         messages=[{
             "role": "user",
             "content": [
                 {
                     "type": "video_url",
-                    "video_url": {"url": video_url}
+                    "video_url": {"url": video_path}
                 },
                 {
                     "type": "text",

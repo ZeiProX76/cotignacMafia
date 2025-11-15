@@ -1,0 +1,39 @@
+{
+  "product_demos": [
+    {
+      "start": "00:00",
+      "end": "00:03",
+      "why": "Coca-Cola bottle with liquid pouring, visually striking and iconic product reveal"
+    },
+    {
+      "start": "00:15",
+      "end": "00:18",
+      "why": "IKEA room transformation from empty box to fully furnished space, dynamic and clean"
+    },
+    {
+      "start": "00:24",
+      "end": "00:26",
+      "why": "Dior perfume bottle with pink flowers, elegant and luxurious visual composition"
+    },
+    {
+      "start": "01:05",
+      "end": "01:12",
+      "why": "Starbucks coffee beans and drinks animation, dynamic brand-focused sequence"
+    },
+    {
+      "start": "05:03",
+      "end": "05:08",
+      "why": "Louis Vuitton trunk transformation into luxury room, high-end sophisticated reveal"
+    },
+    {
+      "start": "05:40",
+      "end": "05:48",
+      "why": "Samsung phone reveal with blue energy effects, techy and visually dynamic"
+    },
+    {
+      "start": "05:54",
+      "end": "05:59",
+      "why": "Apple VR headset display, clean modern aesthetic with floating product"
+    }
+  ]
+}

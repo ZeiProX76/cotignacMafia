@@ -1,0 +1,29 @@
+{
+  "product_demos": [
+    {
+      "start": "00:00",
+      "end": "00:05",
+      "why": "Coca-Cola ad with dynamic liquid splash and bottle transformation"
+    },
+    {
+      "start": "00:15",
+      "end": "00:18",
+      "why": "IKEA unboxing ad: box transforms into fully furnished bedroom with no human elements"
+    },
+    {
+      "start": "01:05",
+      "end": "01:12",
+      "why": "Starbucks coffee ad: dynamic sequence of coffee beans and beverages with brand logo"
+    },
+    {
+      "start": "01:13",
+      "end": "01:22",
+      "why": "Miss Dior perfume ad: elegant flower and bottle reveal with flowing ribbons"
+    },
+    {
+      "start": "04:15",
+      "end": "04:22",
+      "why": "Tom & Jerry ad: chaotic room transformation with cartoon characters (no real humans)"
+    }
+  ]
+}

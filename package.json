@@ -1,0 +1,29 @@
+{
+  "name": "qwentest",
+  "version": "1.0.0",
+  "description": "A Python test suite for evaluating video description capabilities using the Qwen3-VL-32B-Thinking model.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio remotion/src/index.ts",
+    "build": "remotion render remotion/src/index.ts VideoComposition out/video.mp4",
+    "render": "tsx render.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.374",
+    "@remotion/cli": "^4.0.374",
+    "@remotion/renderer": "^4.0.374",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.374"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

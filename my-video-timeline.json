@@ -1,0 +1,51 @@
+{
+  "mainVideo": "https://efuozhjlnyrcyritksiy.supabase.co/storage/v1/object/public/cotignac/videoplayback%20(2).mp4",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "durationInSeconds": 20,
+  "overlays": [
+    {
+      "type": "video",
+      "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "startSeconds": 3.0,
+      "durationSeconds": 5.0,
+      "position": "top-right",
+      "animation": "slide-left",
+      "width": 400,
+      "height": 400,
+      "borderRadius": 24
+    },
+    {
+      "type": "video",
+      "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "startSeconds": 10.0,
+      "durationSeconds": 5.0,
+      "position": "bottom-left",
+      "animation": "slide-right",
+      "width": 350,
+      "height": 350,
+      "borderRadius": 20
+    },
+    {
+      "type": "text",
+      "text": "First Overlay Moment",
+      "startSeconds": 3.5,
+      "durationSeconds": 2.5,
+      "position": "top-left",
+      "fontSize": 42,
+      "color": "#ffeb3b",
+      "backgroundColor": "rgba(0, 0, 0, 0.8)"
+    },
+    {
+      "type": "text",
+      "text": "Second Overlay Here!",
+      "startSeconds": 10.5,
+      "durationSeconds": 3.0,
+      "position": "bottom-right",
+      "fontSize": 48,
+      "color": "#ffffff",
+      "backgroundColor": "rgba(255, 0, 0, 0.7)"
+    }
+  ]
+}

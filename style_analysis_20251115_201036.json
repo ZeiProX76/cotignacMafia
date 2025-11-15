@@ -1,0 +1,234 @@
+{
+  "style_analysis": {
+    "overall_pacing": "Extremely fast-paced with rapid cuts every 1-2 seconds, creating a dynamic and high-energy rhythm. The editing is tight and deliberate to maintain viewer engagement.",
+    "format": "Split-screen format dominates, combining a talking head (the speaker) at the bottom half with B-roll visuals (screenshots, UIs, animations) in the top half. The visuals are primarily digital interface content showcasing Google AI Studio features.",
+    "energy_rhythm": "High energy, driven by quick transitions, bold text overlays, and the speaker’s expressive delivery. The rhythm matches the beat of an upbeat background track, likely implied even if not heard.",
+    "jump_cut_frequency": "Frequent jump cuts—approximately every second—especially during the B-roll segments. The speaker’s shots are longer but still punctuated by sharp transitions.",
+    "transition_styles": "Hard cuts between frames with no fades or effects. Transitions are abrupt and clean, emphasizing clarity and speed. Text overlays appear abruptly, reinforcing the fast pace.",
+    "overall_vibe": "Professional yet energetic, with a tech-savvy, viral short-form aesthetic. It feels polished, modern, and designed for platforms like TikTok or Instagram Reels where attention spans are short."
+  },
+  "timeline": [
+    {
+      "timestamp": "00:00",
+      "visual_content": "Top half: Black screen with a glowing star. Bottom half: Close-up of a man with dark curly hair, wearing a black shirt, looking directly at the camera. Text overlay: 'Google'.",
+      "pacing_note": "Hard cut from black to split-screen.",
+      "energy_level": "medium"
+    },
+    {
+      "timestamp": "00:01",
+      "visual_content": "Top half: Google logo appears with 'vibe coding' text overlay. Bottom half: Same man, now speaking. Text overlay: 'vibe coding'.",
+      "pacing_note": "Hard cut, text appears over logo.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:02",
+      "visual_content": "Top half: Screenshot of Google AI Studio webpage with 'Introducing vibe coding in Google AI Studio' highlighted. Bottom half: Man continues speaking. Text overlay: 'platform'.",
+      "pacing_note": "Hard cut to screenshot.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:03",
+      "visual_content": "Top half: Dark screen with 'Go from idea to app with Gemini' text. Bottom half: Man speaking. Text overlay: 'that lets'.",
+      "pacing_note": "Hard cut, text appears.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:04",
+      "visual_content": "Top half: Two UI panels: 'Past Forward' app demo and gallery of apps. Bottom half: Man speaking. Text overlay: 'completely'.",
+      "pacing_note": "Hard cut to app demos.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:05",
+      "visual_content": "Top half: App gallery showing Nano Banana, Veo, etc. Bottom half: Man speaking. Text overlay: 'free'.",
+      "pacing_note": "Hard cut to app gallery.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:06",
+      "visual_content": "Bottom half only: Close-up of man speaking. Text overlay: 'what makes it'.",
+      "pacing_note": "Cut to full talking head shot.",
+      "energy_level": "medium"
+    },
+    {
+      "timestamp": "00:07",
+      "visual_content": "Top half: Scrollable list of apps in Google AI Studio. Bottom half: Man speaking. Text overlay: 'specifically'.",
+      "pacing_note": "Hard cut back to split-screen.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:08",
+      "visual_content": "Top half: Scroll down to 'Veo Studio' and 'Run Chase' app cards. Bottom half: Man speaking. Text overlay: 'for creating'.",
+      "pacing_note": "Scroll animation within frame.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:09",
+      "visual_content": "Top half: 'Native Audio Function Call Sandbox' and 'ENHANCE!' app shown. Bottom half: Man speaking. Text overlay: 'AI powered'.",
+      "pacing_note": "Hard cut to next app section.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:10",
+      "visual_content": "Top half: 'Build your ideas with Gemini' UI. Bottom half: Man speaking. Text overlay: 'seamlessly'.",
+      "pacing_note": "Hard cut to new UI.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:11",
+      "visual_content": "Top half: UI with 'Nano banana powered app' selected. Bottom half: Man speaking. Text overlay: 'integrate'.",
+      "pacing_note": "Mouse cursor selects option.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:12",
+      "visual_content": "Top half: 'Nano banana powered app' added to prompt bar. Bottom half: Man speaking. Text overlay: 'Nano Banana'.",
+      "pacing_note": "Hard cut to updated UI.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:13",
+      "visual_content": "Top half: 'Animate images with Veo' option. Bottom half: Man speaking. Text overlay: 'on Veo's,'.",
+      "pacing_note": "Hard cut to next feature.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:14",
+      "visual_content": "Top half: 'Create conversational voice apps' and 'AI powered chatbot' options. Bottom half: Man speaking. Text overlay: 'chat bots,'.",
+      "pacing_note": "Hard cut.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:15",
+      "visual_content": "Top half: 'Use Google Search data' and 'Use Google Maps data' options. Bottom half: Man speaking. Text overlay: 'can't start'.",
+      "pacing_note": "Hard cut.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:16",
+      "visual_content": "Top half: 'Use Google Maps data' and 'Generate images with a prompt' options. Bottom half: Man speaking. Text overlay: 'API key'.",
+      "pacing_note": "Hard cut.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:17",
+      "visual_content": "Top half: 'Use Google Search data' and 'Generate images with a prompt' options. Bottom half: Man speaking. Text overlay: 'For example,'.",
+      "pacing_note": "Hard cut.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:18",
+      "visual_content": "Top half: Prompt input field with multiple AI tools selected. Bottom half: Man speaking. Text overlay: 'tasked it'.",
+      "pacing_note": "Hard cut to prompt builder.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:19",
+      "visual_content": "Top half: Prompt being typed: 'build an app where a user uploads his brand logo...'. Bottom half: Man speaking. Text overlay: 'where to go'.",
+      "pacing_note": "Text typing animation.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:20",
+      "visual_content": "Top half: 'AI Merch Mockup Generator' UI appears. Bottom half: Man speaking. Text overlay: 'and then'.",
+      "pacing_note": "Hard cut to generated app.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:21",
+      "visual_content": "Top half: 'AI Merch Mockup Generator' UI with upload area. Bottom half: Man speaking. Text overlay: 'the design'.",
+      "pacing_note": "Hard cut.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:22",
+      "visual_content": "Top half: Nike logo uploaded into the mockup generator. Bottom half: Man speaking. Text overlay: 'looking'.",
+      "pacing_note": "Animation of file upload.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:23",
+      "visual_content": "Top half: 'Generate Mockup' button clicked. Bottom half: Man speaking. Text overlay: 'using nano banana'.",
+      "pacing_note": "Button click animation.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:24",
+      "visual_content": "Top half: Loading animation for mockup generation. Bottom half: Man speaking. Text overlay: 'And it'.",
+      "pacing_note": "Loading spinner animation.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:25",
+      "visual_content": "Top half: Generated T-shirt mockup with Nike logo. Bottom half: Man speaking. Text overlay: 'in seconds'.",
+      "pacing_note": "Hard cut to result.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:26",
+      "visual_content": "Top half: 'Annotation Mode' title with UI screenshot. Bottom half: Man speaking. Text overlay: 'very powerful'.",
+      "pacing_note": "Hard cut to new feature.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:27",
+      "visual_content": "Top half: Annotation mode active, drawing a circle around UI element. Bottom half: Man speaking. Text overlay: 'annotation'.",
+      "pacing_note": "Drawing animation.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:28",
+      "visual_content": "Top half: Circle drawn around button, annotation tool active. Bottom half: Man speaking. Text overlay: 'design'.",
+      "pacing_note": "Continuation of drawing.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:29",
+      "visual_content": "Top half: Text box appears with 'Add a video generate button'. Bottom half: Man speaking. Text overlay: 'super fast'.",
+      "pacing_note": "Text auto-generates.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:30",
+      "visual_content": "Top half: Arrow pointing from annotation to suggestion. Bottom half: Man speaking. Text overlay: 'you highlight'.",
+      "pacing_note": "Arrow animation.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:31",
+      "visual_content": "Top half: Suggestion appears as 'Add a video generate button'. Bottom half: Man speaking. Text overlay: 'will literally'.",
+      "pacing_note": "Suggestion appears instantly.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:32",
+      "visual_content": "Top half: Button added to UI. Bottom half: Man speaking. Text overlay: 'add them'.",
+      "pacing_note": "Hard cut to final UI.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:33",
+      "visual_content": "Top half: Chat log shows task completed. Bottom half: Man speaking. Text overlay: 'instantly'.",
+      "pacing_note": "Hard cut to chat interface.",
+      "energy_level": "high"
+    },
+    {
+      "timestamp": "00:34",
+      "visual_content": "Bottom half only: Man smiling. Text overlay: 'So'.",
+      "pacing_note": "Cut to close-up.",
+      "energy_level": "medium"
+    },
+    {
+      "timestamp": "00:35",
+      "visual_content": "Bottom half only: Man speaking, slightly nodding. Text overlay: 'just comment'.",
+      "pacing_note": "No cut.",
+      "energy_level": "medium"
+    },
+    {
+      "timestamp": "00:36",
+      "visual_content": "Bottom half only: Man speaking, looking engaged. Text overlay: 'and the link'.",
+      "pacing_note": "No cut.",
+      "energy_level": "medium"
+    }
+  ]
+}

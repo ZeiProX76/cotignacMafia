@@ -1,0 +1,10 @@
+# Core dependencies
+python-dotenv
+pydantic
+
+# API clients
+openai
+dashscope
+
+# Additional utilities (optional but recommended)
+# inquirer>=3.0.0  # For enhanced interactive menus (optional)

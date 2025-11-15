@@ -1,0 +1,189 @@
+{
+  "source_video": "/home/hugues/clipping/frontend/public/image/videoplayback (3).mp4",
+  "clips": [
+    {
+      "clip_number": 1,
+      "filename": "clip_01_A_red_liquid_neon_Coca-Cola_bottle_forms_from_swir.mp4",
+      "start": "00:00",
+      "end": "00:05",
+      "description": "A red liquid neon Coca-Cola bottle forms from swirling energy against a black background, culminating in a full glass bottle with soda pouring into it.",
+      "reason": "The visual is striking and cinematic, with high contrast between the glowing red neon and dark backdrop. The transformation of energy into a recognizable product is smooth and visually compelling."
+    },
+    {
+      "clip_number": 2,
+      "filename": "clip_02_A_Twitter_post_showing_an_IKEA_box_transforming_in.mp4",
+      "start": "00:15",
+      "end": "00:20",
+      "description": "A Twitter post showing an IKEA box transforming into a fully furnished bedroom in a room transformation ad.",
+      "reason": "This clip showcases a clear before-and-after transformation with realistic lighting and detailed interior design elements, demonstrating the power of AI-generated video content."
+    },
+    {
+      "clip_number": 3,
+      "filename": "clip_03_A_Louis_Vuitton_trunk_opens_to_reveal_a_luxurious.mp4",
+      "start": "00:23",
+      "end": "00:24",
+      "description": "A Louis Vuitton trunk opens to reveal a luxurious bedroom filled with branded items and elegant decor.",
+      "reason": "The scene features high-end aesthetics, rich textures, and precise brand integration, creating a sophisticated and polished visual experience."
+    },
+    {
+      "clip_number": 4,
+      "filename": "clip_04_A_Tom___Jerry_themed_box_explodes_into_a_chaotic_c.mp4",
+      "start": "00:27",
+      "end": "00:28",
+      "description": "A Tom & Jerry themed box explodes into a chaotic cartoon room with characters, cheese, and slapstick elements.",
+      "reason": "The animation is vibrant, dynamic, and packed with action, capturing the essence of classic cartoons with excellent detail and timing."
+    },
+    {
+      "clip_number": 5,
+      "filename": "clip_05_Animated_circles_with_icons__box__robot__paintbrus.mp4",
+      "start": "00:30",
+      "end": "00:38",
+      "description": "Animated circles with icons (box, robot, paintbrush) connected by lines, illustrating JSON prompting concepts.",
+      "reason": "The graphic is clean, modern, and effectively communicates complex ideas through simple visuals, making it both informative and aesthetically pleasing."
+    },
+    {
+      "clip_number": 6,
+      "filename": "clip_06_Coffee_beans_float_around_as_various_Starbucks_dri.mp4",
+      "start": "01:05",
+      "end": "01:12",
+      "description": "Coffee beans float around as various Starbucks drinks materialize and arrange themselves in a circular pattern.",
+      "reason": "The floating coffee beans and drink formation are highly stylized and dynamic, with excellent lighting and depth, creating a magical and engaging product showcase."
+    },
+    {
+      "clip_number": 7,
+      "filename": "clip_07_A_Miss_Dior_perfume_bottle_emerges_from_a_blooming.mp4",
+      "start": "01:13",
+      "end": "01:22",
+      "description": "A Miss Dior perfume bottle emerges from a blooming pink flower, surrounded by soft petals and ribbons.",
+      "reason": "The scene is ethereal and romantic, with delicate animations and soft lighting that emphasize elegance and luxury, resulting in a visually stunning advertisement."
+    },
+    {
+      "clip_number": 8,
+      "filename": "clip_08_A_web_interface_for_a_Room_Transformation_JSON_Pro.mp4",
+      "start": "01:23",
+      "end": "01:29",
+      "description": "A web interface for a Room Transformation JSON Prompt Generator with options for different ad styles.",
+      "reason": "The UI is sleek and user-friendly, with clear navigation and professional design, highlighting advanced AI tools for creative content generation."
+    },
+    {
+      "clip_number": 9,
+      "filename": "clip_09_Animated_cardboard_boxes_with_smiling_faces_floati.mp4",
+      "start": "01:30",
+      "end": "01:31",
+      "description": "Animated cardboard boxes with smiling faces floating in space, labeled 'Unboxing videos'.",
+      "reason": "The playful and whimsical animation adds charm and personality to the concept of unboxing, with smooth motion and appealing character design."
+    },
+    {
+      "clip_number": 10,
+      "filename": "clip_10_The_OpenArt_platform_interface_showing_options_for.mp4",
+      "start": "01:38",
+      "end": "01:41",
+      "description": "The OpenArt platform interface showing options for creating stories, videos, images, and characters.",
+      "reason": "The interface is modern and intuitive, with a clean layout and vibrant color scheme, reflecting a cutting-edge AI content creation tool."
+    },
+    {
+      "clip_number": 11,
+      "filename": "clip_11_OpenArt_s_Video_Generation_page_with_model_selecti.mp4",
+      "start": "01:42",
+      "end": "01:58",
+      "description": "OpenArt's Video Generation page with model selection, including Veo3, and thumbnails of generated videos.",
+      "reason": "The screen displays a variety of high-quality video outputs, showcasing the platform's capabilities with clear organization and visual appeal."
+    },
+    {
+      "clip_number": 12,
+      "filename": "clip_12_A_Google_Docs_document_titled__Dan_Kieft_s_JSON_Pr.mp4",
+      "start": "02:20",
+      "end": "02:29",
+      "description": "A Google Docs document titled 'Dan Kieft's JSON Prompt Pack' with detailed JSON prompts for room transformations.",
+      "reason": "The document is well-structured and comprehensive, offering practical examples for users, with clear text formatting and professional presentation."
+    },
+    {
+      "clip_number": 13,
+      "filename": "clip_13_OpenArt_s_Text-to-Video_interface_with_a_prompt_in.mp4",
+      "start": "02:30",
+      "end": "02:36",
+      "description": "OpenArt's Text-to-Video interface with a prompt input field and settings for audio, resolution, and video mode.",
+      "reason": "The interface is functional and straightforward, allowing users to customize their video generation with precision and ease."
+    },
+    {
+      "clip_number": 14,
+      "filename": "clip_14_A_Labubu-themed_room_transformation_video_showing.mp4",
+      "start": "03:13",
+      "end": "03:25",
+      "description": "A Labubu-themed room transformation video showing a capsule opening and filling the room with cute, whimsical decor.",
+      "reason": "The animation is smooth and charming, with a cohesive theme and attention to detail in every element, creating a delightful and immersive experience."
+    },
+    {
+      "clip_number": 15,
+      "filename": "clip_15_A_Tom___Jerry_themed_box_opens_to_reveal_a_chaotic.mp4",
+      "start": "04:15",
+      "end": "04:22",
+      "description": "A Tom & Jerry themed box opens to reveal a chaotic, animated living room with characters and slapstick elements.",
+      "reason": "The scene is energetic and humorous, with exaggerated movements and vibrant colors, perfectly capturing the spirit of the classic cartoon."
+    },
+    {
+      "clip_number": 16,
+      "filename": "clip_16_A_Pokéball_with_Pikachu_s_face_opens_to_transform.mp4",
+      "start": "04:42",
+      "end": "04:48",
+      "description": "A Pokéball with Pikachu's face opens to transform into a vibrant Pokémon-themed bedroom.",
+      "reason": "The transformation is magical and colorful, with bright yellow tones and playful details, creating a fun and engaging visual narrative."
+    },
+    {
+      "clip_number": 17,
+      "filename": "clip_17_An_Apple_Vision_Pro_logo_appears_in_water__followe.mp4",
+      "start": "05:19",
+      "end": "05:26",
+      "description": "An Apple Vision Pro logo appears in water, followed by the headset floating in a futuristic, minimalist environment.",
+      "reason": "The scene is sleek and modern, with reflective surfaces and clean lines, emphasizing the premium quality and innovative design of the product."
+    },
+    {
+      "clip_number": 18,
+      "filename": "clip_18_A_Samsung_phone_emerges_from_a_glowing_blue_cube_i.mp4",
+      "start": "05:40",
+      "end": "05:48",
+      "description": "A Samsung phone emerges from a glowing blue cube in a high-tech corridor, revealing its sleek design.",
+      "reason": "The reveal is dramatic and cinematic, with electric effects and dynamic lighting, highlighting the phone's advanced technology and premium branding."
+    },
+    {
+      "clip_number": 19,
+      "filename": "clip_19_A_red_Ferrari_box_opens_to_reveal_a_wireframe_car.mp4",
+      "start": "06:06",
+      "end": "06:13",
+      "description": "A red Ferrari box opens to reveal a wireframe car that materializes into a real, shiny sports car.",
+      "reason": "The sequence is visually impressive, with smooth transitions and a sense of grandeur, showcasing the car's design and performance in a powerful way."
+    },
+    {
+      "clip_number": 20,
+      "filename": "clip_20_Starbucks_coffee_beans_and_drinks_float_and_assemb.mp4",
+      "start": "06:26",
+      "end": "06:33",
+      "description": "Starbucks coffee beans and drinks float and assemble in a dark, atmospheric setting.",
+      "reason": "The floating elements and glowing effects create a mystical and inviting atmosphere, enhancing the appeal of the products with artistic flair."
+    },
+    {
+      "clip_number": 21,
+      "filename": "clip_21_A_Miss_Dior_perfume_bottle_is_revealed_amidst_bloo.mp4",
+      "start": "07:11",
+      "end": "07:19",
+      "description": "A Miss Dior perfume bottle is revealed amidst blooming flowers and flowing ribbons.",
+      "reason": "The scene is graceful and elegant, with soft movements and harmonious colors, perfectly aligning with the luxurious branding of the product."
+    },
+    {
+      "clip_number": 22,
+      "filename": "clip_22_A_person_wearing_boxing_gloves_and_a__Keyboard_War.mp4",
+      "start": "07:21",
+      "end": "07:24",
+      "description": "A person wearing boxing gloves and a 'Keyboard Warrior' headband, with animated graphics overlaying the image.",
+      "reason": "The combination of humor and visual effects creates a memorable and entertaining moment, blending reality with digital creativity."
+    },
+    {
+      "clip_number": 23,
+      "filename": "clip_23_Cartoon_cats_in_a_pet_boutique__one_trying_on_a_ha.mp4",
+      "start": "08:01",
+      "end": "08:08",
+      "description": "Cartoon cats in a pet boutique, one trying on a hat, with vibrant colors and expressive eyes.",
+      "reason": "The animation is adorable and lively, with detailed character designs and a warm, inviting setting that captures the charm of the scene."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "sentences": [
+    {
+      "start": "00:00",
+      "end": "00:05",
+      "text": "I've just spent the last 48 hours playing with this new method of AI video called JSON prompting, and it's creating full adverts in a matter of minutes."
+    },
+    {
+      "start": "00:05",
+      "end": "00:11",
+      "text": "So I'm going to show you how you can use this to create some of the most insane AI videos you've ever seen."
+    },
+    {
+      "start": "00:11",
+      "end": "00:15",
+      "text": "And the best part, you can do this too for your brand or your business."
+    },
+    {
+      "start": "00:15",
+      "end": "00:19",
+      "text": "So here's how to do it."
+    },
+    {
+      "start": "00:19",
+      "end": "00:22",
+      "text": "First, go to ChatGPT, ask it to write you a JSON prompt."
+    },
+    {
+      "start": "00:22",
+      "end": "00:26",
+      "text": "Then, describe exactly what you want to happen next in your video."
+    },
+    {
+      "start": "00:26",
+      "end": "00:32",
+      "text": "And ChatGPT will give you this super long detailed block of code."
+    },
+    {
+      "start": "00:32",
+      "end": "00:38",
+      "text": "Inside that code, you'll see everything: camera movement, framing, lighting, sound effects, all the details you can tweak."
+    },
+    {
+      "start": "00:38",
+      "end": "00:42",
+      "text": "Next, go to Google Flow and paste this into the prompt bar using Google V03."
+    },
+    {
+      "start": "00:42",
+      "end": "00:46",
+      "text": "Make sure you click here and select the fast version so you use the cheaper credits."
+    },
+    {
+      "start": "00:46",
+      "end": "00:50",
+      "text": "Once you've got that selected, you'll have an advert that's ready for TV in just a few minutes."
+    },
+    {
+      "start": "00:50",
+      "end": "00:53",
+      "text": "Type AI in the comments and I'll send you my prompts."
+    }
+  ]
+}

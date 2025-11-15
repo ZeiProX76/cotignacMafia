@@ -1,0 +1,40 @@
+{
+  "product_demos": [
+    {
+      "start": "02:20",
+      "end": "02:53",
+      "demo_type": "chatgpt_interface",
+      "description": "ChatGPT interface showing a project named 'VEO JSON Prompts' with a prompt for creating a JSON structure for a sneaker in a thunderstorm.",
+      "visual_quality": 9,
+      "content_potential": 9
+    },
+    {
+      "start": "02:54",
+      "end": "02:58",
+      "demo_type": "json_code",
+      "description": "JSON code block detailing scene, camera, lighting, objects, and audio for a thunderstorm video concept.",
+      "visual_quality": 10,
+      "content_potential": 10
+    },
+    {
+      "start": "03:17",
+      "end": "03:37",
+      "demo_type": "google_flow_ui",
+      "description": "Google Flow interface showing text-to-video generation with a JSON prompt pasted into the input field, selecting VEO 3 - Fast mode.",
+      "visual_quality": 9,
+      "content_potential": 10
+    }
+  ],
+  "best_clip_candidates": [
+    {
+      "start": "02:54",
+      "end": "02:58",
+      "reason": "Clearly shows the detailed JSON code structure used for AI video creation, demonstrating the core technique discussed in the script."
+    },
+    {
+      "start": "03:17",
+      "end": "03:37",
+      "reason": "Shows the actual Google Flow UI where the JSON prompt is applied, directly illustrating how to generate AI videos using the method described."
+    }
+  ]
+}

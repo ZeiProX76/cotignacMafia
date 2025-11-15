@@ -1,2 +1,3 @@
-openai
+dashscope
 python-dotenv
+openai

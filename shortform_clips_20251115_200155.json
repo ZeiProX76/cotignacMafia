@@ -1,0 +1,24 @@
+{
+  "product_demos": [
+    {
+      "start": "00:00",
+      "end": "00:01",
+      "why": "The video shows a split screen: top part has the Google logo on a black background with the text 'Google' at 0.3s, then changes to 'vibe coding' at 1.3s while the bottom part shows a person. This is the introduction to the product (vibe coding) and the platform. The transition is a smooth change in the top section text with no jump cut."
+    },
+    {
+      "start": "00:02",
+      "end": "00:09",
+      "why": "This segment shows the 'Introducing vibe coding in Google AI Studio' webpage at 2.3s, then a black screen with 'Go from idea to app with Gemini' at 3.3s. It transitions to the 'Past Forward' app interface with multiple photo examples (4.3s, 5.3s) and then app gallery sections (8.3s, 9.3s) including 'Veo Studio' and 'Run Chase'. The animations include page scrolling and app interface transitions, with jump cuts between different app examples."
+    },
+    {
+      "start": "00:10",
+      "end": "00:25",
+      "why": "This segment shows the 'Build your ideas with Gemini' interface (10.3s-20.3s) where the user selects features like 'Nano banana powered app' and 'Veo 3', with checkmarks appearing on selection. It then transitions to the 'AI Merch Mockup Generator' (21.3s-25.3s) showing logo upload, product type selection, and mockup generation. The animation includes text input, button clicks, and real-time mockup generation with a 'Generating...' loading state. Jump cuts occur between the interface and the generated mockup output."
+    },
+    {
+      "start": "00:26",
+      "end": "00:33",
+      "why": "This segment shows 'Annotation Mode' (26.3s-33.3s) with a UI where the user draws on the screen (27.3s-28.3s) and adds text annotations like 'Add a video generate button' (29.3s-32.3s). The animation demonstrates real-time UI modification with arrows and text boxes, followed by the 'Add to chat' action. The segment ends with the system instantly applying changes (33.3s). No jump cuts, but smooth transitions between annotation actions."
+    }
+  ]
+}

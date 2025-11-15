@@ -1,0 +1,226 @@
+{
+  "activities": [
+    {
+      "start": "00:00",
+      "end": "00:06",
+      "description": "Red liquid, neon Coca-Cola bottle, social media icons",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:06",
+      "end": "00:10",
+      "description": "Document with Labubu Room Transformation JSON text",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:15",
+      "end": "00:20",
+      "description": "Twitter post showing IKEA box room transformation",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:23",
+      "end": "00:27",
+      "description": "Louis Vuitton ad, perfume, Tom & Jerry box",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:30",
+      "end": "00:38",
+      "description": "Animated circles with JSON prompting text",
+      "activity_type": "graphics"
+    },
+    {
+      "start": "01:05",
+      "end": "01:13",
+      "description": "Coffee beans, Starbucks cups, Miss Dior perfume",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:14",
+      "end": "01:22",
+      "description": "Miss Dior perfume bottle with ribbons",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:23",
+      "end": "01:29",
+      "description": "Room Transformation JSON Prompt Generator webpage",
+      "activity_type": "ui"
+    },
+    {
+      "start": "01:29",
+      "end": "01:32",
+      "description": "Unboxing videos with animated boxes",
+      "activity_type": "animation"
+    },
+    {
+      "start": "01:37",
+      "end": "01:42",
+      "description": "OpenArt interface What would you like to create",
+      "activity_type": "ui"
+    },
+    {
+      "start": "01:44",
+      "end": "01:58",
+      "description": "OpenArt interface model selection Veo3 settings",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:20",
+      "end": "02:30",
+      "description": "Dan Kieft's JSON Prompt Pack document",
+      "activity_type": "demo"
+    },
+    {
+      "start": "02:31",
+      "end": "02:40",
+      "description": "OpenArt interface with cozy whimsical text input",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:41",
+      "end": "03:05",
+      "description": "Labubu Room Transformation JSON prompt and video",
+      "activity_type": "demo"
+    },
+    {
+      "start": "03:10",
+      "end": "03:20",
+      "description": "OpenArt interface video generation Labubu room",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:31",
+      "end": "03:40",
+      "description": "JSON Prompt Pack and Generator webpage",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:41",
+      "end": "03:55",
+      "description": "Typing Give me a JSON Veo 3 prompt in generator",
+      "activity_type": "demo"
+    },
+    {
+      "start": "03:56",
+      "end": "04:05",
+      "description": "Generated JSON prompt Tom & Jerry transformation",
+      "activity_type": "demo"
+    },
+    {
+      "start": "04:06",
+      "end": "04:14",
+      "description": "OpenArt interface creating video with JSON prompt",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:15",
+      "end": "04:23",
+      "description": "Tom & Jerry box explosion room transformation",
+      "activity_type": "demo"
+    },
+    {
+      "start": "04:42",
+      "end": "04:49",
+      "description": "Pikachu and Pokéball room transformation",
+      "activity_type": "demo"
+    },
+    {
+      "start": "05:02",
+      "end": "05:10",
+      "description": "Louis Vuitton trunk transforming into a room",
+      "activity_type": "demo"
+    },
+    {
+      "start": "05:13",
+      "end": "05:15",
+      "description": "Professional Ads with animated robots megaphones",
+      "activity_type": "animation"
+    },
+    {
+      "start": "05:19",
+      "end": "05:26",
+      "description": "Apple logo Apple Vision Pro headset minimalist",
+      "activity_type": "product"
+    },
+    {
+      "start": "05:27",
+      "end": "05:38",
+      "description": "Generator webpage creating Samsung prompt",
+      "activity_type": "ui"
+    },
+    {
+      "start": "05:39",
+      "end": "05:49",
+      "description": "Samsung product launch video phone and logo",
+      "activity_type": "product"
+    },
+    {
+      "start": "05:50",
+      "end": "05:59",
+      "description": "OpenArt interface Apple product video",
+      "activity_type": "ui"
+    },
+    {
+      "start": "06:06",
+      "end": "06:13",
+      "description": "Ferrari box opening car reveal",
+      "activity_type": "product"
+    },
+    {
+      "start": "06:26",
+      "end": "06:34",
+      "description": "Coffee beans and Starbucks cups",
+      "activity_type": "product"
+    },
+    {
+      "start": "06:46",
+      "end": "06:54",
+      "description": "Coca-Cola bottle liquid Crew Ad prompt",
+      "activity_type": "demo"
+    },
+    {
+      "start": "06:55",
+      "end": "07:00",
+      "description": "Click link in description newsletter pop-up",
+      "activity_type": "text"
+    },
+    {
+      "start": "07:11",
+      "end": "07:19",
+      "description": "Miss Dior perfume bottle with flowers",
+      "activity_type": "product"
+    },
+    {
+      "start": "07:21",
+      "end": "07:23",
+      "description": "Keyboard Warrior headband and boxing gloves",
+      "activity_type": "graphics"
+    },
+    {
+      "start": "07:32",
+      "end": "07:34",
+      "description": "Room Transformation Generator link",
+      "activity_type": "text"
+    },
+    {
+      "start": "07:41",
+      "end": "07:43",
+      "description": "OpenArt interface Link in the description",
+      "activity_type": "ui"
+    },
+    {
+      "start": "07:48",
+      "end": "07:51",
+      "description": "Seedance 1.0 Google VEO 3 Kling 2.1 logos",
+      "activity_type": "graphics"
+    },
+    {
+      "start": "08:01",
+      "end": "08:08",
+      "description": "Cartoon cats in boutique trying on hats",
+      "activity_type": "animation"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "mainVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "durationInSeconds": 15,
+  "overlays": [
+    {
+      "type": "video",
+      "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "startSeconds": 2,
+      "durationSeconds": 5,
+      "position": "top-right",
+      "animation": "slide-left",
+      "width": 400,
+      "height": 400,
+      "borderRadius": 24
+    },
+    {
+      "type": "video",
+      "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "startSeconds": 8,
+      "durationSeconds": 5,
+      "position": "bottom-left",
+      "animation": "slide-right",
+      "width": 350,
+      "height": 350,
+      "borderRadius": 20
+    },
+    {
+      "type": "text",
+      "text": "Welcome to Remotion!",
+      "startSeconds": 1,
+      "durationSeconds": 3,
+      "position": "top-left",
+      "fontSize": 48,
+      "fontWeight": "bold",
+      "color": "#ffffff",
+      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+      "padding": 20,
+      "borderRadius": 12
+    },
+    {
+      "type": "text",
+      "text": "Check out this overlay at the bottom",
+      "startSeconds": 8.5,
+      "durationSeconds": 4,
+      "position": "bottom-right",
+      "fontSize": 36,
+      "color": "#ffeb3b",
+      "backgroundColor": "rgba(0, 0, 0, 0.8)"
+    }
+  ]
+}

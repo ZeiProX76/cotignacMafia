@@ -1,0 +1,22 @@
+{
+  "overlay_moments": [
+    {
+      "start": "00:17",
+      "end": "00:19",
+      "visual": "ChatGPT",
+      "why": "The speaker instructs the viewer to go to ChatGPT to generate a JSON prompt."
+    },
+    {
+      "start": "00:33",
+      "end": "00:35",
+      "visual": "Google Flow",
+      "why": "The speaker directs the viewer to use Google Flow to paste the generated prompt."
+    },
+    {
+      "start": "00:35",
+      "end": "00:37",
+      "visual": "Google VEO 3",
+      "why": "The speaker specifies using Google VEO 3 within Google Flow to create the video."
+    }
+  ]
+}
