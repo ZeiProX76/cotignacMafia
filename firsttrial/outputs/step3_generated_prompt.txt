@@ -1,1 +1,30 @@
-"Analyze the COMPLETE video from start to end. Identify ALL instances of: red liquid neon Coca‑Cola bottle, social media icons, JSON documents and JSON prompting text blocks, Labubu Room Transformation JSON text and video, Twitter/IKEA box room transformation post, Louis Vuitton ads and trunk-to-room transform, Tom & Jerry box transformation, Pikachu and Pokéball room transform, animated circles/graphics with JSON prompting, product showcases (Miss Dior perfume, Starbucks coffee beans/cups, Apple Vision Pro logo, Samsung phone and logo, Ferrari reveal), OpenArt and Room Transformation Generator UI screens (model selection, Veo3 settings, cozy text inputs), Dan Kieft JSON Prompt Pack document, unboxing animated boxes, animated robots/megaphones, Coca‑Cola Crew Ad visuals, newsletter pop-up and link text, Keyboard Warrior graphics, Seedance/VEO3/Kling logos, cartoon cats boutique animation. Rank by visual quality and clarity; select the TOP 15-20 best clips spread across the entire timeline, NO HUMANS VISIBLE. Target visuals at: 00:00-00:10, 00:15-00:26, 00:30-00:38, 01:05-01:22, 01:23-01:58, 02:20-04:14, 04:15-05:13, 05:19-06:13, 06:26-07:19, 07:21-08:08. JSON: {\"scenes\": [{\"start\": \"MM:SS\", \"end\": \"MM:SS\", \"description\": \"...\", \"reason\": \"...\"}]}"
+Analyze at 10 FPS.
+
+TASK: Find CONTINUOUS demo UI sequences. Group ALL connected UI screens into ONE clip.
+
+CRITICAL RULE - CONTINUOUS SEQUENCES:
+If UI screen A → UI screen B → UI screen C with NO text overlay in between, that's ONE SEQUENCE, not 3 clips!
+
+Example:
+- 00:27-00:32: Edit panel appears
+- 00:33-00:38: Image generation prompt (same workflow continues)
+- 00:39-00:40: Generated image shows (still same workflow)
+- 00:41-00:42: Back to edit panel (still same workflow)
+→ This is ONE clip: [00:27.000 → 00:42.000]
+
+ONLY split when:
+✓ Text overlay appears ("Meet Pomelli", "Get suggestions", etc.)
+✓ Complete topic change (editing workflow → mobile preview = different sequences)
+
+DON'T split when:
+✗ Background changes but workflow continues
+✗ UI transitions within same feature
+
+JSON:
+{
+  "scenes": [
+    {"start": "MM:SS.mmm", "end": "MM:SS.mmm", "description": "continuous sequence", "reason": "no text interruption"}
+  ]
+}
+
+CONTINUOUS SEQUENCES. ONE CLIP PER WORKFLOW. NO TEXT.

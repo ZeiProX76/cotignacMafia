@@ -1,0 +1,160 @@
+{
+  "scenes": [
+    {
+      "start": "00:00",
+      "end": "00:04",
+      "description": "Animated red liquid flowing and forming a glowing Coca-Cola bottle outline against a black background with dynamic lighting effects.",
+      "reason": "High visual quality with striking contrast, fluid animation, and dramatic lighting that creates an engaging and cinematic opening."
+    },
+    {
+      "start": "00:05",
+      "end": "00:08",
+      "description": "Close-up of a Google Doc displaying a detailed JSON prompt for 'Labubu Room Transformation' with structured text formatting.",
+      "reason": "Clear, sharp text rendering with well-organized content; excellent for showcasing technical precision in AI video generation workflows."
+    },
+    {
+      "start": "00:15",
+      "end": "00:19",
+      "description": "Twitter post showing an IKEA box transforming into a fully furnished bedroom in a cinematic style, with a dark UI and clear visual progression.",
+      "reason": "Highly effective demonstration of room transformation concept with clean social media context and crisp visuals."
+    },
+    {
+      "start": "00:23",
+      "end": "00:24",
+      "description": "Luxurious Louis Vuitton-themed bedroom reveal with a monogram trunk opening to display elegant decor and fashion items.",
+      "reason": "Sophisticated and polished aesthetic with rich textures, perfect lighting, and brand-aligned design elements."
+    },
+    {
+      "start": "00:25",
+      "end": "00:27",
+      "description": "Dior perfume ad featuring a bottle emerging from a large pink flower with soft petals and golden ribbons in a dreamy setting.",
+      "reason": "Visually stunning with delicate motion, soft lighting, and elegant composition ideal for luxury branding."
+    },
+    {
+      "start": "00:27",
+      "end": "00:28",
+      "description": "Tom & Jerry cartoon-style room explosion from a box, featuring chaotic action with holes in walls, characters, and scattered props.",
+      "reason": "Vibrant and energetic animation with strong slapstick humor and dynamic movement typical of classic cartoons."
+    },
+    {
+      "start": "01:05",
+      "end": "01:12",
+      "description": "Starbucks coffee ad with floating coffee beans and drinks materializing around a central bean, culminating in the logo reveal.",
+      "reason": "Sleek and professional animation with realistic product representation and smooth transitions."
+    },
+    {
+      "start": "01:13",
+      "end": "01:22",
+      "description": "Miss Dior Blooming Bouquet perfume ad with a blooming flower revealing the bottle, followed by floating petals and ribbons.",
+      "reason": "Elegant and poetic visual storytelling with soft focus, natural lighting, and graceful motion."
+    },
+    {
+      "start": "01:23",
+      "end": "01:28",
+      "description": "Room Transformation JSON Prompt Generator interface with buttons for various AI video prompts and a clean, modern UI.",
+      "reason": "Well-designed interface with intuitive layout and clear call-to-action buttons for user engagement."
+    },
+    {
+      "start": "01:29",
+      "end": "01:31",
+      "description": "Animated graphic of unboxing boxes with smiling faces floating in space, highlighting 'Unboxing videos'.",
+      "reason": "Playful and engaging animation with consistent theme and clear messaging using simple yet effective graphics."
+    },
+    {
+      "start": "01:38",
+      "end": "01:42",
+      "description": "OpenArt UI screen showing the main dashboard with options like 'Create Story', 'Generate Video', and 'Edit Image'.",
+      "reason": "Professional and user-friendly interface with clear navigation and vibrant thumbnails for different creation tools."
+    },
+    {
+      "start": "01:43",
+      "end": "01:46",
+      "description": "OpenArt Videos page with thumbnails of generated videos including Tom & Jerry box, treasure chest, and others.",
+      "reason": "Organized gallery view with high-resolution thumbnails showcasing diverse AI-generated content."
+    },
+    {
+      "start": "01:47",
+      "end": "01:50",
+      "description": "OpenArt UI model selection dropdown with Veo 3 highlighted among other models like King 2.1 and Seedance 1.0.",
+      "reason": "Clean and informative UI element that clearly displays available AI models with descriptive labels."
+    },
+    {
+      "start": "02:18",
+      "end": "02:20",
+      "description": "OpenArt UI prompt input field with 'cozy whimsical' text entered and settings panel visible.",
+      "reason": "Clear and functional interface with easy-to-read text and accessible settings controls."
+    },
+    {
+      "start": "02:40",
+      "end": "02:50",
+      "description": "Google Docs screen showing detailed JSON prompt structure for 'Labubu Room Transformation' with syntax highlighting.",
+      "reason": "Excellent clarity in code presentation with readable text and proper formatting for educational purposes."
+    },
+    {
+      "start": "03:13",
+      "end": "03:19",
+      "description": "Labubu room transformation animation where a capsule opens to reveal a whimsical, forest-themed bedroom with plush toys and decorations.",
+      "reason": "High-quality 3D animation with smooth transitions, detailed textures, and cohesive thematic design."
+    },
+    {
+      "start": "04:15",
+      "end": "04:22",
+      "description": "Tom & Jerry themed room transformation with a box exploding into a chaotic living room filled with cartoon characters and props.",
+      "reason": "Dynamic and humorous animation with exaggerated physics and vibrant colors capturing the essence of the cartoon."
+    },
+    {
+      "start": "04:42",
+      "end": "04:48",
+      "description": "Pikachu Poké Ball transformation into a Pokémon-themed bedroom with yellow decor, Pikachu plushies, and lightning effects.",
+      "reason": "Bright and playful animation with strong brand recognition and seamless integration of elements."
+    },
+    {
+      "start": "05:03",
+      "end": "05:08",
+      "description": "Louis Vuitton trunk opening to reveal a luxurious bedroom with branded furniture, bags, and fashion posters.",
+      "reason": "Sophisticated and elegant animation with attention to detail and consistent brand identity throughout."
+    },
+    {
+      "start": "05:20",
+      "end": "05:26",
+      "description": "Apple Vision Pro headset floating in a minimalist, futuristic white environment with soft lighting and reflections.",
+      "reason": "Minimalist and sleek design with perfect lighting and reflection effects, emphasizing the product's premium nature."
+    },
+    {
+      "start": "05:40",
+      "end": "05:48",
+      "description": "Samsung phone reveal with blue energy effects and a futuristic corridor setting, highlighting the device’s features.",
+      "reason": "High-tech and immersive animation with dynamic lighting and advanced visual effects suitable for tech branding."
+    },
+    {
+      "start": "06:06",
+      "end": "06:12",
+      "description": "Ferrari car reveal from a red box with wireframe animation transitioning to a solid red sports car in a dark garage.",
+      "reason": "Dramatic and powerful animation with precise engineering details and intense lighting, perfect for luxury automotive branding."
+    },
+    {
+      "start": "06:27",
+      "end": "06:33",
+      "description": "Starbucks coffee ad with floating beans and drinks forming a circular pattern around a central cup with the logo.",
+      "reason": "Consistent and visually appealing animation with smooth motion and product-focused design."
+    },
+    {
+      "start": "06:47",
+      "end": "06:54",
+      "description": "Coca-Cola ad with red liquid forming a bottle outline, filling with soda, and condensation appearing on the glass.",
+      "reason": "Iconic and memorable animation with strong brand association and realistic physical effects."
+    },
+    {
+      "start": "07:11",
+      "end": "07:19",
+      "description": "Miss Dior perfume ad with a bottle emerging from a flower, petals flying, and ribbons swirling around it.",
+      "reason": "Romantic and artistic animation with soft colors, gentle movements, and a luxurious feel."
+    },
+    {
+      "start": "08:01",
+      "end": "08:08",
+      "description": "Animated cat boutique scene with cute kittens trying on hats in a colorful shop filled with shelves of accessories.",
+      "reason": "Whimsical and charming animation with expressive characters and vibrant, inviting environment."
+    }
+  ]
+}

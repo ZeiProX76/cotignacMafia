@@ -21,15 +21,17 @@ def targeted_analysis(
     video_url: str = None,
     prompt_path: Path = None,
     output_path: Path = None,
+    video_id: str = None,
     verbose: bool = True
 ) -> TargetedAnalysisOutput:
     """
     Run targeted video analysis with crafted prompt.
 
     Args:
-        video_url: URL to main video (default: from config)
-        prompt_path: Path to crafted prompt from step 3 (default: from config)
-        output_path: Output JSON path (default: from config)
+        video_url: URL to video (default: from config or video_id)
+        prompt_path: Path to crafted prompt from step 3 (default: from config or video_id)
+        output_path: Output JSON path (default: from config or video_id)
+        video_id: Video identifier for multi-video support (e.g., 'video_001')
         verbose: Print progress messages
 
     Returns:
@@ -38,16 +40,34 @@ def targeted_analysis(
     Raises:
         ValueError: If prompt file not found or API keys not configured
         Exception: If API call fails or JSON parsing fails
+
+    Note:
+        If video_id is provided, uses outputs/{video_id}/ directory for step 3 and step 4.
+        Otherwise uses legacy single-video output paths.
     """
-    # Use config defaults if not provided
-    video_url = video_url or config.MAIN_VIDEO_URL
-    prompt_path = prompt_path or config.STEP3_OUTPUT
-    output_path = output_path or config.STEP4_OUTPUT
+    # Multi-video mode: load from config if video_id provided
+    if video_id:
+        videos_cfg = config.load_videos_config()
+        video_cfg = next((v for v in videos_cfg.videos if v.id == video_id), None)
+        if not video_cfg:
+            raise ValueError(f"Video ID '{video_id}' not found in videos_config.json")
+
+        video_url = video_cfg.url
+        prompt_path = prompt_path or config.get_video_step_output(video_id, 3, ".txt")
+        output_path = output_path or config.get_video_step_output(video_id, 4)
+        config.create_video_directories(video_id)
+    else:
+        # Legacy single-video mode
+        video_url = video_url or config.AVATAR_VIDEO_URL  # Fallback
+        prompt_path = prompt_path or config.STEP3_OUTPUT
+        output_path = output_path or config.STEP4_OUTPUT
 
     if verbose:
         print("=" * 60)
         print("STEP 4: TARGETED VIDEO ANALYSIS")
         print("=" * 60)
+        if video_id:
+            print(f"Video ID: {video_id}")
         print(f"Video URL: {video_url}")
         print(f"Prompt: {prompt_path}")
         print(f"Model: {config.QWEN_VIDEO_MODEL}")

@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "id": "video_001",
+      "name": "Main Demo Video",
+      "url": "https://efuozhjlnyrcyritksiy.supabase.co/storage/v1/object/public/cotignac/videoplayback%20(3).mp4",
+      "local_path": "/home/hugues/clipping/frontend/public/image/videoplayback (3).mp4",
+      "priority": 1
+    },
+    {
+      "id": "video_002",
+      "name": "Demo Video 2",
+      "url": "https://efuozhjlnyrcyritksiy.supabase.co/storage/v1/object/public/cotignac/YTDown.com_YouTube_Unlock-Amazing-AI-Videos-5-JSON-Prompt-G_Media_Y8NqLfO3AEU_003_480p.mp4",
+      "local_path": "/home/hugues/Downloads/YTDown.com_YouTube_Unlock-Amazing-AI-Videos-5-JSON-Prompt-G_Media_Y8NqLfO3AEU_003_480p.mp4",
+      "priority": 2
+    },
+    {
+      "id": "video_003",
+      "name": "Demo Video 3",
+      "url": "https://efuozhjlnyrcyritksiy.supabase.co/storage/v1/object/public/cotignac/YTDown.com_YouTube_Master-Google-Veo-3-with-JSON-Prompts-Fu_Media_b2xOC7nuB2s_003_480p.mp4",
+      "local_path": "/home/hugues/Downloads/✅ Master Google Veo 3 with JSON Prompts (Full Guide).mp4",
+      "priority": 3
+    }
+  ]
+}

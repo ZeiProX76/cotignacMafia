@@ -83,7 +83,21 @@ def ask_vlm(video_path: Path, verbose: bool = False) -> dict:
                 raise Exception(f"API failed: {e}")
 
 
-def process_clip(clip_path: Path, clip_context: dict, verbose: bool = False) -> HumanDetection:
+def extract_video_id_from_filename(filename: str) -> str:
+    """
+    Extract video_id from clip filename.
+
+    Examples:
+        video_001_clip_01_demo.mp4 -> video_001
+        clip_01_demo.mp4 -> None (legacy single-video)
+    """
+    parts = filename.split('_')
+    if len(parts) >= 3 and parts[0].startswith('video'):
+        return parts[0]
+    return None
+
+
+def process_clip(clip_path: Path, clip_context: dict, video_id: str = None, verbose: bool = False) -> HumanDetection:
     """Process single clip - analyze only, no cutting."""
     if verbose:
         print(f"\n   {clip_path.name}")
@@ -101,6 +115,7 @@ def process_clip(clip_path: Path, clip_context: dict, verbose: bool = False) -> 
                 status="unsaveable",
                 attempts=1,
                 final_result="all",
+                video_id=video_id,
                 original_context=clip_context
             )
 
@@ -121,6 +136,7 @@ def process_clip(clip_path: Path, clip_context: dict, verbose: bool = False) -> 
             clean_end=end,
             attempts=1,
             final_result="none",
+            video_id=video_id,
             original_context=clip_context
         )
 
@@ -133,24 +149,39 @@ def process_clip(clip_path: Path, clip_context: dict, verbose: bool = False) -> 
             status="failed",
             attempts=1,
             final_result="all",
+            video_id=video_id,
             original_context=clip_context
         )
 
 
 def optimize_clips(
     clips_dir: Path = None,
-    metadata_path: Path = None,
     output_path: Path = None,
     verbose: bool = True
 ) -> OptimizationOutput:
-    """Analyze all clips and save safe timestamps."""
+    """
+    Analyze ALL clips from all videos and save safe timestamps.
+
+    This aggregates clips from all video sources, tracking video_id for each clip.
+
+    Args:
+        clips_dir: Directory containing all clips (default: clips_raw/)
+        output_path: Output path for aggregated analysis (default: step6_all_clips_analysis.json)
+        verbose: Print progress messages
+
+    Returns:
+        OptimizationOutput with analysis for all clips
+
+    Note:
+        Automatically loads metadata from all video directories (outputs/{video_id}/)
+        and extracts video_id from clip filenames.
+    """
     clips_dir = clips_dir or config.CLIPS_RAW_DIR
-    metadata_path = metadata_path or config.STEP5_METADATA
-    output_path = output_path or (config.OUTPUTS_DIR / "step6_analysis.json")
+    output_path = output_path or config.STEP6_OUTPUT  # Updated to use aggregated output
 
     if verbose:
         print("=" * 60)
-        print(f"STEP 6: ANALYZE CLIPS - {MODEL}")
+        print(f"STEP 6: ANALYZE ALL CLIPS (MULTI-VIDEO) - {MODEL}")
         print("=" * 60)
         print(f"Clips: {clips_dir}")
         print(f"Output: {output_path}")
@@ -160,20 +191,43 @@ def optimize_clips(
 
     clips_dir = Path(clips_dir)
 
-    # Load metadata
+    # Load metadata from all video directories
     clip_context = {}
-    if metadata_path.exists():
-        try:
-            metadata = load_json(metadata_path)
-            clips_metadata = ClipsMetadataOutput(**metadata)
-            clip_context = {clip.filename: clip.model_dump() for clip in clips_metadata.clips}
-        except:
-            pass
 
-    # Get clips
+    # Try to load videos config to get all video IDs
+    try:
+        videos_cfg = config.load_videos_config()
+        video_ids = [v.id for v in videos_cfg.videos]
+
+        for video_id in video_ids:
+            metadata_path = config.get_video_step_output(video_id, 5)
+            if metadata_path.exists():
+                try:
+                    metadata = load_json(metadata_path)
+                    clips_metadata = ClipsMetadataOutput(**metadata)
+                    for clip in clips_metadata.clips:
+                        clip_context[clip.filename] = clip.model_dump()
+                    if verbose:
+                        print(f"✓ Loaded metadata for {video_id}: {len(clips_metadata.clips)} clips")
+                except Exception as e:
+                    if verbose:
+                        print(f"⚠️  Failed to load metadata for {video_id}: {e}")
+    except Exception as e:
+        if verbose:
+            print(f"⚠️  Videos config not found, using legacy mode: {e}")
+        # Fall back to legacy single-video metadata
+        if config.STEP5_METADATA.exists():
+            try:
+                metadata = load_json(config.STEP5_METADATA)
+                clips_metadata = ClipsMetadataOutput(**metadata)
+                clip_context = {clip.filename: clip.model_dump() for clip in clips_metadata.clips}
+            except:
+                pass
+
+    # Get all clips
     clip_files = sorted(clips_dir.glob("*.mp4"))
     if verbose:
-        print(f"Found {len(clip_files)} clips\n")
+        print(f"\nFound {len(clip_files)} total clips to analyze\n")
 
     # Process
     results = []
@@ -182,17 +236,22 @@ def optimize_clips(
             print(f"[{i}/{len(clip_files)}]", end="")
         try:
             context = clip_context.get(clip_path.name)
-            result = process_clip(clip_path, context, verbose)
+            # Extract video_id from filename
+            video_id = extract_video_id_from_filename(clip_path.name)
+            result = process_clip(clip_path, context, video_id=video_id, verbose=verbose)
             results.append(result)
         except Exception as e:
             if verbose:
                 print(f" ✗ {e}")
+            # Extract video_id for error case too
+            video_id = extract_video_id_from_filename(clip_path.name)
             results.append(HumanDetection(
                 source_filename=clip_path.name,
                 output_filename=clip_path.stem + "_clean" + clip_path.suffix,
                 status="failed",
                 attempts=0,
                 final_result="all",
+                video_id=video_id,
                 original_context=None
             ))
 

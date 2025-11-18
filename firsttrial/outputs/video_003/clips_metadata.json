@@ -1,0 +1,194 @@
+{
+  "source_video": "/home/hugues/Downloads/✅ Master Google Veo 3 with JSON Prompts (Full Guide).mp4",
+  "clips": [
+    {
+      "clip_number": 1,
+      "filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+      "start": "00:00",
+      "end": "00:07",
+      "description": "Space station animation with Earth in the background, featuring a detailed and realistic depiction of a spacecraft approaching and docking with the International Space Station.",
+      "reason": "Exceptional visual quality with high detail, dynamic lighting, and realistic textures, showcasing advanced CGI rendering.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 2,
+      "filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+      "start": "00:27",
+      "end": "00:29",
+      "description": "Omega watch underwater, partially submerged with bubbles rising around it, emphasizing its water resistance and luxury design.",
+      "reason": "Highly cinematic with clear focus on the watch, excellent water physics, and dramatic lighting that highlights the product's features.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 3,
+      "filename": "video_003_clip_03_Split-screen_graphic_comparing_text_prompt_vs._JSO.mp4",
+      "start": "00:54",
+      "end": "01:09",
+      "description": "Split-screen graphic comparing text prompt vs. JSON prompt for generating a luxury watch video, with clear, legible code and structured layout.",
+      "reason": "Visually clean and informative, with well-organized text and syntax highlighting that enhances readability and comprehension.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 4,
+      "filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+      "start": "01:16",
+      "end": "01:23",
+      "description": "Close-up of Omega watch underwater, with camera slowly pulling back to reveal more of the scene, including bubbles and reflective surface.",
+      "reason": "Smooth camera movement and precise focus on the watch create a premium feel, enhanced by the clarity of water and lighting effects.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 5,
+      "filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+      "start": "01:23",
+      "end": "01:31",
+      "description": "Tesla Cybertruck spinning in a high-tech showroom with sleek lighting and reflective floor, showcasing its futuristic design.",
+      "reason": "Stunning visual presentation with sharp reflections, ambient lighting, and smooth motion that emphasizes the vehicle’s modern aesthetics.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 6,
+      "filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+      "start": "01:31",
+      "end": "01:39",
+      "description": "Dior perfume bottle floating in a mystical forest with sunlight filtering through trees, creating a serene and luxurious atmosphere.",
+      "reason": "Beautiful natural lighting, soft focus, and ethereal mood make this scene visually captivating and emotionally resonant.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 7,
+      "filename": "video_003_clip_07_Wind_turbine_at_sunset_with_golden_light_illuminat.mp4",
+      "start": "01:40",
+      "end": "01:41",
+      "description": "Wind turbine at sunset with golden light illuminating the blades and surrounding landscape.",
+      "reason": "Striking composition with warm colors and dynamic contrast between sky and land, capturing the beauty of renewable energy.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 8,
+      "filename": "video_003_clip_08_Neon_blue_glowing_lines_forming_abstract_patterns.mp4",
+      "start": "01:42",
+      "end": "01:43",
+      "description": "Neon blue glowing lines forming abstract patterns against a dark background, suggesting digital or technological themes.",
+      "reason": "Vibrant and futuristic visuals with sharp contrasts and fluid motion, creating an engaging and immersive experience.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 9,
+      "filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+      "start": "01:44",
+      "end": "01:47",
+      "description": "Modern kitchen with stainless steel kettle on a countertop, featuring soft lighting and minimalistic design.",
+      "reason": "Clean and professional aesthetic with attention to detail, making the product stand out in a real-world context.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 10,
+      "filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+      "start": "01:48",
+      "end": "01:51",
+      "description": "iPhone disassembly animation showing internal components floating apart in space, revealing intricate engineering.",
+      "reason": "Innovative and visually impressive, with precise animations and a sense of depth that highlights the complexity of the device.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 11,
+      "filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+      "start": "01:52",
+      "end": "01:59",
+      "description": "Space station animation revisited, showing spacecraft docking with the ISS, reinforcing the earlier scene with consistent high-quality rendering.",
+      "reason": "Consistent excellence in visual fidelity, lighting, and perspective, maintaining the immersive outer-space environment.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 12,
+      "filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+      "start": "02:00",
+      "end": "02:07",
+      "description": "Old book opening on an altar in a church with sunlight streaming through stained glass windows, creating a spiritual and reverent mood.",
+      "reason": "Rich in symbolism and atmosphere, with detailed textures and realistic light rays enhancing the emotional impact.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 13,
+      "filename": "video_003_clip_13_ChatGPT_interface_displaying_the_main_page_with_si.mp4",
+      "start": "02:19",
+      "end": "02:20",
+      "description": "ChatGPT interface displaying the main page with sidebar navigation and input field, indicating readiness for user interaction.",
+      "reason": "Clear and functional UI design with intuitive layout, providing a professional and accessible platform for AI communication.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 14,
+      "filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+      "start": "02:28",
+      "end": "02:30",
+      "description": "Project creation dialog box in ChatGPT, where 'VEO JSON Prompts' is being named, demonstrating workflow setup.",
+      "reason": "Straightforward and user-friendly interface element that guides users through project initialization efficiently.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 15,
+      "filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+      "start": "02:43",
+      "end": "02:53",
+      "description": "JSON prompt displayed in ChatGPT, detailing a cinematic scene involving a sneaker floating in a thunderstorm, with structured code formatting.",
+      "reason": "Well-organized and readable JSON structure, ideal for technical audiences seeking precision in AI-generated content.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 16,
+      "filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+      "start": "02:58",
+      "end": "03:07",
+      "description": "Sneaker floating in a thunderstorm street, lit by lightning, with rain falling and reflections on wet pavement.",
+      "reason": "Dramatic and intense visual with dynamic lighting, weather effects, and realistic water physics, creating a powerful narrative moment.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 17,
+      "filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+      "start": "03:11",
+      "end": "03:15",
+      "description": "Pricing comparison UI for Google AI Pro and Google AI Ultra plans, with detailed feature lists and cost information.",
+      "reason": "Comprehensive and easy-to-read layout that clearly communicates value propositions across different subscription tiers.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 18,
+      "filename": "video_003_clip_18_Google_Flow_interface_showing_a_project_timeline_w.mp4",
+      "start": "03:16",
+      "end": "03:17",
+      "description": "Google Flow interface showing a project timeline with a thumbnail of the sneaker in the rain, indicating progress tracking.",
+      "reason": "Modern and organized UI with visual cues for project management, supporting efficient workflow execution.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 19,
+      "filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+      "start": "03:18",
+      "end": "03:36",
+      "description": "Veo 3 interface with text-to-video generation tool, displaying JSON prompts and preview panels for generated clips.",
+      "reason": "Advanced and interactive UI with multiple panels, real-time previews, and customizable settings, reflecting cutting-edge AI capabilities.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 20,
+      "filename": "video_003_clip_20_YouTube_comments_section_showing_engagement_with_t.mp4",
+      "start": "03:54",
+      "end": "04:10",
+      "description": "YouTube comments section showing engagement with the video, including likes, replies, and user feedback about AI advancements.",
+      "reason": "Authentic social proof and community interaction, adding credibility and relatability to the content being discussed.",
+      "video_id": "video_003"
+    },
+    {
+      "clip_number": 21,
+      "filename": "video_003_clip_21_Speaker_delivering_closing_remarks_with_URL_overla.mp4",
+      "start": "04:28",
+      "end": "04:46",
+      "description": "Speaker delivering closing remarks with URL overlay appearing gradually, promoting the Skool community website.",
+      "reason": "Professional and polished delivery with clear call-to-action, supported by on-screen text that reinforces key messaging.",
+      "video_id": "video_003"
+    }
+  ]
+}

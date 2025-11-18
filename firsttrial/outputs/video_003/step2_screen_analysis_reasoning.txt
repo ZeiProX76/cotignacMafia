@@ -1,0 +1,269 @@
+So, let's break down the video into segments. First, I need to go through each part, check the screen content every 10-20 seconds or when it changes.
+
+Starting from 00:00:
+
+00:00-00:07: Space station with Earth in background. The video shows the space station moving, then docking with another part. So activity type is animation or graphics.
+
+00:07-00:08: Person in blue shirt holding a Rode mic. Background has shelves, plants. Activity type is demo (since it's a person speaking, but screen content is the person and background).
+
+00:08-00:10: Split screen: top has phone, perfume, church; bottom has wind turbine. Then transitions to code with blue lines. So multiple elements here.
+
+00:10-00:12: Code screen with "UL" in blue neon. Then split screen with phone, perfume, book, and kitchen with kettle. So text and graphics.
+
+00:12-00:16: Split screen: top three images (phone, perfume, book), bottom kitchen. Then close-up on kettle. So graphics and product.
+
+00:16-00:20: Person in blue shirt talking, same background. Demo.
+
+00:20-00:24: JSON prompt blueprint pack PDF. Text and code. Activity type is text.
+
+00:24-00:26: YouTube comments section with PDF links. UI.
+
+00:26-00:30: Omega watch underwater. Product.
+
+00:30-00:32: Person in blue shirt, text "Brand" "Product" "Story" appears. Text.
+
+00:32-00:35: "Veo 3" on dark background. Text.
+
+00:35-00:37: Person in suit on set, clapping. Demo.
+
+00:37-00:39: Person in blue shirt. Demo.
+
+00:39-00:41: Person in suit pointing. Demo.
+
+00:41-00:46: Person in blue shirt. Demo.
+
+00:46-00:50: Omega watch underwater, close-up. Product.
+
+00:50-00:52: Omega logo on black. Logo.
+
+00:52-00:54: Person in blue shirt. Demo.
+
+00:54-01:09: Split screen: text prompt "show a luxury watch in water" and JSON prompt. Text.
+
+01:09-01:15: Person in blue shirt. Demo.
+
+01:15-01:23: Omega watch underwater, with "Veo" watermark. Product.
+
+01:23-01:30: Tesla Cybertruck in showroom. Product.
+
+01:30-01:39: Dior perfume in forest. Product.
+
+01:39-01:42: Wind turbine, then blue neon lines. Graphics.
+
+01:42-01:46: Kitchen with kettle. Product.
+
+01:46-01:51: iPhone, then disassembled. Product.
+
+01:51-01:59: Space station again. Animation.
+
+01:59-02:07: Church interior with Bible. Product (Bible).
+
+02:07-02:19: Person in blue shirt. Demo.
+
+02:19-02:28: ChatGPT interface, creating new project. UI.
+
+02:28-02:30: Project name input. UI.
+
+02:30-02:41: ChatGPT project page with prompt. UI.
+
+02:41-02:52: JSON prompt in ChatGPT. Code.
+
+02:52-02:55: Person in blue shirt. Demo.
+
+02:55-02:58: JSON prompt on screen. Code.
+
+02:58-03:07: Sneaker in rainstorm, lightning. Animation.
+
+03:07-03:09: Person in blue shirt. Demo.
+
+03:09-03:11: "Flow" logo. Text.
+
+03:11-03:15: Google AI Pro vs Ultra pricing. UI.
+
+03:15-03:17: Sneaker video in Flow. UI.
+
+03:17-03:26: Veo 3 interface, text to video. UI.
+
+03:26-03:36: Veo 3 settings. UI.
+
+03:36-03:54: Person in blue shirt. Demo.
+
+03:54-03:57: JSON prompt pack PDF. Text.
+
+03:57-04:00: YouTube comments. UI.
+
+04:00-04:10: Person in blue shirt. Demo.
+
+04:10-04:13: Skool community page. UI.
+
+04:13-04:17: Skool community page details. UI.
+
+04:17-04:28: Skool community posts. UI.
+
+04:28-04:45: Person in blue shirt, URL text. Text.
+
+04:45-04:46: Person in blue shirt, pointing. Demo.
+
+Now, need to segment each 10-20 seconds. Let's check the timestamps:
+
+00:00-00:07: Space station animation. (7s, so 00:00-00:07)
+00:07-00:08: Person in blue shirt. (1s)
+00:08-00:10: Split screen: top (phone, perfume, church), bottom (wind turbine). (2s)
+00:10-00:12: Code with "UL" neon. (2s)
+00:12-00:16: Split screen: top (phone, perfume, book), bottom (kitchen). (4s)
+00:16-00:20: Person in blue shirt. (4s)
+00:20-00:24: JSON prompt blueprint PDF. (4s)
+00:24-00:26: YouTube comments with PDF links. (2s)
+00:26-00:30: Omega watch underwater. (4s)
+00:30-00:32: Person with "Brand" "Product" "Story" text. (2s)
+00:32-00:35: "Veo 3" text. (3s)
+00:35-00:37: Person in suit clapping. (2s)
+00:37-00:39: Person in blue shirt. (2s)
+00:39-00:41: Person in suit pointing. (2s)
+00:41-00:46: Person in blue shirt. (5s)
+00:46-00:50: Omega watch close-up. (4s)
+00:50-00:52: Omega logo. (2s)
+00:52-00:54: Person in blue shirt. (2s)
+00:54-01:09: Text vs JSON prompt split screen. (15s)
+01:09-01:15: Person in blue shirt. (6s)
+01:15-01:23: Omega watch with "Veo" watermark. (8s)
+01:23-01:30: Tesla Cybertruck. (7s)
+01:30-01:39: Dior perfume. (9s)
+01:39-01:42: Wind turbine, then neon lines. (3s)
+01:42-01:46: Kitchen with kettle. (4s)
+01:46-01:51: iPhone disassembly. (5s)
+01:51-01:59: Space station. (8s)
+01:59-02:07: Church interior. (8s)
+02:07-02:19: Person in blue shirt. (12s)
+02:19-02:28: ChatGPT interface. (9s)
+02:28-02:30: Project name input. (2s)
+02:30-02:41: ChatGPT project page. (11s)
+02:41-02:52: JSON prompt in ChatGPT. (11s)
+02:52-02:55: Person in blue shirt. (3s)
+02:55-02:58: JSON prompt code. (3s)
+02:58-03:07: Sneaker in rain. (9s)
+03:07-03:09: Person in blue shirt. (2s)
+03:09-03:11: "Flow" logo. (2s)
+03:11-03:15: Google AI pricing. (4s)
+03:15-03:17: Sneaker in Flow. (2s)
+03:17-03:26: Veo 3 interface. (9s)
+03:26-03:36: Veo 3 settings. (10s)
+03:36-03:54: Person in blue shirt. (18s)
+03:54-03:57: JSON prompt PDF. (3s)
+03:57-04:00: YouTube comments. (3s)
+04:00-04:10: Person in blue shirt. (10s)
+04:10-04:13: Skool community. (3s)
+04:13-04:17: Skool community details. (4s)
+04:17-04:28: Skool community posts. (11s)
+04:28-04:45: Person with URL. (17s)
+04:45-04:46: Person pointing. (1s)
+
+Now, need to adjust the start and end times to be 10-20 seconds each or when content changes. Let's group them into segments of 10-20s.
+
+Let's list all segments:
+
+1. 00:00-00:07: Space station animation (7s)
+2. 00:07-00:10: Person in blue shirt (3s)
+3. 00:10-00:16: Split screen (6s)
+4. 00:16-00:20: Person in blue shirt (4s)
+5. 00:20-00:24: JSON prompt PDF (4s)
+6. 00:24-00:26: YouTube comments (2s)
+7. 00:26-00:30: Omega watch (4s)
+8. 00:30-00:32: Text "Brand Product Story" (2s)
+9. 00:32-00:35: "Veo 3" text (3s)
+10. 00:35-00:39: Person in suit (4s)
+11. 00:39-00:46: Person in blue shirt (7s)
+12. 00:46-00:50: Omega watch close-up (4s)
+13. 00:50-00:52: Omega logo (2s)
+14. 00:52-00:54: Person in blue shirt (2s)
+15. 00:54-01:09: Text vs JSON prompt (15s)
+16. 01:09-01:15: Person in blue shirt (6s)
+17. 01:15-01:23: Omega watch with Veo (8s)
+18. 01:23-01:30: Tesla Cybertruck (7s)
+19. 01:30-01:39: Dior perfume (9s)
+20. 01:39-01:42: Wind turbine and neon (3s)
+21. 01:42-01:46: Kitchen kettle (4s)
+22. 01:46-01:51: iPhone disassembly (5s)
+23. 01:51-01:59: Space station (8s)
+24. 01:59-02:07: Church interior (8s)
+25. 02:07-02:19: Person in blue shirt (12s)
+26. 02:19-02:28: ChatGPT interface (9s)
+27. 02:28-02:30: Project name input (2s)
+28. 02:30-02:41: ChatGPT project (11s)
+29. 02:41-02:52: JSON prompt in ChatGPT (11s)
+30. 02:52-02:55: Person in blue shirt (3s)
+31. 02:55-02:58: JSON code (3s)
+32. 02:58-03:07: Sneaker in rain (9s)
+33. 03:07-03:09: Person in blue shirt (2s)
+34. 03:09-03:11: "Flow" logo (2s)
+35. 03:11-03:15: Google AI pricing (4s)
+36. 03:15-03:17: Sneaker in Flow (2s)
+37. 03:17-03:26: Veo 3 interface (9s)
+38. 03:26-03:36: Veo 3 settings (10s)
+39. 03:36-03:54: Person in blue shirt (18s)
+40. 03:54-03:57: JSON PDF (3s)
+41. 03:57-04:00: YouTube comments (3s)
+42. 04:00-04:10: Person in blue shirt (10s)
+43. 04:10-04:13: Skool community (3s)
+44. 04:13-04:17: Skool community details (4s)
+45. 04:17-04:28: Skool community posts (11s)
+46. 04:28-04:45: Person with URL (17s)
+47. 04:45-04:46: Person pointing (1s)
+
+Now, check if the end time is near the video's end. The video ends around 4:46, so the last segment is 04:45-04:46.
+
+Now, for each segment, describe the screen content under 15 words, and assign activity_type.
+
+Let's go through each:
+
+1. 00:00-00:07: Space station orbiting Earth with Earth visible. (7s) Activity: animation
+2. 00:07-00:10: Person holding Rode mic in studio. (3s) Activity: demo
+3. 00:10-00:16: Split screen: phone, perfume, church; wind turbine. (6s) Activity: graphics
+4. 00:16-00:20: Person speaking in studio. (4s) Activity: demo
+5. 00:20-00:24: JSON prompt blueprint PDF document. (4s) Activity: text
+6. 00:24-00:26: YouTube comments with PDF links. (2s) Activity: ui
+7. 00:26-00:30: Omega watch underwater. (4s) Activity: product
+8. 00:30-00:32: Text "Brand Product Story" on screen. (2s) Activity: text
+9. 00:32-00:35: "Veo 3" text on dark background. (3s) Activity: text
+10. 00:35-00:39: Person in suit on film set. (4s) Activity: demo
+11. 00:39-00:46: Person in blue shirt speaking. (7s) Activity: demo
+12. 00:46-00:50: Omega watch close-up with bubbles. (4s) Activity: product
+13. 00:50-00:52: Omega logo on black background. (2s) Activity: logo
+14. 00:52-00:54: Person speaking in studio. (2s) Activity: demo
+15. 00:54-01:09: Text vs JSON prompt comparison. (15s) Activity: text
+16. 01:09-01:15: Person speaking in studio. (6s) Activity: demo
+17. 01:15-01:23: Omega watch with "Veo" watermark. (8s) Activity: product
+18. 01:23-01:30: Tesla Cybertruck in showroom. (7s) Activity: product
+19. 01:30-01:39: Dior perfume in forest. (9s) Activity: product
+20. 01:39-01:42: Wind turbine and neon lines. (3s) Activity: graphics
+21. 01:42-01:46: Kitchen with kettle. (4s) Activity: product
+22. 01:46-01:51: iPhone disassembly animation. (5s) Activity: animation
+23. 01:51-01:59: Space station animation. (8s) Activity: animation
+24. 01:59-02:07: Church interior with Bible. (8s) Activity: product
+25. 02:07-02:19: Person speaking in studio. (12s) Activity: demo
+26. 02:19-02:28: ChatGPT interface creating project. (9s) Activity: ui
+27. 02:28-02:30: Project name input dialog. (2s) Activity: ui
+28. 02:30-02:41: ChatGPT project page with prompt. (11s) Activity: ui
+29. 02:41-02:52: JSON prompt code in ChatGPT. (11s) Activity: code
+30. 02:52-02:55: Person speaking in studio. (3s) Activity: demo
+31. 02:55-02:58: JSON prompt code display. (3s) Activity: code
+32. 02:58-03:07: Sneaker in thunderstorm. (9s) Activity: animation
+33. 03:07-03:09: Person speaking in studio. (2s) Activity: demo
+34. 03:09-03:11: "Flow" logo with text. (2s) Activity: text
+35. 03:11-03:15: Google AI Pro vs Ultra pricing. (4s) Activity: ui
+36. 03:15-03:17: Sneaker video in Flow. (2s) Activity: ui
+37. 03:17-03:26: Veo 3 text-to-video interface. (9s) Activity: ui
+38. 03:26-03:36: Veo 3 settings dropdown. (10s) Activity: ui
+39. 03:36-03:54: Person speaking in studio. (18s) Activity: demo
+40. 03:54-03:57: JSON prompt PDF. (3s) Activity: text
+41. 03:57-04:00: YouTube comments. (3s) Activity: ui
+42. 04:00-04:10: Person speaking in studio. (10s) Activity: demo
+43. 04:10-04:13: Skool community page. (3s) Activity: ui
+44. 04:13-04:17: Skool community details. (4s) Activity: ui
+45. 04:17-04:28: Skool community posts. (11s) Activity: ui
+46. 04:28-04:45: Person with URL text. (17s) Activity: text
+47. 04:45-04:46: Person pointing. (1s) Activity: demo
+
+Now, check if all segments are covered. The video is about 4:46, so the last segment ends at 4:46.
+
+Now, format into JSON.

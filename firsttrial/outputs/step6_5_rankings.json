@@ -1,0 +1,1781 @@
+{
+  "total_clips": 37,
+  "rankings": [
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip, which features a fully automated transformation of an IKEA box into a furnished bedroom.",
+        "animation_reasoning": "The animation is fully complete, showing a smooth and natural progression from an empty room with a box to a fully furnished bedroom, with clear start and end points.",
+        "reason_reasoning": "The clip perfectly demonstrates the room transformation concept in a cinematic style, aligning exactly with the stated reason of showcasing an effective visual transformation for advertising purposes.",
+        "broll_reasoning": "The visuals are dynamic, crisp, and professionally composed, making it ideal for overlay use with strong engagement and clear storytelling."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 1,
+      "original_context": {
+        "clip_number": 3,
+        "filename": "video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into.mp4",
+        "start": "00:15",
+        "end": "00:19",
+        "description": "Twitter post showing an IKEA box transforming into a fully furnished bedroom in a cinematic style, with a dark UI and clear visual progression.",
+        "reason": "Highly effective demonstration of room transformation concept with clean social media context and crisp visuals.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into.mp4",
+        "output_filename": "video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:01.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 3,
+          "filename": "video_001_clip_03_Twitter_post_showing_an_IKEA_box_transforming_into.mp4",
+          "start": "00:15",
+          "end": "00:19",
+          "description": "Twitter post showing an IKEA box transforming into a fully furnished bedroom in a cinematic style, with a dark UI and clear visual progression.",
+          "reason": "Highly effective demonstration of room transformation concept with clean social media context and crisp visuals.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is entirely on the perfume bottle and the flower.",
+        "animation_reasoning": "The animation is fully complete, showing a smooth and natural emergence of the perfume bottle from the flower with no abrupt cuts or truncations.",
+        "reason_reasoning": "The clip perfectly matches the stated reason—visually stunning with delicate motion, soft lighting, and elegant composition ideal for luxury branding.",
+        "broll_reasoning": "The visuals are dynamic, clear, and highly engaging with professional-grade lighting and composition, making it perfect for overlay use in promotional content."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 2,
+      "original_context": {
+        "clip_number": 5,
+        "filename": "video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a.mp4",
+        "start": "00:25",
+        "end": "00:27",
+        "description": "Dior perfume ad featuring a bottle emerging from a large pink flower with soft petals and golden ribbons in a dreamy setting.",
+        "reason": "Visually stunning with delicate motion, soft lighting, and elegant composition ideal for luxury branding.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a.mp4",
+        "output_filename": "video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 5,
+          "filename": "video_001_clip_05_Dior_perfume_ad_featuring_a_bottle_emerging_from_a.mp4",
+          "start": "00:25",
+          "end": "00:27",
+          "description": "Dior perfume ad featuring a bottle emerging from a large pink flower with soft petals and golden ribbons in a dreamy setting.",
+          "reason": "Visually stunning with delicate motion, soft lighting, and elegant composition ideal for luxury branding.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are present in the video at any point; it features only floating coffee beans and Starbucks drinks.",
+        "animation_reasoning": "The animation is fully complete, with smooth transitions from floating beans to drink materialization and a clear, natural conclusion with the central Starbucks cup reveal.",
+        "reason_reasoning": "The clip perfectly matches the stated reason—sleek, professional animation with realistic product representation and seamless transitions showcasing Starbucks beverages.",
+        "broll_reasoning": "The visuals are dynamic, engaging, and professionally executed, making it ideal for overlay use with high visual appeal and clarity."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 3,
+      "original_context": {
+        "clip_number": 7,
+        "filename": "video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and.mp4",
+        "start": "01:05",
+        "end": "01:12",
+        "description": "Starbucks coffee ad with floating coffee beans and drinks materializing around a central bean, culminating in the logo reveal.",
+        "reason": "Sleek and professional animation with realistic product representation and smooth transitions.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and.mp4",
+        "output_filename": "video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:06.7",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 7,
+          "filename": "video_001_clip_07_Starbucks_coffee_ad_with_floating_coffee_beans_and.mp4",
+          "start": "01:05",
+          "end": "01:12",
+          "description": "Starbucks coffee ad with floating coffee beans and drinks materializing around a central bean, culminating in the logo reveal.",
+          "reason": "Sleek and professional animation with realistic product representation and smooth transitions.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are present in the clip; it features animated boxes floating in space with no human characters or appearances.",
+        "animation_reasoning": "The animation appears fully complete, with smooth motion of the boxes and a clear visual progression that starts and ends naturally within the clip.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by showcasing playful, engaging animation centered around unboxing themes with smiling boxes and thematic text.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally designed, making it ideal for overlay use with strong thematic consistency and visual appeal."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 4,
+      "original_context": {
+        "clip_number": 10,
+        "filename": "video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa.mp4",
+        "start": "01:29",
+        "end": "01:31",
+        "description": "Animated graphic of unboxing boxes with smiling faces floating in space, highlighting 'Unboxing videos'.",
+        "reason": "Playful and engaging animation with consistent theme and clear messaging using simple yet effective graphics.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa.mp4",
+        "output_filename": "video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 10,
+          "filename": "video_001_clip_10_Animated_graphic_of_unboxing_boxes_with_smiling_fa.mp4",
+          "start": "01:29",
+          "end": "01:31",
+          "description": "Animated graphic of unboxing boxes with smiling faces floating in space, highlighting 'Unboxing videos'.",
+          "reason": "Playful and engaging animation with consistent theme and clear messaging using simple yet effective graphics.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The scene features only animated objects and environments.",
+        "animation_reasoning": "The animation is fully complete, with a smooth transformation from a capsule to a detailed bedroom, including natural start and end points without abrupt cuts.",
+        "reason_reasoning": "The clip perfectly matches the stated reason: it showcases high-quality 3D animation with smooth transitions, detailed textures, and a cohesive forest-themed design centered around the Labubu character.",
+        "broll_reasoning": "The visuals are dynamic, clear, and highly engaging, making it ideal for overlay use in professional contexts due to its aesthetic appeal and visual storytelling."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 5,
+      "original_context": {
+        "clip_number": 16,
+        "filename": "video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu.mp4",
+        "start": "03:13",
+        "end": "03:19",
+        "description": "Labubu room transformation animation where a capsule opens to reveal a whimsical, forest-themed bedroom with plush toys and decorations.",
+        "reason": "High-quality 3D animation with smooth transitions, detailed textures, and cohesive thematic design.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu.mp4",
+        "output_filename": "video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:05.7",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 16,
+          "filename": "video_001_clip_16_Labubu_room_transformation_animation_where_a_capsu.mp4",
+          "start": "03:13",
+          "end": "03:19",
+          "description": "Labubu room transformation animation where a capsule opens to reveal a whimsical, forest-themed bedroom with plush toys and decorations.",
+          "reason": "High-quality 3D animation with smooth transitions, detailed textures, and cohesive thematic design.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is entirely on the spacecraft and space station with no human presence.",
+        "animation_reasoning": "The animation shows a complete sequence of the spacecraft approaching and docking with the International Space Station, with smooth transitions and natural start and end points.",
+        "reason_reasoning": "The clip perfectly matches the stated reason, showcasing exceptional visual quality with high detail, dynamic lighting, realistic textures, and advanced CGI rendering as described.",
+        "broll_reasoning": "The visuals are highly dynamic, clear, and engaging, with professional-grade rendering, making it ideal for overlay use in presentations or videos."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 6,
+      "original_context": {
+        "clip_number": 1,
+        "filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+        "start": "00:00",
+        "end": "00:07",
+        "description": "Space station animation with Earth in the background, featuring a detailed and realistic depiction of a spacecraft approaching and docking with the International Space Station.",
+        "reason": "Exceptional visual quality with high detail, dynamic lighting, and realistic textures, showcasing advanced CGI rendering.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+        "output_filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:07.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 1,
+          "filename": "video_003_clip_01_Space_station_animation_with_Earth_in_the_backgrou.mp4",
+          "start": "00:00",
+          "end": "00:07",
+          "description": "Space station animation with Earth in the background, featuring a detailed and realistic depiction of a spacecraft approaching and docking with the International Space Station.",
+          "reason": "Exceptional visual quality with high detail, dynamic lighting, and realistic textures, showcasing advanced CGI rendering.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible in the clip; the focus is entirely on the watch and its interaction with water.",
+        "animation_reasoning": "The animation of the watch being submerged and bubbles rising is complete and natural, with a smooth start and end that captures the full effect.",
+        "reason_reasoning": "The clip perfectly matches the selection reason by showcasing the watch's water resistance and luxury design through cinematic visuals and dramatic lighting.",
+        "broll_reasoning": "The video is highly dynamic, visually engaging, and professionally shot, making it ideal for overlay with voiceover or text."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 7,
+      "original_context": {
+        "clip_number": 2,
+        "filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+        "start": "00:27",
+        "end": "00:29",
+        "description": "Omega watch underwater, partially submerged with bubbles rising around it, emphasizing its water resistance and luxury design.",
+        "reason": "Highly cinematic with clear focus on the watch, excellent water physics, and dramatic lighting that highlights the product's features.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+        "output_filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 2,
+          "filename": "video_003_clip_02_Omega_watch_underwater__partially_submerged_with_b.mp4",
+          "start": "00:27",
+          "end": "00:29",
+          "description": "Omega watch underwater, partially submerged with bubbles rising around it, emphasizing its water resistance and luxury design.",
+          "reason": "Highly cinematic with clear focus on the watch, excellent water physics, and dramatic lighting that highlights the product's features.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip, maintaining a clean and focused visual on the perfume bottle and forest environment.",
+        "animation_reasoning": "The animation is fully complete with smooth transitions and natural movement of the bottle floating in the forest, providing a seamless and polished presentation.",
+        "reason_reasoning": "The clip perfectly captures the described serene and luxurious atmosphere with beautiful natural lighting, soft focus, and an ethereal mood, aligning exactly with the stated selection reason.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally composed, making it ideal for overlay use with engaging lighting, depth, and aesthetic appeal."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 8,
+      "original_context": {
+        "clip_number": 6,
+        "filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+        "start": "01:31",
+        "end": "01:39",
+        "description": "Dior perfume bottle floating in a mystical forest with sunlight filtering through trees, creating a serene and luxurious atmosphere.",
+        "reason": "Beautiful natural lighting, soft focus, and ethereal mood make this scene visually captivating and emotionally resonant.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+        "output_filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:07.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 6,
+          "filename": "video_003_clip_06_Dior_perfume_bottle_floating_in_a_mystical_forest.mp4",
+          "start": "01:31",
+          "end": "01:39",
+          "description": "Dior perfume bottle floating in a mystical forest with sunlight filtering through trees, creating a serene and luxurious atmosphere.",
+          "reason": "Beautiful natural lighting, soft focus, and ethereal mood make this scene visually captivating and emotionally resonant.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The scene focuses solely on spacecraft and space station components in orbit.",
+        "animation_reasoning": "The animation shows a complete and smooth docking sequence of a spacecraft with the ISS, with natural start and end points that convey the full motion without abrupt cuts.",
+        "reason_reasoning": "The clip perfectly aligns with the stated reason by showcasing high-quality rendering, consistent lighting, and an immersive outer-space environment during the docking process.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally rendered, making it ideal for overlay use with engaging movement and strong visual interest."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 9,
+      "original_context": {
+        "clip_number": 11,
+        "filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+        "start": "01:52",
+        "end": "01:59",
+        "description": "Space station animation revisited, showing spacecraft docking with the ISS, reinforcing the earlier scene with consistent high-quality rendering.",
+        "reason": "Consistent excellence in visual fidelity, lighting, and perspective, maintaining the immersive outer-space environment.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+        "output_filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:07.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 11,
+          "filename": "video_003_clip_11_Space_station_animation_revisited__showing_spacecr.mp4",
+          "start": "01:52",
+          "end": "01:59",
+          "description": "Space station animation revisited, showing spacecraft docking with the ISS, reinforcing the earlier scene with consistent high-quality rendering.",
+          "reason": "Consistent excellence in visual fidelity, lighting, and perspective, maintaining the immersive outer-space environment.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip, maintaining a serene and undisturbed atmosphere.",
+        "animation_reasoning": "The animation of the book opening is fully complete, with a natural start and end, showcasing a smooth and realistic motion.",
+        "reason_reasoning": "The clip perfectly captures the spiritual and reverent mood described, with rich symbolism, detailed textures, and realistic sunlight effects through stained glass windows.",
+        "broll_reasoning": "The visuals are highly dynamic and engaging, with clear lighting, depth, and texture, making it ideal for overlay with voiceover or music."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 10,
+      "original_context": {
+        "clip_number": 12,
+        "filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+        "start": "02:00",
+        "end": "02:07",
+        "description": "Old book opening on an altar in a church with sunlight streaming through stained glass windows, creating a spiritual and reverent mood.",
+        "reason": "Rich in symbolism and atmosphere, with detailed textures and realistic light rays enhancing the emotional impact.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+        "output_filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:07.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 12,
+          "filename": "video_003_clip_12_Old_book_opening_on_an_altar_in_a_church_with_sunl.mp4",
+          "start": "02:00",
+          "end": "02:07",
+          "description": "Old book opening on an altar in a church with sunlight streaming through stained glass windows, creating a spiritual and reverent mood.",
+          "reason": "Rich in symbolism and atmosphere, with detailed textures and realistic light rays enhancing the emotional impact.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is solely on the floating sneaker and the storm environment.",
+        "animation_reasoning": "The animation is fully complete, with a smooth slow push-in toward the sneaker, natural rotation, and a seamless transition from floating to landing, ending at a clear, stable frame.",
+        "reason_reasoning": "The clip perfectly captures the dramatic and intense visual described, featuring dynamic lightning, realistic rain physics, wet pavement reflections, and a surreal floating sneaker, aligning exactly with the stated selection reason.",
+        "broll_reasoning": "The visuals are highly engaging, cinematic, and professional, with strong lighting contrasts, atmospheric effects, and clear focus on the subject—ideal for overlay in any narrative or promotional context."
+      },
+      "total_score": 400,
+      "normalized_score": 100.0,
+      "rank": 11,
+      "original_context": {
+        "clip_number": 16,
+        "filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+        "start": "02:58",
+        "end": "03:07",
+        "description": "Sneaker floating in a thunderstorm street, lit by lightning, with rain falling and reflections on wet pavement.",
+        "reason": "Dramatic and intense visual with dynamic lighting, weather effects, and realistic water physics, creating a powerful narrative moment.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+        "output_filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:08.7",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 16,
+          "filename": "video_003_clip_16_Sneaker_floating_in_a_thunderstorm_street__lit_by.mp4",
+          "start": "02:58",
+          "end": "03:07",
+          "description": "Sneaker floating in a thunderstorm street, lit by lightning, with rain falling and reflections on wet pavement.",
+          "reason": "Dramatic and intense visual with dynamic lighting, weather effects, and realistic water physics, creating a powerful narrative moment.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 95,
+        "reason_match_score": 100,
+        "broll_quality_score": 98,
+        "human_reasoning": "No humans are visible throughout the entire clip, focusing solely on the iPhone and its internal components.",
+        "animation_reasoning": "The animation is nearly complete, showing a smooth disassembly of the iPhone with components floating apart in a natural sequence. The transition from whole device to exposed internals is seamless, though it may be slightly cut short at the end.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by showcasing an innovative and visually impressive disassembly that highlights the intricate engineering of the iPhone through precise animations and depth.",
+        "broll_reasoning": "The visuals are highly dynamic, clear, and professionally rendered, making it ideal for overlay use. The floating components and lighting effects create an engaging and sophisticated aesthetic."
+      },
+      "total_score": 393,
+      "normalized_score": 98.25,
+      "rank": 12,
+      "original_context": {
+        "clip_number": 10,
+        "filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+        "start": "01:48",
+        "end": "01:51",
+        "description": "iPhone disassembly animation showing internal components floating apart in space, revealing intricate engineering.",
+        "reason": "Innovative and visually impressive, with precise animations and a sense of depth that highlights the complexity of the device.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+        "output_filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 10,
+          "filename": "video_003_clip_10_iPhone_disassembly_animation_showing_internal_comp.mp4",
+          "start": "01:48",
+          "end": "01:51",
+          "description": "iPhone disassembly animation showing internal components floating apart in space, revealing intricate engineering.",
+          "reason": "Innovative and visually impressive, with precise animations and a sense of depth that highlights the complexity of the device.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 90,
+        "broll_quality_score": 95,
+        "human_reasoning": "No humans are present in the clip at any point. The entire sequence features abstract animated elements and a Coca-Cola bottle, with no human figures or faces.",
+        "animation_reasoning": "The animation is mostly complete, showing the red liquid forming a glowing bottle outline and filling with cola. However, the sequence ends abruptly as the bottle is still being filled, suggesting a cut before full completion.",
+        "reason_reasoning": "The clip strongly matches the stated reason of high visual quality, striking contrast, fluid animation, and dramatic lighting. It delivers a cinematic and engaging opening, though the abrupt end slightly reduces its impact.",
+        "broll_reasoning": "The visuals are highly dynamic, clear, and professional, with strong contrast and engaging motion. The glowing effects and smooth transitions make it excellent for overlay with text or voiceover."
+      },
+      "total_score": 360,
+      "normalized_score": 90.0,
+      "rank": 13,
+      "original_context": {
+        "clip_number": 1,
+        "filename": "video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing.mp4",
+        "start": "00:00",
+        "end": "00:04",
+        "description": "Animated red liquid flowing and forming a glowing Coca-Cola bottle outline against a black background with dynamic lighting effects.",
+        "reason": "High visual quality with striking contrast, fluid animation, and dramatic lighting that creates an engaging and cinematic opening.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing.mp4",
+        "output_filename": "video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:04.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 1,
+          "filename": "video_001_clip_01_Animated_red_liquid_flowing_and_forming_a_glowing.mp4",
+          "start": "00:00",
+          "end": "00:04",
+          "description": "Animated red liquid flowing and forming a glowing Coca-Cola bottle outline against a black background with dynamic lighting effects.",
+          "reason": "High visual quality with striking contrast, fluid animation, and dramatic lighting that creates an engaging and cinematic opening.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 95,
+        "broll_quality_score": 90,
+        "human_reasoning": "No humans are visible throughout the entire clip, maintaining a clean and focused visual on the kitchen and kettle.",
+        "animation_reasoning": "The camera movement is smooth and well-executed, focusing on the kettle with a clear start and end point, but the animation feels slightly abrupt as it zooms in without a natural transition or full reveal of the product's functionality.",
+        "reason_reasoning": "The clip effectively showcases a modern kitchen with a stainless steel kettle in a clean, professional setting, highlighting the product within a real-world context as intended.",
+        "broll_reasoning": "The visuals are high-quality, dynamic due to the smooth camera movement, and professionally shot with excellent lighting and composition, making it ideal for overlay use."
+      },
+      "total_score": 360,
+      "normalized_score": 90.0,
+      "rank": 14,
+      "original_context": {
+        "clip_number": 9,
+        "filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+        "start": "01:44",
+        "end": "01:47",
+        "description": "Modern kitchen with stainless steel kettle on a countertop, featuring soft lighting and minimalistic design.",
+        "reason": "Clean and professional aesthetic with attention to detail, making the product stand out in a real-world context.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+        "output_filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 9,
+          "filename": "video_003_clip_09_Modern_kitchen_with_stainless_steel_kettle_on_a_co.mp4",
+          "start": "01:44",
+          "end": "01:47",
+          "description": "Modern kitchen with stainless steel kettle on a countertop, featuring soft lighting and minimalistic design.",
+          "reason": "Clean and professional aesthetic with attention to detail, making the product stand out in a real-world context.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 95,
+        "broll_quality_score": 85,
+        "human_reasoning": "No humans are visible in the clip; it features only a static UI display of pricing plans.",
+        "animation_reasoning": "The animation appears to be mostly complete, showing a clear comparison between two plans, but there may be minor cuts at the beginning or end as it's a short segment.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by clearly presenting a comprehensive and easy-to-read layout that highlights the value propositions of different subscription tiers.",
+        "broll_reasoning": "The visual is clean, professional, and highly informative, making it excellent for overlay use. It is slightly static but remains engaging due to its clarity and structured design."
+      },
+      "total_score": 355,
+      "normalized_score": 88.75,
+      "rank": 15,
+      "original_context": {
+        "clip_number": 17,
+        "filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+        "start": "03:11",
+        "end": "03:15",
+        "description": "Pricing comparison UI for Google AI Pro and Google AI Ultra plans, with detailed feature lists and cost information.",
+        "reason": "Comprehensive and easy-to-read layout that clearly communicates value propositions across different subscription tiers.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+        "output_filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:04.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 17,
+          "filename": "video_003_clip_17_Pricing_comparison_UI_for_Google_AI_Pro_and_Google.mp4",
+          "start": "03:11",
+          "end": "03:15",
+          "description": "Pricing comparison UI for Google AI Pro and Google AI Ultra plans, with detailed feature lists and cost information.",
+          "reason": "Comprehensive and easy-to-read layout that clearly communicates value propositions across different subscription tiers.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 100,
+        "broll_quality_score": 75,
+        "human_reasoning": "No humans are visible in the clip; it solely displays a static screen recording of a JSON prompt in ChatGPT.",
+        "animation_reasoning": "The animation is mostly complete, showing the full JSON structure being revealed gradually, but the clip ends mid-scroll, suggesting it may be part of a longer sequence.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by showcasing a well-organized and readable JSON prompt for cinematic AI video generation, ideal for technical audiences.",
+        "broll_reasoning": "The visual content is clear and professional, with good readability of the code, making it suitable for overlay, though it's somewhat static due to the nature of screen recordings."
+      },
+      "total_score": 350,
+      "normalized_score": 87.5,
+      "rank": 16,
+      "original_context": {
+        "clip_number": 15,
+        "filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+        "start": "02:43",
+        "end": "02:53",
+        "description": "JSON prompt displayed in ChatGPT, detailing a cinematic scene involving a sneaker floating in a thunderstorm, with structured code formatting.",
+        "reason": "Well-organized and readable JSON structure, ideal for technical audiences seeking precision in AI-generated content.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+        "output_filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:10.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 15,
+          "filename": "video_003_clip_15_JSON_prompt_displayed_in_ChatGPT__detailing_a_cine.mp4",
+          "start": "02:43",
+          "end": "02:53",
+          "description": "JSON prompt displayed in ChatGPT, detailing a cinematic scene involving a sneaker floating in a thunderstorm, with structured code formatting.",
+          "reason": "Well-organized and readable JSON structure, ideal for technical audiences seeking precision in AI-generated content.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 90,
+        "broll_quality_score": 85,
+        "human_reasoning": "No humans are visible throughout the entire clip; the focus is entirely on the interface and generated video previews.",
+        "animation_reasoning": "The animation demonstrates the interface interaction and preview loading, but it appears to be a segment of a larger process, with no clear start or end point for the full demonstration.",
+        "reason_reasoning": "The clip effectively showcases the advanced UI of Veo 3's text-to-video tool, including multiple panels, real-time previews, and customizable settings, aligning well with the stated reason.",
+        "broll_reasoning": "The visuals are dynamic and engaging, featuring high-quality rendered scenes with cinematic lighting and reflections, making it suitable for overlay use in professional contexts."
+      },
+      "total_score": 350,
+      "normalized_score": 87.5,
+      "rank": 17,
+      "original_context": {
+        "clip_number": 19,
+        "filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+        "start": "03:18",
+        "end": "03:36",
+        "description": "Veo 3 interface with text-to-video generation tool, displaying JSON prompts and preview panels for generated clips.",
+        "reason": "Advanced and interactive UI with multiple panels, real-time previews, and customizable settings, reflecting cutting-edge AI capabilities.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+        "output_filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:18.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 19,
+          "filename": "video_003_clip_19_Veo_3_interface_with_text-to-video_generation_tool.mp4",
+          "start": "03:18",
+          "end": "03:36",
+          "description": "Veo 3 interface with text-to-video generation tool, displaying JSON prompts and preview panels for generated clips.",
+          "reason": "Advanced and interactive UI with multiple panels, real-time previews, and customizable settings, reflecting cutting-edge AI capabilities.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+      "criteria": {
+        "human_visibility_score": 100,
+        "animation_completeness_score": 75,
+        "reason_match_score": 90,
+        "broll_quality_score": 80,
+        "human_reasoning": "No humans are visible throughout the entire clip, as it solely features a screen recording of a software interface.",
+        "animation_reasoning": "The animation of typing 'VEO' into the project name field is mostly complete, but the final confirmation or creation action is not shown, cutting off at the end of the input.",
+        "reason_reasoning": "The clip effectively demonstrates the project creation workflow in ChatGPT, aligning well with the stated reason of showcasing a user-friendly interface for initializing projects.",
+        "broll_reasoning": "The visuals are clear and professional, showing a clean UI interaction that is suitable for overlay use, though the scene is relatively static with minimal dynamic movement."
+      },
+      "total_score": 345,
+      "normalized_score": 86.25,
+      "rank": 18,
+      "original_context": {
+        "clip_number": 14,
+        "filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+        "start": "02:28",
+        "end": "02:30",
+        "description": "Project creation dialog box in ChatGPT, where 'VEO JSON Prompts' is being named, demonstrating workflow setup.",
+        "reason": "Straightforward and user-friendly interface element that guides users through project initialization efficiently.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+        "output_filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 14,
+          "filename": "video_003_clip_14_Project_creation_dialog_box_in_ChatGPT__where__VEO.mp4",
+          "start": "02:28",
+          "end": "02:30",
+          "description": "Project creation dialog box in ChatGPT, where 'VEO JSON Prompts' is being named, demonstrating workflow setup.",
+          "reason": "Straightforward and user-friendly interface element that guides users through project initialization efficiently.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "A human is visible in a small circular overlay in the top right corner throughout the clip, and then appears prominently in a full-frame shot at the end, making them frequently visible.",
+        "animation_reasoning": "The animation of the Poké Ball transforming into a Pokémon-themed bedroom is fully complete, with smooth transitions and natural start and end points.",
+        "reason_reasoning": "The clip perfectly matches the stated reason, featuring bright, playful animation with strong brand recognition (Pikachu/Pokémon) and seamless integration of themed elements like lightning effects and decor.",
+        "broll_reasoning": "The B-roll is dynamic, visually engaging, and professionally produced, with vibrant colors, clear details, and thematic consistency, making it ideal for overlay use."
+      },
+      "total_score": 325,
+      "normalized_score": 81.25,
+      "rank": 19,
+      "original_context": {
+        "clip_number": 18,
+        "filename": "video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th.mp4",
+        "start": "04:42",
+        "end": "04:48",
+        "description": "Pikachu Poké Ball transformation into a Pokémon-themed bedroom with yellow decor, Pikachu plushies, and lightning effects.",
+        "reason": "Bright and playful animation with strong brand recognition and seamless integration of elements.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th.mp4",
+        "output_filename": "video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.2",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 18,
+          "filename": "video_001_clip_18_Pikachu_Poké_Ball_transformation_into_a_Pokémon-th.mp4",
+          "start": "04:42",
+          "end": "04:48",
+          "description": "Pikachu Poké Ball transformation into a Pokémon-themed bedroom with yellow decor, Pikachu plushies, and lightning effects.",
+          "reason": "Bright and playful animation with strong brand recognition and seamless integration of elements.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 95,
+        "broll_quality_score": 100,
+        "human_reasoning": "A person is visible in a small circular overlay in the top right corner throughout the clip, and then appears in a larger frame at the end, making humans frequently visible.",
+        "animation_reasoning": "The animation of the Ferrari emerging from the box with wireframe to solid car transition is fully complete, with natural start and end points, showcasing a seamless reveal.",
+        "reason_reasoning": "The clip perfectly matches the stated reason with dramatic lighting, precise engineering details, and a powerful reveal of the luxury sports car, ideal for automotive branding.",
+        "broll_reasoning": "The B-roll features dynamic, high-quality visuals with professional lighting, smooth transitions, and engaging content suitable for overlay in promotional or editorial contexts."
+      },
+      "total_score": 320,
+      "normalized_score": 80.0,
+      "rank": 20,
+      "original_context": {
+        "clip_number": 22,
+        "filename": "video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a.mp4",
+        "start": "06:06",
+        "end": "06:12",
+        "description": "Ferrari car reveal from a red box with wireframe animation transitioning to a solid red sports car in a dark garage.",
+        "reason": "Dramatic and powerful animation with precise engineering details and intense lighting, perfect for luxury automotive branding.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a.mp4",
+        "output_filename": "video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:04.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 22,
+          "filename": "video_001_clip_22_Ferrari_car_reveal_from_a_red_box_with_wireframe_a.mp4",
+          "start": "06:06",
+          "end": "06:12",
+          "description": "Ferrari car reveal from a red box with wireframe animation transitioning to a solid red sports car in a dark garage.",
+          "reason": "Dramatic and powerful animation with precise engineering details and intense lighting, perfect for luxury automotive branding.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 95,
+        "human_reasoning": "A person is visible in a small circular overlay throughout the clip, which appears frequently and is prominent enough to be distracting.",
+        "animation_reasoning": "The animation of the Coca-Cola bottle forming from red liquid, filling with soda, and developing condensation is fully complete and has natural start and end points.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by showcasing an iconic, memorable animation with strong brand association and realistic physical effects like condensation and liquid flow.",
+        "broll_reasoning": "The b-roll is highly dynamic, visually engaging, and professionally produced, making it excellent for overlay use with clear branding and compelling visual storytelling."
+      },
+      "total_score": 320,
+      "normalized_score": 80.0,
+      "rank": 21,
+      "original_context": {
+        "clip_number": 24,
+        "filename": "video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl.mp4",
+        "start": "06:47",
+        "end": "06:54",
+        "description": "Coca-Cola ad with red liquid forming a bottle outline, filling with soda, and condensation appearing on the glass.",
+        "reason": "Iconic and memorable animation with strong brand association and realistic physical effects.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl.mp4",
+        "output_filename": "video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.6",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 24,
+          "filename": "video_001_clip_24_Coca-Cola_ad_with_red_liquid_forming_a_bottle_outl.mp4",
+          "start": "06:47",
+          "end": "06:54",
+          "description": "Coca-Cola ad with red liquid forming a bottle outline, filling with soda, and condensation appearing on the glass.",
+          "reason": "Iconic and memorable animation with strong brand association and realistic physical effects.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is entirely on the perfume bottle and floral elements.",
+        "animation_reasoning": "The animation is fully complete, starting with a blooming flower revealing the perfume bottle and ending with floating petals and ribbons in a graceful, natural motion.",
+        "reason_reasoning": "The clip perfectly matches the stated reason with elegant visual storytelling, soft focus, natural lighting, and graceful motion of petals and ribbons around the perfume bottle.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally shot, making it ideal for overlay use with engaging and aesthetically pleasing content."
+      },
+      "total_score": 300,
+      "normalized_score": 75.0,
+      "rank": 22,
+      "original_context": {
+        "clip_number": 8,
+        "filename": "video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom.mp4",
+        "start": "01:13",
+        "end": "01:22",
+        "description": "Miss Dior Blooming Bouquet perfume ad with a blooming flower revealing the bottle, followed by floating petals and ribbons.",
+        "reason": "Elegant and poetic visual storytelling with soft focus, natural lighting, and graceful motion.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom.mp4",
+        "output_filename": "video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:01.0",
+        "clean_end": "00:08.5",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 8,
+          "filename": "video_001_clip_08_Miss_Dior_Blooming_Bouquet_perfume_ad_with_a_bloom.mp4",
+          "start": "01:13",
+          "end": "01:22",
+          "description": "Miss Dior Blooming Bouquet perfume ad with a blooming flower revealing the bottle, followed by floating petals and ribbons.",
+          "reason": "Elegant and poetic visual storytelling with soft focus, natural lighting, and graceful motion.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist_.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist_.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is solely on the Apple Vision Pro headset in a minimalist environment.",
+        "animation_reasoning": "The animation of the headset floating and rotating is fully complete, with smooth transitions and natural start and end points, showcasing the product effectively.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by highlighting the minimalist, sleek design with soft lighting and reflections, emphasizing the premium nature of the product.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally composed, making it ideal for overlay use with high visual appeal and engagement."
+      },
+      "total_score": 300,
+      "normalized_score": 75.0,
+      "rank": 23,
+      "original_context": {
+        "clip_number": 20,
+        "filename": "video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist_.mp4",
+        "start": "05:20",
+        "end": "05:26",
+        "description": "Apple Vision Pro headset floating in a minimalist, futuristic white environment with soft lighting and reflections.",
+        "reason": "Minimalist and sleek design with perfect lighting and reflection effects, emphasizing the product's premium nature.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist_.mp4",
+        "output_filename": "video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist__clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 20,
+          "filename": "video_001_clip_20_Apple_Vision_Pro_headset_floating_in_a_minimalist_.mp4",
+          "start": "05:20",
+          "end": "05:26",
+          "description": "Apple Vision Pro headset floating in a minimalist, futuristic white environment with soft lighting and reflections.",
+          "reason": "Minimalist and sleek design with perfect lighting and reflection effects, emphasizing the product's premium nature.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible throughout the entire clip. The focus is entirely on the Samsung phone and its futuristic presentation.",
+        "animation_reasoning": "The animation is fully complete, with a smooth sequence showing the phone rotating and revealing its features in a seamless loop with natural start and end points.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by showcasing a high-tech, immersive animation with dynamic lighting and advanced visual effects ideal for tech branding.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally rendered, making it highly suitable for overlay use with strong visual engagement and aesthetic appeal."
+      },
+      "total_score": 300,
+      "normalized_score": 75.0,
+      "rank": 24,
+      "original_context": {
+        "clip_number": 21,
+        "filename": "video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and.mp4",
+        "start": "05:40",
+        "end": "05:48",
+        "description": "Samsung phone reveal with blue energy effects and a futuristic corridor setting, highlighting the device’s features.",
+        "reason": "High-tech and immersive animation with dynamic lighting and advanced visual effects suitable for tech branding.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and.mp4",
+        "output_filename": "video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:05.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 21,
+          "filename": "video_001_clip_21_Samsung_phone_reveal_with_blue_energy_effects_and.mp4",
+          "start": "05:40",
+          "end": "05:48",
+          "description": "Samsung phone reveal with blue energy effects and a futuristic corridor setting, highlighting the device’s features.",
+          "reason": "High-tech and immersive animation with dynamic lighting and advanced visual effects suitable for tech branding.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible in the clip; it features only animated coffee products and beans.",
+        "animation_reasoning": "The animation is fully complete, with smooth motion of floating coffee beans and drinks forming a circular pattern around the central cup, suggesting a natural start and end point.",
+        "reason_reasoning": "The clip perfectly matches the stated reason, showcasing a consistent and visually appealing animation focused on Starbucks products with smooth motion and a product-centered design.",
+        "broll_reasoning": "The visuals are dynamic, clear, and professionally produced, making it ideal for overlay use with engaging and high-quality animation."
+      },
+      "total_score": 300,
+      "normalized_score": 75.0,
+      "rank": 25,
+      "original_context": {
+        "clip_number": 23,
+        "filename": "video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks.mp4",
+        "start": "06:27",
+        "end": "06:33",
+        "description": "Starbucks coffee ad with floating beans and drinks forming a circular pattern around a central cup with the logo.",
+        "reason": "Consistent and visually appealing animation with smooth motion and product-focused design.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks.mp4",
+        "output_filename": "video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.9",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 23,
+          "filename": "video_001_clip_23_Starbucks_coffee_ad_with_floating_beans_and_drinks.mp4",
+          "start": "06:27",
+          "end": "06:33",
+          "description": "Starbucks coffee ad with floating beans and drinks forming a circular pattern around a central cup with the logo.",
+          "reason": "Consistent and visually appealing animation with smooth motion and product-focused design.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 95,
+        "broll_quality_score": 100,
+        "human_reasoning": "No humans are visible in the clip; it solely features the vehicle in a showroom setting.",
+        "animation_reasoning": "The animation is fully complete, with the car smoothly rotating on a platform, providing a natural and continuous showcase of its design.",
+        "reason_reasoning": "The clip closely matches the stated reason, showcasing the Tesla Cybertruck with sleek lighting, reflective surfaces, and smooth motion that highlights its futuristic design. The only minor discrepancy is that the vehicle shown appears to be a Model X rather than a Cybertruck.",
+        "broll_reasoning": "The B-roll is of high quality, featuring dynamic lighting, sharp reflections, and professional-grade visuals ideal for overlay use in presentations or videos."
+      },
+      "total_score": 295,
+      "normalized_score": 73.75,
+      "rank": 26,
+      "original_context": {
+        "clip_number": 5,
+        "filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+        "start": "01:23",
+        "end": "01:31",
+        "description": "Tesla Cybertruck spinning in a high-tech showroom with sleek lighting and reflective floor, showcasing its futuristic design.",
+        "reason": "Stunning visual presentation with sharp reflections, ambient lighting, and smooth motion that emphasizes the vehicle’s modern aesthetics.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+        "output_filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:01.2",
+        "clean_end": "00:07.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 5,
+          "filename": "video_003_clip_05_Tesla_Cybertruck_spinning_in_a_high-tech_showroom.mp4",
+          "start": "01:23",
+          "end": "01:31",
+          "description": "Tesla Cybertruck spinning in a high-tech showroom with sleek lighting and reflective floor, showcasing its futuristic design.",
+          "reason": "Stunning visual presentation with sharp reflections, ambient lighting, and smooth motion that emphasizes the vehicle’s modern aesthetics.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 90,
+        "broll_quality_score": 75,
+        "human_reasoning": "A person is partially visible in the top right corner of the frame throughout the clip, making their presence noticeable but not dominant.",
+        "animation_reasoning": "The animation of the Google Doc scrolling and displaying the JSON prompt is fully complete with natural start and end points, showing the entire content clearly.",
+        "reason_reasoning": "The clip effectively showcases a clear, sharp text rendering of a structured JSON prompt, aligning well with the stated reason of demonstrating technical precision in AI video generation workflows.",
+        "broll_reasoning": "The visuals are clear and professional, suitable for overlay, but the static nature of the text display limits dynamic engagement compared to more visually varied b-roll."
+      },
+      "total_score": 290,
+      "normalized_score": 72.5,
+      "rank": 27,
+      "original_context": {
+        "clip_number": 2,
+        "filename": "video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO.mp4",
+        "start": "00:05",
+        "end": "00:08",
+        "description": "Close-up of a Google Doc displaying a detailed JSON prompt for 'Labubu Room Transformation' with structured text formatting.",
+        "reason": "Clear, sharp text rendering with well-organized content; excellent for showcasing technical precision in AI video generation workflows.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO.mp4",
+        "output_filename": "video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 2,
+          "filename": "video_001_clip_02_Close-up_of_a_Google_Doc_displaying_a_detailed_JSO.mp4",
+          "start": "00:05",
+          "end": "00:08",
+          "description": "Close-up of a Google Doc displaying a detailed JSON prompt for 'Labubu Room Transformation' with structured text formatting.",
+          "reason": "Clear, sharp text rendering with well-organized content; excellent for showcasing technical precision in AI video generation workflows.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 75,
+        "broll_quality_score": 90,
+        "human_reasoning": "A person appears in a small inset window for most of the clip, making them frequently visible and distracting from the main visual focus.",
+        "animation_reasoning": "The animation of the watch underwater is fully complete, with smooth camera movement and natural transitions from close-up to wider view.",
+        "reason_reasoning": "The clip strongly matches the stated reason with smooth camera movement and precise focus on the watch, but the presence of the human inset slightly detracts from the premium feel.",
+        "broll_reasoning": "The b-roll is visually engaging with dynamic water effects, clear lighting, and professional composition, though the inset human reduces its overall effectiveness as standalone footage."
+      },
+      "total_score": 290,
+      "normalized_score": 72.5,
+      "rank": 28,
+      "original_context": {
+        "clip_number": 4,
+        "filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+        "start": "01:16",
+        "end": "01:23",
+        "description": "Close-up of Omega watch underwater, with camera slowly pulling back to reveal more of the scene, including bubbles and reflective surface.",
+        "reason": "Smooth camera movement and precise focus on the watch create a premium feel, enhanced by the clarity of water and lighting effects.",
+        "video_id": "video_003"
+      },
+      "optimization_result": {
+        "source_filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+        "output_filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 4,
+          "filename": "video_003_clip_04_Close-up_of_Omega_watch_underwater__with_camera_sl.mp4",
+          "start": "01:16",
+          "end": "01:23",
+          "description": "Close-up of Omega watch underwater, with camera slowly pulling back to reveal more of the scene, including bubbles and reflective surface.",
+          "reason": "Smooth camera movement and precise focus on the watch create a premium feel, enhanced by the clarity of water and lighting effects.",
+          "video_id": "video_003"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 90,
+        "broll_quality_score": 85,
+        "human_reasoning": "A person is visible in a small circular overlay in the top-right corner throughout the clip, making humans frequently present but not dominant.",
+        "animation_reasoning": "The video shows a smooth navigation through the OpenArt interface with thumbnails loading and interactions occurring, though it ends mid-action without a clear conclusion.",
+        "reason_reasoning": "The clip effectively showcases the organized gallery view of high-resolution AI-generated video thumbnails, aligning well with the stated selection reason.",
+        "broll_reasoning": "The visuals are dynamic and professional, featuring a clean UI with engaging thumbnails, making it suitable for overlay use despite minor static elements."
+      },
+      "total_score": 275,
+      "normalized_score": 68.75,
+      "rank": 29,
+      "original_context": {
+        "clip_number": 12,
+        "filename": "video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v.mp4",
+        "start": "01:43",
+        "end": "01:46",
+        "description": "OpenArt Videos page with thumbnails of generated videos including Tom & Jerry box, treasure chest, and others.",
+        "reason": "Organized gallery view with high-resolution thumbnails showcasing diverse AI-generated content.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v.mp4",
+        "output_filename": "video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:03.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 12,
+          "filename": "video_001_clip_12_OpenArt_Videos_page_with_thumbnails_of_generated_v.mp4",
+          "start": "01:43",
+          "end": "01:46",
+          "description": "OpenArt Videos page with thumbnails of generated videos including Tom & Jerry box, treasure chest, and others.",
+          "reason": "Organized gallery view with high-resolution thumbnails showcasing diverse AI-generated content.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 100,
+        "reason_match_score": 100,
+        "broll_quality_score": 75,
+        "human_reasoning": "No humans are visible in the clip; it focuses solely on the OpenArt UI interface and text input field.",
+        "animation_reasoning": "The animation appears fully complete, showing a stable view of the interface with no abrupt cuts or interruptions.",
+        "reason_reasoning": "The clip perfectly matches the stated reason by clearly displaying the OpenArt UI with the 'cozy whimsical' prompt and accessible settings panel.",
+        "broll_reasoning": "The clip is clear and functional, ideal for overlay purposes, but lacks dynamic movement, making it somewhat static despite its clarity."
+      },
+      "total_score": 275,
+      "normalized_score": 68.75,
+      "rank": 30,
+      "original_context": {
+        "clip_number": 14,
+        "filename": "video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical.mp4",
+        "start": "02:18",
+        "end": "02:20",
+        "description": "OpenArt UI prompt input field with 'cozy whimsical' text entered and settings panel visible.",
+        "reason": "Clear and functional interface with easy-to-read text and accessible settings controls.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical.mp4",
+        "output_filename": "video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:01.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 14,
+          "filename": "video_001_clip_14_OpenArt_UI_prompt_input_field_with__cozy_whimsical.mp4",
+          "start": "02:18",
+          "end": "02:20",
+          "description": "OpenArt UI prompt input field with 'cozy whimsical' text entered and settings panel visible.",
+          "reason": "Clear and functional interface with easy-to-read text and accessible settings controls.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 100,
+        "reason_match_score": 75,
+        "broll_quality_score": 75,
+        "human_reasoning": "A person is visible in the top-right corner of the screen throughout the clip, partially obstructing the view and appearing frequently.",
+        "animation_reasoning": "The animation shows a complete and smooth display of the JSON prompt structure with no abrupt cuts or missing segments.",
+        "reason_reasoning": "The clip does show excellent clarity in code presentation with readable text and proper formatting, but the presence of the human face detracts from the educational focus.",
+        "broll_reasoning": "The visuals are clear and informative, suitable for overlay, but the static nature of the screen recording and the persistent human face reduce its dynamic appeal."
+      },
+      "total_score": 275,
+      "normalized_score": 68.75,
+      "rank": 31,
+      "original_context": {
+        "clip_number": 15,
+        "filename": "video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st.mp4",
+        "start": "02:40",
+        "end": "02:50",
+        "description": "Google Docs screen showing detailed JSON prompt structure for 'Labubu Room Transformation' with syntax highlighting.",
+        "reason": "Excellent clarity in code presentation with readable text and proper formatting for educational purposes.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st.mp4",
+        "output_filename": "video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:07.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 15,
+          "filename": "video_001_clip_15_Google_Docs_screen_showing_detailed_JSON_prompt_st.mp4",
+          "start": "02:40",
+          "end": "02:50",
+          "description": "Google Docs screen showing detailed JSON prompt structure for 'Labubu Room Transformation' with syntax highlighting.",
+          "reason": "Excellent clarity in code presentation with readable text and proper formatting for educational purposes.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 90,
+        "broll_quality_score": 85,
+        "human_reasoning": "A human face is visible in a circular overlay throughout the entire clip, appearing prominently in the upper right corner. This makes humans frequently visible and distracting from the main animation.",
+        "animation_reasoning": "The animation shows a clear transformation from a box to a chaotic room with Tom and Jerry characters, but it ends abruptly as the scene transitions to a real person speaking, cutting off the full resolution of the animated sequence.",
+        "reason_reasoning": "The clip effectively captures the dynamic, humorous, and exaggerated nature of Tom & Jerry with vibrant colors and cartoonish physics, aligning well with the stated reason for selection.",
+        "broll_reasoning": "The visuals are highly engaging, colorful, and dynamic, making it excellent for overlay use. The animation is lively and visually rich, though the presence of the human overlay slightly reduces its standalone appeal."
+      },
+      "total_score": 275,
+      "normalized_score": 68.75,
+      "rank": 32,
+      "original_context": {
+        "clip_number": 17,
+        "filename": "video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box.mp4",
+        "start": "04:15",
+        "end": "04:22",
+        "description": "Tom & Jerry themed room transformation with a box exploding into a chaotic living room filled with cartoon characters and props.",
+        "reason": "Dynamic and humorous animation with exaggerated physics and vibrant colors capturing the essence of the cartoon.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box.mp4",
+        "output_filename": "video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:01.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 17,
+          "filename": "video_001_clip_17_Tom___Jerry_themed_room_transformation_with_a_box.mp4",
+          "start": "04:15",
+          "end": "04:22",
+          "description": "Tom & Jerry themed room transformation with a box exploding into a chaotic living room filled with cartoon characters and props.",
+          "reason": "Dynamic and humorous animation with exaggerated physics and vibrant colors capturing the essence of the cartoon.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi.mp4",
+      "criteria": {
+        "human_visibility_score": 0,
+        "animation_completeness_score": 75,
+        "reason_match_score": 100,
+        "broll_quality_score": 90,
+        "human_reasoning": "No humans are visible in the clip; it features only animated kittens in a hat shop.",
+        "animation_reasoning": "The animation appears mostly complete with smooth character movements and transitions, but the abrupt cut to a real person at the end suggests the clip was truncated mid-scene.",
+        "reason_reasoning": "The clip perfectly matches the stated reason, showcasing a whimsical and charming animated scene with expressive kittens in a vibrant, colorful boutique environment.",
+        "broll_reasoning": "The visuals are dynamic, clear, and engaging with vivid colors and expressive characters, making it highly suitable for overlay use in videos."
+      },
+      "total_score": 265,
+      "normalized_score": 66.25,
+      "rank": 33,
+      "original_context": {
+        "clip_number": 26,
+        "filename": "video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi.mp4",
+        "start": "08:01",
+        "end": "08:08",
+        "description": "Animated cat boutique scene with cute kittens trying on hats in a colorful shop filled with shelves of accessories.",
+        "reason": "Whimsical and charming animation with expressive characters and vibrant, inviting environment.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi.mp4",
+        "output_filename": "video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:01.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 26,
+          "filename": "video_001_clip_26_Animated_cat_boutique_scene_with_cute_kittens_tryi.mp4",
+          "start": "08:01",
+          "end": "08:08",
+          "description": "Animated cat boutique scene with cute kittens trying on hats in a colorful shop filled with shelves of accessories.",
+          "reason": "Whimsical and charming animation with expressive characters and vibrant, inviting environment.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 75,
+        "broll_quality_score": 75,
+        "human_reasoning": "Humans are visible in the second half of the clip, with a person appearing in a medium close-up shot, which significantly reduces the score despite the initial focus on the UI.",
+        "animation_reasoning": "The animation of the OpenArt interface is mostly complete and natural, showing the dashboard clearly, but it ends abruptly as the scene transitions to the person speaking, cutting off any potential continuation.",
+        "reason_reasoning": "The clip strongly matches the stated reason by showcasing the OpenArt UI with its professional and user-friendly design, though the sudden appearance of a human distracts slightly from the pure interface focus.",
+        "broll_reasoning": "The B-roll is good for overlay with clear, dynamic visuals of the OpenArt dashboard, but the abrupt transition to a person speaking reduces its effectiveness for seamless overlay use."
+      },
+      "total_score": 250,
+      "normalized_score": 62.5,
+      "rank": 34,
+      "original_context": {
+        "clip_number": 11,
+        "filename": "video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with.mp4",
+        "start": "01:38",
+        "end": "01:42",
+        "description": "OpenArt UI screen showing the main dashboard with options like 'Create Story', 'Generate Video', and 'Edit Image'.",
+        "reason": "Professional and user-friendly interface with clear navigation and vibrant thumbnails for different creation tools.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with.mp4",
+        "output_filename": "video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 11,
+          "filename": "video_001_clip_11_OpenArt_UI_screen_showing_the_main_dashboard_with.mp4",
+          "start": "01:38",
+          "end": "01:42",
+          "description": "OpenArt UI screen showing the main dashboard with options like 'Create Story', 'Generate Video', and 'Edit Image'.",
+          "reason": "Professional and user-friendly interface with clear navigation and vibrant thumbnails for different creation tools.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 75,
+        "broll_quality_score": 50,
+        "human_reasoning": "A person is visible in the top-right corner of the screen throughout the clip, partially obstructing the view and reducing visual clarity.",
+        "animation_reasoning": "The animation appears mostly complete, showing the interface and interactive elements, but it ends abruptly with a text overlay, suggesting a cut-off transition.",
+        "reason_reasoning": "The clip effectively showcases the interface and its layout, aligning well with the stated reason of highlighting a clean, modern UI, though the human presence slightly distracts from the focus on the design.",
+        "broll_reasoning": "The visuals are clear and professional, but the static nature of the interface and the persistent human face reduce its dynamism and suitability for engaging b-roll overlays."
+      },
+      "total_score": 225,
+      "normalized_score": 56.25,
+      "rank": 35,
+      "original_context": {
+        "clip_number": 9,
+        "filename": "video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac.mp4",
+        "start": "01:23",
+        "end": "01:28",
+        "description": "Room Transformation JSON Prompt Generator interface with buttons for various AI video prompts and a clean, modern UI.",
+        "reason": "Well-designed interface with intuitive layout and clear call-to-action buttons for user engagement.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac.mp4",
+        "output_filename": "video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:04.0",
+        "clean_end": "00:05.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 9,
+          "filename": "video_001_clip_09_Room_Transformation_JSON_Prompt_Generator_interfac.mp4",
+          "start": "01:23",
+          "end": "01:28",
+          "description": "Room Transformation JSON Prompt Generator interface with buttons for various AI video prompts and a clean, modern UI.",
+          "reason": "Well-designed interface with intuitive layout and clear call-to-action buttons for user engagement.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 50,
+        "broll_quality_score": 75,
+        "human_reasoning": "Humans are visible in the second half of the clip, with a man speaking directly to the camera, which reduces the score significantly.",
+        "animation_reasoning": "The animation appears mostly complete, showing the transition from the Louis Vuitton trunk to the bedroom scene, but the abrupt cut to the speaker suggests a truncation at the end.",
+        "reason_reasoning": "The clip begins with a sophisticated and elegant animation matching the description, but the inclusion of the human speaker disrupts the brand-focused, seamless experience, reducing alignment with the stated reason.",
+        "broll_reasoning": "The initial segment features high-quality, dynamic visuals with rich detail and branding, making it suitable for overlay. However, the sudden shift to a talking head reduces overall visual engagement."
+      },
+      "total_score": 225,
+      "normalized_score": 56.25,
+      "rank": 36,
+      "original_context": {
+        "clip_number": 19,
+        "filename": "video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious.mp4",
+        "start": "05:03",
+        "end": "05:08",
+        "description": "Louis Vuitton trunk opening to reveal a luxurious bedroom with branded furniture, bags, and fashion posters.",
+        "reason": "Sophisticated and elegant animation with attention to detail and consistent brand identity throughout.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious.mp4",
+        "output_filename": "video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:02.8",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 19,
+          "filename": "video_001_clip_19_Louis_Vuitton_trunk_opening_to_reveal_a_luxurious.mp4",
+          "start": "05:03",
+          "end": "05:08",
+          "description": "Louis Vuitton trunk opening to reveal a luxurious bedroom with branded furniture, bags, and fashion posters.",
+          "reason": "Sophisticated and elegant animation with attention to detail and consistent brand identity throughout.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    },
+    {
+      "video_id": "video",
+      "clip_filename": "video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a.mp4",
+      "clip_path": "/home/hugues/qwenTest/firsttrial/outputs/clips_raw/video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a.mp4",
+      "criteria": {
+        "human_visibility_score": 25,
+        "animation_completeness_score": 75,
+        "reason_match_score": 50,
+        "broll_quality_score": 75,
+        "human_reasoning": "Humans are frequently visible throughout the clip, including a person in the corner of the screen and later a man with boxing gloves and a headband, which dominates the latter part of the video.",
+        "animation_reasoning": "The animation of the perfume bottle emerging from the flower with petals and ribbons is mostly complete and flows naturally, though it is cut off abruptly when transitioning to the human-focused scenes.",
+        "reason_reasoning": "While the initial segment matches the romantic and artistic description with soft colors and gentle movements, the inclusion of the man with boxing gloves and a 'Keyboard Warrior' headband disrupts the luxurious and artistic tone, reducing the overall match.",
+        "broll_reasoning": "The initial portion features high-quality, engaging visuals with dynamic movement and professional animation, making it suitable for overlay. However, the abrupt shift to the human-centric content diminishes its effectiveness as consistent b-roll."
+      },
+      "total_score": 225,
+      "normalized_score": 56.25,
+      "rank": 37,
+      "original_context": {
+        "clip_number": 25,
+        "filename": "video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a.mp4",
+        "start": "07:11",
+        "end": "07:19",
+        "description": "Miss Dior perfume ad with a bottle emerging from a flower, petals flying, and ribbons swirling around it.",
+        "reason": "Romantic and artistic animation with soft colors, gentle movements, and a luxurious feel.",
+        "video_id": "video_001"
+      },
+      "optimization_result": {
+        "source_filename": "video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a.mp4",
+        "output_filename": "video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a_clean.mp4",
+        "status": "clean",
+        "clean_start": "00:00.0",
+        "clean_end": "00:04.0",
+        "attempts": 1,
+        "final_result": "none",
+        "video_id": "video",
+        "original_context": {
+          "clip_number": 25,
+          "filename": "video_001_clip_25_Miss_Dior_perfume_ad_with_a_bottle_emerging_from_a.mp4",
+          "start": "07:11",
+          "end": "07:19",
+          "description": "Miss Dior perfume ad with a bottle emerging from a flower, petals flying, and ribbons swirling around it.",
+          "reason": "Romantic and artistic animation with soft colors, gentle movements, and a luxurious feel.",
+          "video_id": "video_001"
+        },
+        "segment_analyses": null,
+        "gpt5_reasoning": null
+      }
+    }
+  ]
+}

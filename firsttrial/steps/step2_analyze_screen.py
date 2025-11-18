@@ -50,24 +50,52 @@ Make sure to cover the COMPLETE video from beginning to end."""
 
 def analyze_screen(
     video_url: str = None,
+    video_id: str = None,
     output_path: Path = None,
     verbose: bool = True
 ) -> ScreenAnalysisOutput:
     """
     Analyze ALL screen activities in video from start to finish.
+
+    Args:
+        video_url: Video URL for VLM (optional if video_id provided)
+        video_id: Video identifier for multi-video support (e.g., 'video_001')
+        output_path: Custom output path (optional)
+        verbose: Print progress messages
+
+    Returns:
+        ScreenAnalysisOutput with all screen activities
+
+    Note:
+        If video_id is provided, uses outputs/{video_id}/ directory.
+        Otherwise uses legacy single-video output path.
     """
-    # Use config defaults if not provided
-    video_url = video_url or config.MAIN_VIDEO_URL
-    output_path = output_path or config.STEP2_OUTPUT
+    # Multi-video mode: load from config if video_id provided
+    if video_id:
+        from schemas import VideoConfig
+        videos_cfg = config.load_videos_config()
+        video_cfg = next((v for v in videos_cfg.videos if v.id == video_id), None)
+        if not video_cfg:
+            raise ValueError(f"Video ID '{video_id}' not found in videos_config.json")
+
+        video_url = video_cfg.url
+        output_path = output_path or config.get_video_step_output(video_id, 2)
+        config.create_video_directories(video_id)
+    else:
+        # Legacy single-video mode
+        video_url = video_url or config.AVATAR_VIDEO_URL  # Fallback since MAIN_VIDEO_URL removed
+        output_path = output_path or config.STEP2_OUTPUT
 
     # Additional output paths for debugging
-    reasoning_output = output_path.parent / "step2_reasoning.txt"
-    full_response_output = output_path.parent / "step2_full_response.json"
+    reasoning_output = output_path.parent / f"{output_path.stem}_reasoning.txt"
+    full_response_output = output_path.parent / f"{output_path.stem}_full_response.json"
 
     if verbose:
         print("=" * 60)
         print("STEP 2: ANALYZE ALL SCREEN ACTIVITIES")
         print("=" * 60)
+        if video_id:
+            print(f"Video ID: {video_id}")
         print(f"Video URL: {video_url}")
         print(f"Model: {config.QWEN_VIDEO_MODEL}")
         print(f"Output: {output_path}")

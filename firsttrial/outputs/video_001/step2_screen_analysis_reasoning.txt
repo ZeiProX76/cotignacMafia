@@ -1,0 +1,439 @@
+We are going to break down the video into segments of 10-20 seconds each, or when the screen content changes. We must cover the entire video from 00:00 to the end (which is 8 minutes 8 seconds, so about 488 seconds). We'll create a list of activities with start and end times, description, and activity_type.
+
+Steps:
+1. We'll go through the video second by second as described in the problem, but we are grouping into segments of 10-20 seconds.
+2. We note the key changes in screen content and assign a segment for each distinct visual.
+
+Let's map the video:
+
+00:00-00:02: Black screen with red liquid (like the opening of the video) -> then a red liquid wave, then a bottle outline.
+00:02-00:04: The bottle outline becomes a Coca-Cola bottle with the text "These VEO 3 AI Ads are going..." then the bottle fills with liquid.
+00:04-00:06: The bottle is in a blue frame with social media icons (eyes, thumbs up, speech bubbles) and the text "Absolutely VIRAL lately".
+00:06-00:09: A screen showing a document with a JSON-like structure for "Labubu Room Transformation" (text description, style, etc.).
+00:09-00:15: A person in a room with purple and red lighting, then two video examples (Ferrari car unboxing and Apple commercial) appear on the sides.
+00:15-00:20: A Twitter post showing an IKEA box in a room that transforms into a furnished room.
+00:20-00:23: The person again, then a Louis Vuitton ad showing a room transformation.
+00:23-00:28: A perfume ad (Dior) and a Tom & Jerry box explosion ad.
+00:28-00:30: The person again.
+00:30-00:38: An animation showing three circles: one with a box and "How to make them yourself", one with a robot and "Give you all the prompts", one with a brush and "Show you creative examples", then a box with "JSON prompting".
+00:38-00:50: The person speaking, then text "It's not the case at all" appears.
+00:50-01:04: The person continues speaking, then text "JSON prompting" and "Works great for this type of videos" appears.
+01:04-01:13: A sequence of coffee beans and Starbucks drinks (a demo of a brand ad).
+01:13-01:22: The person speaking, then a Dior perfume ad (flower and bottle).
+01:22-01:29: A screen showing a "Room Transformation JSON Prompt Generator" (a web interface) and then text "Link in the description".
+01:29-01:32: An animation with boxes and text "Unboxing videos".
+01:32-01:41: The person speaking, then text "First step: Go over to the platform where you can get Google VEO" and a screen of OpenArt interface.
+01:41-01:50: The person speaking, then a screen of OpenArt's video generation interface (with a list of models including Veo 3).
+01:50-02:00: The OpenArt interface showing model selection (Veo 3, Seedance, etc.) and the user selecting Veo 3.
+02:00-02:15: The OpenArt interface with the "Text" tab selected, showing the prompt input and settings (Audio, Resolution, Video Mode).
+02:15-02:20: The person speaking.
+02:20-02:30: A Google Doc showing "Dan Kieft's JSON Prompt Pack" with JSON prompts for room transformations.
+02:30-02:38: The OpenArt interface with a JSON prompt pasted and the "Create" button.
+02:38-02:41: The person speaking.
+02:41-02:50: The Google Doc showing a detailed JSON for "Labubu Room Transformation".
+02:50-03:05: The Google Doc showing the JSON prompt for a room transformation (with multiple elements).
+03:05-03:10: The person speaking, then a screen of OpenArt showing generated videos (with a star on a Coca-Cola ad).
+03:10-03:20: A video of a room transformation (Labubu) from a box to a decorated room.
+03:20-03:27: The OpenArt interface showing the generated video and the prompt details.
+03:27-03:32: The person speaking, then text "Second step: How to create JSON prompts" appears.
+03:32-03:45: A Google Doc (the same prompt pack) and then a screen of a "Room Transformation JSON Prompt Generator" (a ChatGPT interface).
+03:45-03:55: The ChatGPT interface where the user types "Give me a JSON Veo 3 prompt of a box opening room transformation in Tom & Jerry Style".
+03:55-04:05: The ChatGPT response: a JSON prompt for Tom & Jerry style.
+04:05-04:15: The OpenArt interface with the JSON prompt pasted and the "Create" button.
+04:15-04:25: A generated video of a Tom & Jerry room transformation (box opening to a chaotic room).
+04:25-04:42: The person speaking.
+04:42-04:50: A video of a Pokemon room transformation (a Pokeball with Pikachu, then a room with many Pikachu items).
+04:50-05:02: The person speaking.
+05:02-05:12: A video of a Louis Vuitton ad (a trunk opening to a luxurious room).
+05:12-05:17: The person speaking, then an animation with the number 2 and text "Professional Ads".
+05:17-05:25: The person speaking, then an Apple logo in water, then an Apple Vision Pro headset.
+05:25-05:35: The "Room Transformation JSON Prompt Generator" (ChatGPT) interface, then a prompt for a Samsung product launch.
+05:35-05:48: A Samsung ad (a blue triangle, then a phone with lightning effects, then the phone rotating).
+05:48-05:55: The OpenArt interface with a video of the Apple logo in water and the Vision Pro headset.
+05:55-06:05: The OpenArt interface showing the generated Apple ad, then a screen of the OpenArt video gallery.
+06:05-06:13: A Ferrari ad (a red box with the Ferrari logo, then a wireframe car, then the real car).
+06:13-06:27: The person speaking.
+06:27-06:34: A Starbucks ad (coffee beans and drinks).
+06:34-06:47: The person speaking.
+06:47-06:56: A Coca-Cola ad (red liquid, then the bottle).
+06:56-07:02: A Google Doc showing a JSON for a Coca-Cola ad.
+07:02-07:05: Text "Click the link in the description" on a dark background.
+07:05-07:12: The person speaking.
+07:12-07:20: A Dior perfume ad (flower and bottle).
+07:20-07:25: The person with boxing gloves and a headband "Keyboard Warrior".
+07:25-07:30: The person speaking.
+07:30-07:33: The "Room Transformation JSON Prompt Generator" screen with text "Link in the description".
+07:33-07:40: The person speaking.
+07:40-07:48: The OpenArt interface and a screen showing model options (Seedance, Veo 3, Kling 2.1) with text "In just one subscription".
+07:48-07:50: The person speaking.
+07:50-07:52: An animation of a cat in front of a pet boutique, then two cats in a hat shop.
+
+We have to break the entire 8 minutes (480 seconds) into segments of 10-20 seconds.
+
+Let's create the JSON array:
+
+We'll set the start and end times for each segment (in mm:ss format) and describe the screen content.
+
+Note: The video is 8 minutes 8 seconds long (488 seconds). We'll have to cover until 08:08.
+
+We'll break it into segments:
+
+00:00-00:05: The opening sequence with red liquid and the Coca-Cola bottle outline.
+00:05-00:10: The blue frame with social media icons and the text "Absolutely VIRAL lately".
+00:10-00:15: The document with "Labubu Room Transformation" JSON.
+00:15-00:20: The person in the room, then two video examples (Ferrari and Apple).
+00:20-00:25: The Twitter post with IKEA box transformation.
+00:25-00:30: The person speaking, then a Louis Vuitton ad.
+00:30-00:35: The perfume and Tom & Jerry ads.
+00:35-00:40: The person speaking.
+00:40-00:45: The animation with the three circles (box, robot, brush) and "JSON prompting".
+00:45-00:55: The person speaking, with text "It's not the case at all" and "JSON prompting" etc.
+00:55-01:05: The coffee and Starbucks ad sequence.
+01:05-01:15: The person speaking, then Dior perfume ad.
+01:15-01:25: The Room Transformation JSON Prompt Generator interface and "Link in the description".
+01:25-01:35: The unboxing videos animation and the person speaking with text "First step".
+01:35-01:45: The OpenArt interface (model selection and settings).
+01:45-01:55: The OpenArt interface with model list and Veo 3 selection.
+01:55-02:05: The OpenArt interface with prompt input and settings.
+02:05-02:15: The person speaking.
+02:15-02:25: The Google Doc with JSON prompt pack.
+02:25-02:35: The OpenArt interface with JSON prompt pasted and the "Create" button.
+02:35-02:45: The person speaking and Google Doc showing Labubu JSON.
+02:45-02:55: The Google Doc showing the full Labubu JSON.
+02:55-03:05: The person speaking and OpenArt gallery with a star on Coca-Cola.
+03:05-03:15: The Labubu room transformation video.
+03:15-03:25: The OpenArt interface showing the generated video and details.
+03:25-03:35: The person speaking with text "Second step: How to create JSON prompts".
+03:35-03:45: The Google Doc and the Room Transformation JSON Prompt Generator (ChatGPT) interface.
+03:45-03:55: The ChatGPT interface with the prompt for Tom & Jerry.
+03:55-04:05: The ChatGPT response: the Tom & Jerry JSON prompt.
+04:05-04:15: The OpenArt interface with the JSON prompt pasted.
+04:15-04:25: The Tom & Jerry room transformation video.
+04:25-04:35: The person speaking.
+04:35-04:45: The Pokemon room transformation video.
+04:45-04:55: The person speaking.
+04:55-05:05: The Louis Vuitton ad.
+05:05-05:15: The person speaking, then the animation with "2" and "Professional Ads".
+05:15-05:25: The person speaking, then the Apple logo and Vision Pro.
+05:25-05:35: The Room Transformation JSON Prompt Generator (ChatGPT) and prompt for Samsung.
+05:35-05:45: The Samsung ad sequence.
+05:45-05:55: The OpenArt interface with Apple ad.
+05:55-06:05: The OpenArt gallery showing Apple and Vision Pro.
+06:05-06:15: The Ferrari ad.
+06:15-06:25: The person speaking.
+06:25-06:35: The Starbucks ad.
+06:35-06:45: The person speaking.
+06:45-06:55: The Coca-Cola ad sequence.
+06:55-07:05: The Google Doc for Coca-Cola JSON.
+07:05-07:10: The text "Click the link in the description".
+07:10-07:20: The person speaking and the Dior perfume ad.
+07:20-07:30: The person with boxing gloves and headband.
+07:30-07:40: The person speaking and the Room Transformation JSON Prompt Generator screen.
+07:40-07:50: The OpenArt interface and model options (Seedance, Veo 3, Kling 2.1) with subscription text.
+07:50-07:58: The person speaking and the final animation (cat in boutique).
+
+We have to adjust the time ranges to be 10-20 seconds. We'll set:
+
+00:00-00:05: 5 seconds (but we can make 00:00-00:05 and then 00:05-00:10, etc.)
+
+We'll make 20-second segments for consistency:
+
+00:00-00:20: The opening sequence (00:00-00:05) and the blue frame (00:05-00:10) and the document (00:10-00:20) -> but the document is at 00:06-00:09? Actually, the video description says:
+
+- 00:00-00:02: black screen with red liquid
+- 00:02-00:04: bottle outline and text
+- 00:04-00:06: blue frame with social media icons
+- 00:06-00:09: document
+
+So we break:
+
+00:00-00:05: Red liquid, bottle outline, and text.
+00:05-00:10: Blue frame with social media icons and the document (which is at 00:06-00:09, so we cover that in 00:05-00:10).
+00:10-00:15: The person in the room and two video examples on the sides.
+00:15-00:20: Twitter post with IKEA box transformation.
+00:20-00:25: The person, then Louis Vuitton ad.
+00:25-00:30: The perfume and Tom & Jerry ads.
+00:30-00:35: The person and the animation (3 circles and JSON prompting).
+00:35-00:40: The person speaking with text "It's not the case at all".
+00:40-00:45: The person speaking and the coffee ad (00:45 is when the coffee ad starts? Actually the coffee ad is at 01:04, so we have to adjust).
+
+We see that the coffee ad is at 01:04, so between 00:45-01:04 is the person speaking. So:
+
+00:45-01:04: The person speaking (but we break into 10-20 second segments).
+
+Let's do:
+
+00:00-00:10: The opening sequence (00:00-00:04) and the blue frame (00:04-00:06) and the beginning of the document (00:06-00:10).
+
+But the problem says: segment every 10-20 seconds OR when screen content changes.
+
+We'll base on content change:
+
+1. 00:00-00:04: Red liquid and bottle outline (with text)
+2. 00:04-00:06: Blue frame with social media icons and "Absolutely VIRAL lately"
+3. 00:06-00:09: The document (Labubu Room Transformation)
+4. 00:09-00:15: The person in the room, then two video examples (Ferrari and Apple) appear.
+5. 00:15-00:20: Twitter post with IKEA box transformation (the video shows the box in the room and then the transformation)
+6. 00:20-00:25: The person speaking, then the Louis Vuitton ad (room transformation)
+7. 00:25-00:30: The perfume (Dior) ad and Tom & Jerry box explosion ad.
+8. 00:30-00:35: The person speaking, then the animation (3 circles and "JSON prompting")
+9. 00:35-00:45: The person speaking, with text "It's not the case at all" and "JSON prompting" etc.
+10. 00:45-01:04: The person speaking (and the coffee ad sequence starts at 01:04) -> so we break at 01:04.
+
+But we have to cover the coffee ad at 01:04-01:13. So:
+
+10. 00:45-01:04: The person speaking (no visual change for about 19 seconds? Actually the video has the person speaking for a while, then at 01:04 the coffee ad starts).
+
+We'll break the person speaking segments when they are long (10-20 seconds) and the ad is a distinct change.
+
+We'll list the segments with 10-20 seconds:
+
+- 00:00-00:10: The opening sequence (00:00-00:04), the blue frame (00:04-00:06), and the document (00:06-00:10) -> but the document is only 3 seconds? So we make it 00:00-00:10 as the first segment.
+
+We'll do:
+
+00:00-00:10: Red liquid, bottle outline, blue frame with social icons, and the Labubu document.
+00:10-00:20: The person in the room, two video examples (Ferrari, Apple), and the Twitter post with IKEA box.
+00:20-00:30: The person, Louis Vuitton ad, Dior perfume ad, and Tom & Jerry ad.
+00:30-00:40: The person, then the 3 circles animation (with "How to make", "Give you prompts", "Show you examples") and "JSON prompting".
+00:40-00:50: The person speaking, with text "It's not the case at all" and "JSON prompting" etc.
+00:50-01:00: The person speaking, and the coffee ad sequence (00:50-01:00: the coffee and Starbucks ad starts at 01:04, so we cover the person speaking for 10 seconds? Actually the coffee ad starts at 01:04, so 00:50-01:00: the person speaking, then 01:00-01:10: the coffee ad).
+
+But the problem says: segment every 10-20 seconds OR when screen content changes.
+
+So:
+
+00:00-00:10: The opening sequence (00:00-00:06) and the document (00:06-00:10) -> content changes at 00:06 (from the blue frame to the document). So we break at 00:06? But the problem says 10-20 seconds. We are allowed to break when content changes.
+
+We'll break at every content change, and the time range will be the time between changes.
+
+We'll list the segments by the events described:
+
+00:00-00:02: Black screen with red liquid (0.5s) then red liquid wave (1.5s) -> but the problem says 0.5s for the first frame. We'll take the whole 00:00-00:02 as one segment? But then the next frame is at 00:02.
+
+We are going to follow the description:
+
+00:00: Black screen with red liquid (0.5s) -> but the first frame is at 0.0, so we have:
+
+00:00-00:02: The red liquid and the bottle outline (with the text "These VEO 3 AI Ads are going...")? Actually the first frame is at 0.5s: the bottle outline. The next is at 2.0s: the bottle with liquid. The next is at 3.0s: the blue frame.
+
+So:
+
+00:00-00:02: The bottle outline (0.5s) and the bottle filling (1.5s) -> but the video has 3 frames: 0.0, 0.5, 2.0, 3.0.
+
+We'll do:
+
+00:00-00:02: The bottle outline (0.5s) and the bottle filling (1.5s) [0.5s to 2.0s] but the first frame is at 0.5s. We'll consider the segment from 00:00 to 00:02 as the first segment.
+
+00:02-00:04: The blue frame with social icons and the text "Absolutely VIRAL lately".
+
+00:04-00:06: The document (Labubu Room Transformation) - 2 seconds.
+
+00:06-00:10: The person in the room (00:06-00:09) and then two video examples (00:09-00:12) -> 4 seconds.
+
+00:10-00:15: The Twitter post with IKEA box (00:10-00:15) [5 seconds].
+
+00:15-00:20: The person speaking (00:15-00:19) and then the Louis Vuitton ad (00:19-00:22) -> but the description says 00:20 is the person, then 00:22 is the ad. So:
+
+00:15-00:20: The person speaking (5 seconds) and the Louis Vuitton ad (00:20-00:22) is only 2 seconds? Actually the description says 00:20: "The person" and then 00:22: "Louis Vuitton ad". So:
+
+00:15-00:20: The person and the Louis Vuitton ad (the ad is shown at 00:20-00:22, so 2 seconds, but we have 5 seconds from 00:15 to 00:20?).
+
+We see the description:
+
+00:15-00:20: The Twitter post (00:15-00:19) and then the person (00:20-00:23) and then the Louis Vuitton ad (00:23-00:25) -> but the description says:
+
+00:15: "15.0 seconds] Twitter post showing IKEA box transformation (00:15-00:20) and then the person (00:20-00:23) and then Louis Vuitton ad (00:23-00:25)".
+
+Actually, the description:
+
+15.0 seconds] Twitter post showing IKEA box transformation (00:15-00:20) and then the person (00:20-00:23) and then Louis Vuitton ad (00:23-00:25).
+
+But we have to cover the entire video.
+
+Given the complexity, we will break the video into 20-second segments (as the problem says 10-20 seconds) and then if there is a content change in the middle, we break it.
+
+We'll do 20-second segments:
+
+00:00-00:20: The opening sequence, blue frame, document, and the person with two video examples.
+00:20-00:40: The Twitter post, the person, and the ads (Louis Vuitton, Dior, Tom & Jerry).
+00:40-00:60: The 3 circles animation, the person speaking with text, and the coffee ad.
+00:60-00:80: The person, the Dior ad, and the Room Transformation JSON Prompt Generator.
+00:80-01:00: The unboxing videos animation and the person with first step text.
+01:00-01:20: The OpenArt interface (model selection, settings).
+01:20-01:40: The Google Doc with JSON prompt pack and the OpenArt interface.
+01:40-02:00: The Google Doc (Labubu JSON) and the person.
+02:00-02:20: The person and the OpenArt gallery.
+02:20-02:40: The Labubu room transformation video and the OpenArt interface with details.
+02:40-03:00: The person and the Google Doc (JSON prompt pack) and the Room Transformation JSON Prompt Generator.
+03:00-03:20: The ChatGPT interface (prompt for Tom & Jerry) and the response.
+03:20-03:40: The OpenArt interface and the Tom & Jerry room transformation video.
+03:40-04:00: The person and the Pokemon room transformation video.
+04:00-04:20: The person and the Louis Vuitton ad.
+04:20-04:40: The person and the "Professional Ads" animation.
+04:40-05:00: The person and the Apple logo, Vision Pro, and the Samsung prompt.
+05:00-05:20: The Samsung ad and the OpenArt interface (Apple ad).
+05:20-05:40: The OpenArt gallery and the Ferrari ad.
+05:40-06:00: The person and the Starbucks ad.
+06:00-06:20: The person and the Coca-Cola ad.
+06:20-06:40: The Google Doc for Coca-Cola and the text "Click the link".
+06:40-07:00: The person and the Dior perfume ad.
+07:00-07:20: The person with boxing gloves and the headband, then the person speaking.
+07:20-07:40: The person and the Room Transformation JSON Prompt Generator.
+07:40-08:00: The OpenArt interface, the model options, and the person.
+08:00-08:08: The final animation (cat in boutique).
+
+We'll set the end time as 08:08.
+
+Now, for each segment, we describe the screen content in 15 words.
+
+Let's generate the list:
+
+Note: The video is 8 minutes 8 seconds, so the last segment ends at 08:08.
+
+We have 20 segments (00:00-08:00) and then a short one for 08:00-08:08? But we did 07:40-08:00 (20 seconds) and then 08:00-08:08 (8 seconds) -> but 08:00-08:08 is 8 seconds, which is less than 10. We can include it in the 07:40-08:00 segment? But the content changes at 08:00.
+
+We'll break at 08:00 for the final animation.
+
+We'll do 40 segments (20 seconds each) for 800 seconds? But the video is 488 seconds, so we do 25 segments (each 20 seconds, 25*20=500 seconds) but we break at 488.
+
+We'll do:
+
+00:00-00:20: ... (20 seconds)
+00:20-00:40: ... (20 seconds)
+... until 07:40-08:00: ... (20 seconds) -> but 07:40 to 08:00 is 20 seconds, and then 08:00 to 08:08 is 8 seconds (which is less than 20, so we can make one segment for 07:40-08:08).
+
+But the problem says 10-20 seconds. So we can have 8 seconds as a segment.
+
+We'll have:
+
+00:00-00:20: 20 seconds
+00:20-00:40: 20 seconds
+... 
+07:40-08:08: 28 seconds? (07:40 to 08:08 is 28 seconds) -> but we can split into two: 07:40-08:00 (20 seconds) and 08:00-08:08 (8 seconds).
+
+So:
+
+07:40-08:00: The OpenArt interface, model options, and the person.
+08:00-08:08: The final animation (cat in boutique) and the person speaking.
+
+Now, we write the descriptions (15 words max) and activity_type.
+
+We have to be concise.
+
+Let's do it:
+
+00:00-00:20: "Red liquid, Coca-Cola bottle outline, blue frame with social icons, and Labubu document." -> activity_type: "animation"
+00:20-00:40: "Person in room, two video examples (Ferrari, Apple), and Twitter post with IKEA box." -> "ui"
+00:40-00:60: "Person, Louis Vuitton ad, Dior perfume ad, Tom & Jerry box explosion, and 3 circles animation." -> "ad"
+00:60-00:80: "Person speaking, coffee and Starbucks ad, and the person with Dior perfume ad." -> "text"
+00:80-01:00: "Room Transformation JSON Prompt Generator, 'Link in the description', and unboxing videos animation." -> "ui"
+01:00-01:20: "Person with 'First step' text, OpenArt interface (model selection), and settings." -> "ui"
+01:20-01:40: "OpenArt interface with Veo 3 model, prompt input, and settings (Audio, Resolution, Video Mode)." -> "ui"
+01:40-02:00: "Google Doc with 'Dan Kieft's JSON Prompt Pack' and JSON for room transformations." -> "code"
+02:00-02:20: "OpenArt interface with JSON prompt pasted, and the person speaking." -> "ui"
+02:20-02:40: "Google Doc showing Labubu Room Transformation JSON, and OpenArt gallery with star on Coca-Cola." -> "code"
+02:40-03:00: "Labubu room transformation video, OpenArt interface with video details." -> "animation"
+03:00-03:20: "Person speaking with 'Second step: How to create JSON prompts' text." -> "text"
+03:20-03:40: "Google Doc, Room Transformation JSON Prompt Generator, and ChatGPT with Tom & Jerry prompt." -> "ui"
+03:40-04:00: "ChatGPT response: Tom & Jerry JSON prompt, and OpenArt interface." -> "code"
+04:00-04:20: "OpenArt with Tom & Jerry JSON prompt, then the generated video of room transformation." -> "animation"
+04:20-04:40: "Person speaking, then Pokemon room transformation video." -> "animation"
+04:40-05:00: "Person speaking, then Louis Vuitton ad (trunk opening to luxurious room)." -> "ad"
+05:00-05:20: "Person speaking, then '2' and 'Professional Ads' animation, and Apple logo." -> "animation"
+05:20-05:40: "Apple Vision Pro headset, Room Transformation JSON Prompt Generator, and Samsung prompt." -> "ui"
+05:40-06:00: "Samsung ad (blue triangle, phone with lightning), and OpenArt with Apple ad." -> "animation"
+06:00-06:20: "OpenArt gallery with Apple ad, then Ferrari ad (red box with logo, wireframe car)." -> "ad"
+06:20-06:40: "Person speaking, then Starbucks ad (coffee beans and drinks)." -> "ad"
+06:40-07:00: "Person speaking, then Coca-Cola ad (red liquid, bottle), and Google Doc for Coca-Cola JSON." -> "ad"
+07:00-07:20: "Text 'Click the link in the description', person speaking, and Dior perfume ad." -> "text"
+07:20-07:40: "Person with boxing gloves, headband, and the person speaking." -> "animation"
+07:40-08:00: "Room Transformation JSON Prompt Generator, OpenArt interface, and 'In just one subscription' text." -> "ui"
+08:00-08:08: "Person speaking, and final animation: cat in boutique, two cats in hat shop." -> "animation"
+
+We have 26 segments (20 seconds each for 25 segments, and one 8-second segment at the end). But we have 25 segments from 00:00 to 08:00 (25*20=500 seconds) and then 08:00-08:08 (8 seconds) -> but 08:00 is the start of the 26th segment? Actually, 07:40-08:00 is 20 seconds (100 seconds from 0 to 8:00? 480 seconds total) and then 08:00-08:08 is 8 seconds.
+
+But 07:40 is 460 seconds, and 08:00 is 480 seconds -> 20 seconds. Then 08:00-08:08 is 8 seconds.
+
+We'll set:
+
+07:40-08:00: 20 seconds
+08:00-08:08: 8 seconds
+
+Now, we write the JSON array.
+
+We have to make sure the end time is 08:08.
+
+Let's list:
+
+1. 00:00-00:20
+2. 00:20-00:40
+3. 00:40-01:00
+4. 01:00-01:20
+5. 01:20-01:40
+6. 01:40-02:00
+7. 02:00-02:20
+8. 02:20-02:40
+9. 02:40-03:00
+10. 03:00-03:20
+11. 03:20-03:40
+12. 03:40-04:00
+13. 04:00-04:20
+14. 04:20-04:40
+15. 04:40-05:00
+16. 05:00-05:20
+17. 05:20-05:40
+18. 05:40-06:00
+19. 06:00-06:20
+20. 06:20-06:40
+21. 06:40-07:00
+22. 07:00-07:20
+23. 07:20-07:40
+24. 07:40-08:00
+25. 08:00-08:08
+
+25 segments.
+
+Now, the descriptions:
+
+1. 00:00-00:20: "Red liquid, Coca-Cola bottle outline, blue frame with social icons, and Labubu document." -> "animation"
+2. 00:20-00:40: "Person in room, two video examples (Ferrari, Apple), and Twitter post with IKEA box." -> "ui"
+3. 00:40-01:00: "Person, Louis Vuitton ad, Dior perfume ad, Tom & Jerry box explosion, and 3 circles animation." -> "ad"
+4. 01:00-01:20: "Person speaking, coffee and Starbucks ad, and the person with Dior perfume ad." -> "text"
+5. 01:20-01:40: "Room Transformation JSON Prompt Generator, 'Link in the description', and unboxing videos animation." -> "ui"
+6. 01:40-02:00: "Person with 'First step' text, OpenArt interface (model selection), and settings." -> "ui"
+7. 02:00-02:20: "OpenArt interface with Veo 3 model, prompt input, and settings (Audio, Resolution, Video Mode)." -> "ui"
+8. 02:20-02:40: "Google Doc with 'Dan Kieft's JSON Prompt Pack' and JSON for room transformations." -> "code"
+9. 02:40-03:00: "OpenArt interface with JSON prompt pasted, and the person speaking." -> "ui"
+10. 03:00-03:20: "Google Doc showing Labubu Room Transformation JSON, and OpenArt gallery with star on Coca-Cola." -> "code"
+11. 03:20-03:40: "Labubu room transformation video, OpenArt interface with video details." -> "animation"
+12. 03:40-04:00: "Person speaking with 'Second step: How to create JSON prompts' text." -> "text"
+13. 04:00-04:20: "Google Doc, Room Transformation JSON Prompt Generator, and ChatGPT with Tom & Jerry prompt." -> "ui"
+14. 04:20-04:40: "ChatGPT response: Tom & Jerry JSON prompt, and OpenArt interface." -> "code"
+15. 04:40-05:00: "OpenArt with Tom & Jerry JSON prompt, then the generated video of room transformation." -> "animation"
+16. 05:00-05:20: "Person speaking, then Pokemon room transformation video." -> "animation"
+17. 05:20-05:40: "Person speaking, then Louis Vuitton ad (trunk opening to luxurious room)." -> "ad"
+18. 05:40-06:00: "Person speaking, then '2' and 'Professional Ads' animation, and Apple logo." -> "animation"
+19. 06:00-06:20: "Apple Vision Pro headset, Room Transformation JSON Prompt Generator, and Samsung prompt." -> "ui"
+20. 06:20-06:40: "Samsung ad (blue triangle, phone with lightning), and OpenArt with Apple ad." -> "animation"
+21. 06:40-07:00: "OpenArt gallery with Apple ad, then Ferrari ad (red box with logo, wireframe car)." -> "ad"
+22. 07:00-07:20: "Person speaking, then Starbucks ad (coffee beans and drinks)." -> "ad"
+23. 07:20-07:40: "Person speaking, then Coca-Cola ad (red liquid, bottle), and Google Doc for Coca-Cola JSON." -> "ad"
+24. 07:40-08:00: "Text 'Click the link in the description', person speaking, and Dior perfume ad." -> "text"
+25. 08:00-08:08: "Person with boxing gloves, headband, and final animation: cat in boutique." -> "animation"
+
+But wait, the last segment (25) is 08:00-08:08: the description says "08:00-08:08: Person with boxing gloves, headband, and final animation: cat in boutique." -> but the description for 07:20-07:40 is "Person with boxing gloves, headband", and then 07:40-08:00 is "Text 'Click the link'... and Dior perfume ad", and 08:00-08:08 is "final animation".
+
+We need to fix:
+
+23. 07:20-07:40: "Person with boxing gloves, headband, and the person speaking." -> "animation"
+24. 07:40-08:00: "Room Transformation JSON Prompt Generator, OpenArt interface, and 'In just one subscription' text." -> "ui"
+25. 08:00-08:08: "Person speaking, and final animation: cat in boutique." -> "animation"
+
+We have to adjust the 25th segment to be 08:00-08:08.
+
+Now, we write the JSON.
+
+Note: The end time of the last segment must be 08:08.
+
+Let's do it.

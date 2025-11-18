@@ -1,0 +1,15 @@
+Analyze at 10 FPS.
+
+Find ONLY the mobile phone animation segment.
+
+SKIP: Any text animations before the phone appears
+FIND: The exact moment the mobile phone animation starts (first frame) to when it ends (last frame)
+
+Output JSON with PRECISE timestamps:
+{
+  "scenes": [
+    {"start": "MM:SS.mmm", "end": "MM:SS.mmm", "description": "mobile phone animation", "reason": "no text, pure phone animation"}
+  ]
+}
+
+ONLY mobile phone. NO text animations.

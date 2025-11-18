@@ -1,0 +1,28 @@
+{
+  "scenes": [
+    {
+      "start": "00:04.000",
+      "end": "00:13.000",
+      "description": "Add Business URL → Business DNA generation → Brand profile display",
+      "reason": "Continuous workflow from entering URL to displaying brand assets with no text overlay interruption"
+    },
+    {
+      "start": "00:16.000",
+      "end": "00:25.000",
+      "description": "Prompt campaign input → Suggestions → Campaign preview",
+      "reason": "Seamless transition from input field to suggestions and then to campaign preview without text overlays"
+    },
+    {
+      "start": "00:27.000",
+      "end": "00:42.000",
+      "description": "Edit creative panel → Image prompt → Generated image → Back to edit panel",
+      "reason": "Single editing workflow that includes prompt, generation, and reversion to editor—no text interruptions"
+    },
+    {
+      "start": "00:43.000",
+      "end": "00:49.000",
+      "description": "Mobile preview animation with engagement elements",
+      "reason": "Continous visual flow of mobile phone animation and user reactions without text overlays"
+    }
+  ]
+}

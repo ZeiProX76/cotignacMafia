@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {
+      "start": "00:03.000",
+      "end": "00:05.000",
+      "description": "mobile phone animation",
+      "reason": "the mobile phone appears and rotates into view, with animated elements around it; no text animations are present during this segment"
+    }
+  ]
+}

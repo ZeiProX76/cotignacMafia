@@ -1,0 +1,286 @@
+{
+  "activities": [
+    {
+      "start": "00:00",
+      "end": "00:07",
+      "description": "Space station orbiting Earth with Earth visible",
+      "activity_type": "animation"
+    },
+    {
+      "start": "00:07",
+      "end": "00:10",
+      "description": "Person holding Rode mic in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:10",
+      "end": "00:16",
+      "description": "Split screen: phone, perfume, church; wind turbine",
+      "activity_type": "graphics"
+    },
+    {
+      "start": "00:16",
+      "end": "00:20",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:20",
+      "end": "00:24",
+      "description": "JSON prompt blueprint PDF document",
+      "activity_type": "text"
+    },
+    {
+      "start": "00:24",
+      "end": "00:26",
+      "description": "YouTube comments with PDF links",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:26",
+      "end": "00:30",
+      "description": "Omega watch underwater",
+      "activity_type": "product"
+    },
+    {
+      "start": "00:30",
+      "end": "00:32",
+      "description": "Text 'Brand Product Story' on screen",
+      "activity_type": "text"
+    },
+    {
+      "start": "00:32",
+      "end": "00:35",
+      "description": "\"Veo 3\" text on dark background",
+      "activity_type": "text"
+    },
+    {
+      "start": "00:35",
+      "end": "00:39",
+      "description": "Person in suit on film set",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:39",
+      "end": "00:46",
+      "description": "Person in blue shirt speaking",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:46",
+      "end": "00:50",
+      "description": "Omega watch close-up with bubbles",
+      "activity_type": "product"
+    },
+    {
+      "start": "00:50",
+      "end": "00:52",
+      "description": "Omega logo on black background",
+      "activity_type": "logo"
+    },
+    {
+      "start": "00:52",
+      "end": "00:54",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "00:54",
+      "end": "01:09",
+      "description": "Text vs JSON prompt comparison",
+      "activity_type": "text"
+    },
+    {
+      "start": "01:09",
+      "end": "01:15",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "01:15",
+      "end": "01:23",
+      "description": "Omega watch with 'Veo' watermark",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:23",
+      "end": "01:30",
+      "description": "Tesla Cybertruck in showroom",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:30",
+      "end": "01:39",
+      "description": "Dior perfume in forest",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:39",
+      "end": "01:42",
+      "description": "Wind turbine and neon lines",
+      "activity_type": "graphics"
+    },
+    {
+      "start": "01:42",
+      "end": "01:46",
+      "description": "Kitchen with kettle",
+      "activity_type": "product"
+    },
+    {
+      "start": "01:46",
+      "end": "01:51",
+      "description": "iPhone disassembly animation",
+      "activity_type": "animation"
+    },
+    {
+      "start": "01:51",
+      "end": "01:59",
+      "description": "Space station animation",
+      "activity_type": "animation"
+    },
+    {
+      "start": "01:59",
+      "end": "02:07",
+      "description": "Church interior with Bible",
+      "activity_type": "product"
+    },
+    {
+      "start": "02:07",
+      "end": "02:19",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "02:19",
+      "end": "02:28",
+      "description": "ChatGPT interface creating project",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:28",
+      "end": "02:30",
+      "description": "Project name input dialog",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:30",
+      "end": "02:41",
+      "description": "ChatGPT project page with prompt",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:41",
+      "end": "02:52",
+      "description": "JSON prompt code in ChatGPT",
+      "activity_type": "code"
+    },
+    {
+      "start": "02:52",
+      "end": "02:55",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "02:55",
+      "end": "02:58",
+      "description": "JSON prompt code display",
+      "activity_type": "code"
+    },
+    {
+      "start": "02:58",
+      "end": "03:07",
+      "description": "Sneaker in thunderstorm",
+      "activity_type": "animation"
+    },
+    {
+      "start": "03:07",
+      "end": "03:09",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "03:09",
+      "end": "03:11",
+      "description": "\"Flow\" logo with text",
+      "activity_type": "text"
+    },
+    {
+      "start": "03:11",
+      "end": "03:15",
+      "description": "Google AI Pro vs Ultra pricing",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:15",
+      "end": "03:17",
+      "description": "Sneaker video in Flow",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:17",
+      "end": "03:26",
+      "description": "Veo 3 text-to-video interface",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:26",
+      "end": "03:36",
+      "description": "Veo 3 settings dropdown",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:36",
+      "end": "03:54",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "03:54",
+      "end": "03:57",
+      "description": "JSON prompt PDF",
+      "activity_type": "text"
+    },
+    {
+      "start": "03:57",
+      "end": "04:00",
+      "description": "YouTube comments",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:00",
+      "end": "04:10",
+      "description": "Person speaking in studio",
+      "activity_type": "demo"
+    },
+    {
+      "start": "04:10",
+      "end": "04:13",
+      "description": "Skool community page",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:13",
+      "end": "04:17",
+      "description": "Skool community details",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:17",
+      "end": "04:28",
+      "description": "Skool community posts",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:28",
+      "end": "04:45",
+      "description": "Person with URL text",
+      "activity_type": "text"
+    },
+    {
+      "start": "04:45",
+      "end": "04:46",
+      "description": "Person pointing",
+      "activity_type": "demo"
+    }
+  ]
+}

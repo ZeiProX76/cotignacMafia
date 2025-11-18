@@ -1,0 +1,154 @@
+{
+  "activities": [
+    {
+      "start": "00:00",
+      "end": "00:20",
+      "description": "Red liquid, Coca-Cola bottle outline, blue frame with social icons, and Labubu document",
+      "activity_type": "animation"
+    },
+    {
+      "start": "00:20",
+      "end": "00:40",
+      "description": "Person in room, two video examples (Ferrari, Apple), and Twitter post with IKEA box",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:40",
+      "end": "01:00",
+      "description": "Person, Louis Vuitton ad, Dior perfume ad, Tom & Jerry box explosion, 3 circles animation",
+      "activity_type": "ad"
+    },
+    {
+      "start": "01:00",
+      "end": "01:20",
+      "description": "Person speaking, coffee and Starbucks ad, Dior perfume ad",
+      "activity_type": "text"
+    },
+    {
+      "start": "01:20",
+      "end": "01:40",
+      "description": "Room Transformation JSON Prompt Generator, 'Link in description', unboxing videos animation",
+      "activity_type": "ui"
+    },
+    {
+      "start": "01:40",
+      "end": "02:00",
+      "description": "Person with 'First step' text, OpenArt interface (model selection), settings",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:00",
+      "end": "02:20",
+      "description": "OpenArt interface with Veo 3 model, prompt input, settings (Audio, Resolution, Video Mode)",
+      "activity_type": "ui"
+    },
+    {
+      "start": "02:20",
+      "end": "02:40",
+      "description": "Google Doc with 'Dan Kieft's JSON Prompt Pack' and room transformation JSON",
+      "activity_type": "code"
+    },
+    {
+      "start": "02:40",
+      "end": "03:00",
+      "description": "OpenArt interface with JSON prompt, person speaking, OpenArt gallery with Coca-Cola star",
+      "activity_type": "ui"
+    },
+    {
+      "start": "03:00",
+      "end": "03:20",
+      "description": "Labubu room transformation video, OpenArt interface with video details",
+      "activity_type": "animation"
+    },
+    {
+      "start": "03:20",
+      "end": "03:40",
+      "description": "Person speaking with 'Second step: How to create JSON prompts' text",
+      "activity_type": "text"
+    },
+    {
+      "start": "03:40",
+      "end": "04:00",
+      "description": "Google Doc, Room Transformation JSON Prompt Generator, ChatGPT with Tom & Jerry prompt",
+      "activity_type": "ui"
+    },
+    {
+      "start": "04:00",
+      "end": "04:20",
+      "description": "ChatGPT response: Tom & Jerry JSON prompt, OpenArt interface",
+      "activity_type": "code"
+    },
+    {
+      "start": "04:20",
+      "end": "04:40",
+      "description": "OpenArt with Tom & Jerry JSON prompt, generated room transformation video",
+      "activity_type": "animation"
+    },
+    {
+      "start": "04:40",
+      "end": "05:00",
+      "description": "Person speaking, then Pokemon room transformation video",
+      "activity_type": "animation"
+    },
+    {
+      "start": "05:00",
+      "end": "05:20",
+      "description": "Person speaking, Louis Vuitton ad (trunk opening to luxurious room)",
+      "activity_type": "ad"
+    },
+    {
+      "start": "05:20",
+      "end": "05:40",
+      "description": "Person speaking, '2' and 'Professional Ads' animation, Apple logo",
+      "activity_type": "animation"
+    },
+    {
+      "start": "05:40",
+      "end": "06:00",
+      "description": "Apple Vision Pro headset, Room Transformation JSON Prompt Generator, Samsung prompt",
+      "activity_type": "ui"
+    },
+    {
+      "start": "06:00",
+      "end": "06:20",
+      "description": "Samsung ad (blue triangle, phone with lightning), OpenArt with Apple ad",
+      "activity_type": "animation"
+    },
+    {
+      "start": "06:20",
+      "end": "06:40",
+      "description": "OpenArt gallery with Apple ad, Ferrari ad (red box with logo, wireframe car)",
+      "activity_type": "ad"
+    },
+    {
+      "start": "06:40",
+      "end": "07:00",
+      "description": "Person speaking, Starbucks ad (coffee beans and drinks)",
+      "activity_type": "ad"
+    },
+    {
+      "start": "07:00",
+      "end": "07:20",
+      "description": "Person speaking, Coca-Cola ad (red liquid, bottle), Google Doc for Coca-Cola JSON",
+      "activity_type": "ad"
+    },
+    {
+      "start": "07:20",
+      "end": "07:40",
+      "description": "Text 'Click the link in description', person speaking, Dior perfume ad",
+      "activity_type": "text"
+    },
+    {
+      "start": "07:40",
+      "end": "08:00",
+      "description": "Room Transformation JSON Prompt Generator, OpenArt interface, 'In just one subscription' text",
+      "activity_type": "ui"
+    },
+    {
+      "start": "08:00",
+      "end": "08:08",
+      "description": "Person speaking, final animation: cat in boutique, two cats in hat shop",
+      "activity_type": "animation"
+    }
+  ]
+}

@@ -12,6 +12,14 @@ from .schemas import (
     OptimizationOutput,
     ClipMetadata,
     ClipsMetadataOutput,
+    # Multi-video schemas
+    VideoConfig,
+    VideosConfig,
+    ClipRankingCriteria,
+    ClipRanking,
+    RankingsOutput,
+    Top15Clip,
+    Top15Selection,
 )
 
 __all__ = [
@@ -26,4 +34,12 @@ __all__ = [
     'OptimizationOutput',
     'ClipMetadata',
     'ClipsMetadataOutput',
+    # Multi-video schemas
+    'VideoConfig',
+    'VideosConfig',
+    'ClipRankingCriteria',
+    'ClipRanking',
+    'RankingsOutput',
+    'Top15Clip',
+    'Top15Selection',
 ]

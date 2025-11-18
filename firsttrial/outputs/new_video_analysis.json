@@ -1,0 +1,52 @@
+{
+  "activities": [
+    {
+      "start": "00:00",
+      "end": "00:06",
+      "description": "Blurred background. Text: 'Meet Pomelli', 'show us your business', URL input field.",
+      "activity_type": "text"
+    },
+    {
+      "start": "00:06",
+      "end": "00:12",
+      "description": "Screen: 'Generating your Business DNA' with Banza website. Text: 'Pomelli will understand your Business DNA'.",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:12",
+      "end": "00:19",
+      "description": "Banza brand identity panel (logo, fonts, colors). Text: 'Prompt your own campaign'.",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:19",
+      "end": "00:26",
+      "description": "Text: 'Get suggestions'. 4 campaign card suggestions appear.",
+      "activity_type": "text"
+    },
+    {
+      "start": "00:26",
+      "end": "00:33",
+      "description": "Campaign page with 4 ad creatives. Text: 'Make edits' appears.",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:33",
+      "end": "00:41",
+      "description": "Edit panel: changing header text. Image prompt: 'Make background sky blue ...'. Generated image.",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:41",
+      "end": "00:49",
+      "description": "Final ad on screen. Text: 'Create for your audience, faster'. Phone screen with ad and speech bubbles.",
+      "activity_type": "ui"
+    },
+    {
+      "start": "00:49",
+      "end": "00:55",
+      "description": "Screen: 'Pomelli EXPERIMENT' with URL. 'Google Labs' with beaker icon.",
+      "activity_type": "text"
+    }
+  ]
+}

@@ -21,15 +21,17 @@ def cut_clips(
     video_path: str = None,
     scene_selection_path: Path = None,
     output_dir: Path = None,
+    video_id: str = None,
     verbose: bool = True
 ) -> ClipsMetadataOutput:
     """
     Cut video clips based on scene selections.
 
     Args:
-        video_path: Path to source video file (default: from config)
-        scene_selection_path: Path to step 4 output (default: from config)
-        output_dir: Output directory for clips (default: from config)
+        video_path: Path to source video file (default: from config or video_id)
+        scene_selection_path: Path to step 4 output (default: from config or video_id)
+        output_dir: Output directory for clips (default: clips_raw/)
+        video_id: Video identifier for multi-video support (e.g., 'video_001')
         verbose: Print progress messages
 
     Returns:
@@ -38,16 +40,36 @@ def cut_clips(
     Raises:
         ValueError: If input files not found
         Exception: If FFmpeg fails
+
+    Note:
+        If video_id is provided:
+        - Clips are prefixed with video_id (e.g., video_001_clip_01_*.mp4)
+        - Metadata saved to outputs/{video_id}/clips_metadata.json
+        - ClipMetadata includes video_id field
     """
-    # Use config defaults if not provided
-    video_path = video_path or config.MAIN_VIDEO_LOCAL
-    scene_selection_path = scene_selection_path or config.STEP4_OUTPUT
+    # Multi-video mode: load from config if video_id provided
+    if video_id:
+        videos_cfg = config.load_videos_config()
+        video_cfg = next((v for v in videos_cfg.videos if v.id == video_id), None)
+        if not video_cfg:
+            raise ValueError(f"Video ID '{video_id}' not found in videos_config.json")
+
+        video_path = video_path or video_cfg.local_path
+        scene_selection_path = scene_selection_path or config.get_video_step_output(video_id, 4)
+        config.create_video_directories(video_id)
+    else:
+        # Legacy single-video mode
+        video_path = video_path or config.AVATAR_VIDEO_URL  # Fallback
+        scene_selection_path = scene_selection_path or config.STEP4_OUTPUT
+
     output_dir = output_dir or config.CLIPS_RAW_DIR
 
     if verbose:
         print("=" * 60)
         print("STEP 5: CUT VIDEO CLIPS")
         print("=" * 60)
+        if video_id:
+            print(f"Video ID: {video_id}")
         print(f"Source video: {video_path}")
         print(f"Scene selection: {scene_selection_path}")
         print(f"Output directory: {output_dir}")
@@ -86,7 +108,11 @@ def cut_clips(
     for i, scene in enumerate(scenes.scenes, 1):
         # Create filename from description
         filename_base = sanitize_filename(scene.description[:50])
-        output_path = output_dir / f"clip_{i:02d}_{filename_base}.mp4"
+        # Prefix with video_id if in multi-video mode
+        if video_id:
+            output_path = output_dir / f"{video_id}_clip_{i:02d}_{filename_base}.mp4"
+        else:
+            output_path = output_dir / f"clip_{i:02d}_{filename_base}.mp4"
 
         if verbose:
             print(f"\n[{i}/{len(scenes.scenes)}] {scene.start} → {scene.end}")
@@ -110,7 +136,8 @@ def cut_clips(
                 start=scene.start,
                 end=scene.end,
                 description=scene.description,
-                reason=scene.reason if scene.reason else None
+                reason=scene.reason if scene.reason else None,
+                video_id=video_id  # Track source video
             ))
 
             if verbose:
@@ -127,7 +154,12 @@ def cut_clips(
         clips=clip_metadata_list
     )
 
-    metadata_path = config.STEP5_METADATA
+    # Save to video-specific path if multi-video mode, otherwise legacy path
+    if video_id:
+        metadata_path = config.get_video_step_output(video_id, 5)
+    else:
+        metadata_path = config.STEP5_METADATA
+
     save_json(metadata_output.model_dump(), metadata_path)
 
     # Display results

@@ -45,36 +45,41 @@ Output ONLY valid JSON, no explanation."""
 
 def create_timeline(
     transcript_path: Path = None,
-    clips_summary_path: Path = None,
-    avatar_video_path: str = None,
+    top15_metadata_path: Path = None,
+    avatar_video_url: str = None,
     output_path: Path = None,
     verbose: bool = True
 ) -> dict:
     """
-    Create timeline JSON using GPT-5.
+    Create timeline JSON using GPT-5 from TOP 15 clips.
 
     Args:
         transcript_path: Path to step 1 output (default: from config)
-        clips_summary_path: Path to step 7 summary (default: from config)
-        avatar_video_path: Path to avatar video (default: from config)
+        top15_metadata_path: Path to step 7 top15 metadata (default: from config)
+        avatar_video_url: URL to avatar video (default: from config)
         output_path: Output path for timeline JSON (default: from config)
         verbose: Print progress messages
 
     Returns:
         Timeline dictionary
+
+    Note:
+        Updated for multi-video pipeline: Uses top15/ clips selected by GPT-5 Mini
+        instead of clips_final/. Timeline references clips in outputs/top15/.
     """
     # Use config defaults if not provided
     transcript_path = transcript_path or config.STEP1_OUTPUT
-    clips_summary_path = clips_summary_path or (config.CLIPS_FINAL_DIR / "final_summary.json")
-    avatar_video_path = avatar_video_path or config.MAIN_VIDEO_LOCAL
-    output_path = output_path or (config.OUTPUTS_DIR / "step8_timeline.json")
+    top15_metadata_path = top15_metadata_path or config.STEP7_OUTPUT
+    avatar_video_url = avatar_video_url or config.AVATAR_VIDEO_URL
+    output_path = output_path or config.STEP8_OUTPUT
 
     if verbose:
         print("=" * 60)
-        print("STEP 8: CREATE TIMELINE")
+        print("STEP 8: CREATE REMOTION TIMELINE FROM TOP 15 CLIPS")
         print("=" * 60)
         print(f"Transcript: {transcript_path}")
-        print(f"Clips summary: {clips_summary_path}")
+        print(f"Top 15 metadata: {top15_metadata_path}")
+        print(f"Avatar video: {avatar_video_url[:60]}...")
         print(f"Output: {output_path}")
         print()
 
@@ -82,8 +87,8 @@ def create_timeline(
     if not transcript_path.exists():
         raise ValueError(f"Transcript not found: {transcript_path}\nRun step 1 first!")
 
-    if not clips_summary_path.exists():
-        raise ValueError(f"Clips summary not found: {clips_summary_path}\nRun step 7 first!")
+    if not top15_metadata_path.exists():
+        raise ValueError(f"Top 15 metadata not found: {top15_metadata_path}\nRun step 7 first!")
 
     # Load transcript
     if verbose:
@@ -94,48 +99,52 @@ def create_timeline(
     if verbose:
         print(f"   ✓ Loaded {len(transcript_data['sentences'])} sentences")
 
-    # Load clips summary
+    # Load top 15 clips metadata
     if verbose:
-        print("📂 Loading clips summary...")
+        print("📂 Loading top 15 clips...")
 
-    clips_data = load_json(clips_summary_path)
-    kept_clips = clips_data.get("kept", [])
+    from schemas import Top15Selection
+    top15_data = load_json(top15_metadata_path)
+    top15 = Top15Selection(**top15_data)
 
     if verbose:
-        print(f"   ✓ Loaded {len(kept_clips)} clean clips")
+        print(f"   ✓ Loaded {len(top15.selected_clips)} top 15 clips")
+        print(f"   Selection reasoning: {top15.selection_criteria[:80]}...")
         print()
 
-    if not kept_clips:
-        print("⚠️  No clean clips available - cannot create timeline")
+    if not top15.selected_clips:
+        print("⚠️  No clips in top 15 - cannot create timeline")
         return None
 
-    # Build clips info for GPT
+    # Build clips info for GPT from top 15
     clips_info = []
-    for clip in kept_clips:
-        context = clip.get("context") or {}
-        description = context.get("description", "Unknown") if isinstance(context, dict) else "Unknown"
-
+    for clip in top15.selected_clips:
         clip_info = {
-            "filename": clip["final"],
-            "duration": f"{clip['start']} → {clip['end']}",
-            "description": description
+            "filename": clip.top15_filename,  # Use top15 filename
+            "rank": clip.rank,
+            "video_source": clip.video_id,
+            "duration_seconds": clip.duration_seconds,
+            "clean_timestamps": f"{clip.clean_start or 'N/A'} → {clip.clean_end or 'N/A'}",
+            "description": clip.description,
+            "reason": clip.reason or "N/A",
+            "quality_score": f"{clip.normalized_score:.1f}/100"
         }
         clips_info.append(clip_info)
 
     # Create prompt
-    user_prompt = f"""Create a video timeline that maps these b-roll clips to the avatar video narration.
+    user_prompt = f"""Create a video timeline that maps these TOP 15 b-roll clips to the avatar video narration.
 
-AVATAR VIDEO: {avatar_video_path}
+AVATAR VIDEO: {avatar_video_url}
 
 TRANSCRIPT:
 {json.dumps(transcript_data['sentences'], indent=2)}
 
-AVAILABLE B-ROLL CLIPS:
+AVAILABLE B-ROLL CLIPS (ranked by quality):
 {json.dumps(clips_info, indent=2)}
 
 Create a timeline JSON with this structure:
 {{
-  "avatarVideo": "{avatar_video_path}",
+  "avatarVideo": "{avatar_video_url}",
   "scenes": [
     {{
       "type": "hook|speaking|tutorial|cta",

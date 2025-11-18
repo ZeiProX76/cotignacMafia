@@ -96,7 +96,8 @@ def cut_clip(
     start: str,
     end: str,
     output_path: Union[str, Path],
-    fast_mode: bool = False
+    fast_mode: bool = False,
+    start_buffer: float = 0.2
 ) -> None:
     """
     Cut a clip from video using ffmpeg.
@@ -107,6 +108,7 @@ def cut_clip(
         end: End timestamp (MM:SS format)
         output_path: Output video path
         fast_mode: Use fast copy mode (may corrupt) vs accurate re-encode (recommended)
+        start_buffer: Seconds to subtract from start time for safety (default: 0.2)
 
     Raises:
         subprocess.CalledProcessError: If ffmpeg fails
@@ -114,15 +116,23 @@ def cut_clip(
     # Calculate duration from start and end
     start_seconds = mmss_to_seconds(start)
     end_seconds = mmss_to_seconds(end)
+
+    # Apply start buffer (start 0.2s earlier for safety)
+    start_seconds = max(0, start_seconds - start_buffer)
+
     duration = end_seconds - start_seconds
+
+    # Convert adjusted times back to timestamp format for ffmpeg
+    adjusted_start = seconds_to_mmss(start_seconds, include_ms=True)
+    adjusted_end = seconds_to_mmss(end_seconds, include_ms=True)
 
     # Put -ss AFTER -i for accurate timestamps
     cmd = [
         "ffmpeg",
         "-hide_banner", "-y",
         "-i", str(input_path),
-        "-ss", start,
-        "-to", end,
+        "-ss", adjusted_start,
+        "-to", adjusted_end,
         "-c:v", "libx264",
         "-preset", "ultrafast",
         "-crf", "18",

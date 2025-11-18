@@ -1,0 +1,352 @@
+We are given a video that runs from 00:00 to the end (which we can see from the last timestamp in the provided frames: 11:11). We need to break the entire video into segments of 10-20 seconds or when the screen content changes, and describe what is on screen for each segment.
+
+Steps:
+1. We have the video description in the problem, which is a sequence of frames with timestamps. We can use these to segment the video.
+2. The video has 670.6 seconds (11:10.6) as the last frame. We'll break it into segments of about 10-20 seconds, but we must cover the entire video without skipping.
+
+How to proceed:
+- We note that the problem provides a detailed description of the video in the form of a sequence of events (with timestamps). We can use these to define the segments.
+- We'll go through the provided description and split it into segments of 10-20 seconds, but we have to be careful because the description is not uniformly spaced. We'll break it at the points where the description changes (i.e., when the video content changes).
+
+But note: The problem says "Segment every 10-20 seconds OR when screen content changes". So we can use the provided timestamps to set the boundaries.
+
+We have the following key points (from the given frames and descriptions) with timestamps:
+
+0.00: Video starts with a robotic arm holding a shoe in a dark room with blue lights.
+2.7: The robotic arm moves the shoe, and a person appears in the bottom left (talking in front of a mic).
+5.5: The person continues to talk, and the background shows a close-up of the shoe.
+7.8: A woman on a rooftop with a city background (film-style frame).
+10.3: The shoe is shown again, then a black and white sneaker on a black platform with gold lights.
+12.5: A text "exactly 10" appears, then a black and white sneaker with red sole.
+15.1: The person reappears, and a close-up of the sneaker is shown.
+17.5: A phone, VR headset, and robotic arm are shown.
+19.8: A split screen of various tech devices (phone, tablet, VR headset, AirPods).
+22.1: A 3D animation of a robot with a phone and AirPods.
+24.4: The person reappears with the text "TOO CONFUSING" in green.
+26.7: A circular animation of Apple products (phone, AirPods, etc.) with the text "EVERYTHING THAT YOU COULD ASK FOR" and then "I'll give you" and "Prompt Generators".
+29.0: A black car in a dark room with a text: "And you won't even have to learn how to use JSON-formatted prompts."
+31.3: A Coca-Cola bottle with the same text, then the Coca-Cola logo and "I'll give you" and "Prompt Generators today".
+33.6: A woman with braided hair (close-up).
+36.0: The person in front of a background with code and a screen (with "5 Prompt Generators Today" and "I'M GIVING YOU MULTIPLE PROMPT GENERATORS").
+38.4: A screen showing a "5 Prompt Generators Today" with 5 steps (Basic, Conversion, Advanced, Upgraded, Nested).
+40.7: The person speaking, then a screen showing "What does JSON mean?".
+43.0: A black background with text "JAVASCRIPT OBJECT NOTATION" (with "OBJECT" in green).
+45.3: A screen with a Google Gemini interface showing a question about JSON and the answer.
+47.6: The person speaking, then a black background with green and blue dots and the text "Many Prompt Generators".
+49.9: The person speaking, then a black grid background with "USE THESE: PROMPT GENERATORS".
+52.2: The person in a room with shelves, then a screen showing "What is JSON? It's Just a List!" with a JSON example.
+54.5: A screen with a JSON example (birthday presents) and the person in the corner.
+56.8: The same JSON example, then the text "We'll also use nested braces { } [ ] for more advanced structuring" appears.
+59.1: The same JSON example, then a section "Making a Video Prompt with JSON" with a JSON example for a video.
+61.4: The same JSON example, then a section explaining the structure (with a "Show thinking" button).
+63.7: A JSON example for a video (with "prompt", "scene", "shot", "audio") and the person in the corner.
+66.0: The same JSON example, then the text "By using a JSON list like this, you are giving the Veo AI a very clear recipe" appears.
+68.3: A screen with a question about curly braces and a section "Think of { } as LEGO Boxes".
+70.6: A screen with the LEGO boxes explanation and a JSON example for the main box.
+72.9: The same screen, then a section "Why a Box Inside a Box?" with a JSON example for nested structure.
+75.2: The same screen, then a section "Let's look at our example again" with a nested JSON example.
+77.5: A screen showing "JSON PROMPTS WITH VEO 3" on a computer monitor.
+79.8: A screen with 3 sections: "01 WHY USE JSON?", "02 WHY IT MATTERS", "03 STRUCTURING".
+82.1: The "01 WHY USE JSON?" section is shown in detail.
+84.4: The "02 WHY IT MATTERS" section is shown in detail.
+86.7: The "03 STRUCTURING" section is shown in detail.
+89.0: A black screen with the words "SHOT", "SUBJECT", "SCENE", "AUDIO", "CINEMATOGRAPHY" in white.
+91.3: A screen with "JSON FORMAT" and an explanation, then a JSON example for a video.
+93.6: The same screen, then a section "Why this works so well" with an example.
+95.9: A screen with "AI Video" and a diagram of related terms (camera movements, types, lenses, etc.).
+98.2: A screen showing a "Prompt Portal" interface with many video prompts.
+100.5: The same Prompt Portal interface, showing different categories.
+102.8: The same Prompt Portal interface, showing a different set of categories (Cinematic, 35mm, etc.).
+105.1: The same Prompt Portal interface, showing a grid of video prompt examples (with titles like "Documentary", "Cinematic", etc.).
+107.4: A woman with pink hair in a recording studio (with text "Links in the description").
+109.7: A black screen with "Prompt Generators" and "Today, you'll be getting 5 of them".
+112.0: The person in a room with shelves, then a blue bar with "Prompts are in the description".
+114.3: The same person, then a screen showing the Prompt Portal with "5 Prompt Generators" and a "The Nested Version" tag.
+116.6: A screen showing a detailed "Meta JSON Prompt Generator" on the Prompt Portal.
+118.9: A screen showing a ChatGPT interface with a prompt and the text "What are you working on?".
+121.2: The same ChatGPT interface, showing a prompt for "What are your prompts?".
+123.5: The same ChatGPT interface, then a screen showing the Prompt Portal with a grid of prompts.
+125.8: A woman DJing by a pool (with "Veo" watermark).
+128.1: A woman on a rooftop (same as at 7.8) with a film-style frame.
+130.4: The ChatGPT interface, showing a prompt for a music video and the response "BASE JSON PROMPT".
+132.7: The same ChatGPT interface, showing the BASE JSON PROMPT in detail.
+135.0: The same ChatGPT interface, then the text "Now, let's amplify it with realism-boosted meta tokens..." appears.
+137.3: The same ChatGPT interface, then the "ENHANCED JSON WITH META TOKENS" appears.
+139.6: The same ChatGPT interface, showing the enhanced JSON in detail.
+141.9: The same ChatGPT interface, then a section "Would you like a follow-up version using the same keys but new values?" appears.
+144.2: The same ChatGPT interface, then the person types "pop singer" and the response is a follow-up JSON prompt.
+146.5: The same ChatGPT interface, then a video of a pop singer on stage (with "Veo" watermark).
+148.8: The same video of the pop singer on stage.
+151.1: The same ChatGPT interface, then a screen showing the Prompt Portal with "5 Prompt Generators" and a focus on "AI Video JSON V3" and "Nested".
+153.4: A screen showing a detailed "AI Video JSON V3" prompt generator on the Prompt Portal.
+155.7: The same screen, then a close-up of the prompt generator description.
+158.0: The same screen, then a screen showing a ChatGPT interface with a prompt and the text "You are an expert prompt engineer for Google's Veo 3 text-to-video model".
+160.3: The same ChatGPT interface, showing a step-by-step prompt for the user to describe their idea.
+162.6: The same ChatGPT interface, then the user types "surprise me, you choose and generate the prompt!".
+164.9: The same ChatGPT interface, then the response: a complete Veo 3 JSON prompt.
+167.2: The same ChatGPT interface, then the text "Would you like me to generate a second version in a different style..." appears.
+169.5: The same ChatGPT interface, then the user types "miami neon" and the response is a new JSON prompt.
+171.8: The same ChatGPT interface, showing the Miami neon version in detail.
+174.1: The same ChatGPT interface, then a video of a car (from 29.0) and a woman in front of a red car (with a jet in the background).
+176.4: The same video of the woman with the car and jet.
+178.7: The same ChatGPT interface, then a screen with "THIS Isn't the final one" and "The NESTED version is after this one".
+181.0: The same screen, then a screen showing a detailed "AI Video JSON V3" prompt generator on the Prompt Portal.
+183.3: The same screen, then a screen showing the "MetricsMule Blog" website.
+185.6: The same screen, then a screen showing the "MetricsMule Blog" website with a "JOIN" form.
+187.9: The same screen, then a screen showing a ChatGPT interface with the text "Hey, Eric. Ready to dive in?".
+190.2: The same ChatGPT interface, then a screen with detailed instructions for the prompt generator.
+192.5: The same ChatGPT interface, then the user types "a penguin surfing a wave, he falls off and begins to swim".
+194.8: The same ChatGPT interface, then the response: a JSON prompt for the penguin.
+197.1: The same ChatGPT interface, then the text "Would you like to customize this prompt further?" appears.
+199.4: The same ChatGPT interface, then a screen with "ADVANCED" in green and a "Nest" text.
+201.7: A screen with a "Nest" text, then a screen showing a grid of JSON prompts on the Prompt Portal.
+204.0: The same grid of JSON prompts, then a screen showing the "Nest" text again.
+206.3: The same grid of JSON prompts, then a screen showing a detailed JSON example (with "Version 1" and "Version 2").
+208.6: The same screen, then a screen showing a "Nested JSON Prompt" example.
+210.9: The same screen, then a screen showing the "Prompt Portal" with a "JSON Nested Structured" generator.
+213.2: The same screen, then a screen showing the ChatGPT interface with the "comedy short" variation.
+215.5: The same ChatGPT interface, then the person in a room with shelves.
+217.8: The same person, then a video of a woman DJing by a pool (same as 125.8).
+220.1: The same video of the woman DJing.
+222.4: A car in a dark room (from 29.0) with a robotic arm, then a car in a bright room (from 125.8).
+224.7: The same car in the bright room, then a penguin surfing (from 194.8) in an animated style.
+227.0: The same penguin surfing, then a woman by a car (from 176.4).
+229.3: The same woman by a car, then a snowboarder (from 176.4) on a snowy slope.
+231.6: The same snowboarder, then a robot in a city (from 125.8).
+233.9: The same robot, then the person in a room with shelves (with the text "5 Actually" in the corner).
+236.2: The same person, then a "Subscribe" button with a cursor clicking it.
+238.5: The same "Subscribe" button, then a screen with "10X" and a "10X" text.
+240.8: The same screen, then a split screen of two events (with "10X" text).
+243.1: The same split screen, then a screen with "CAPTIVATE THE AUDIENCE" text.
+245.4: The same screen, then a screen with "TANDOUT" text and "METRICSMULE.COM".
+247.7: The same screen, then a screen with a logo and "METRICSMULE.COM" and "LET'S AI".
+
+We have to break the entire video (11:11) into segments of 10-20 seconds. We'll create a list of segments:
+
+We note that the video is 671 seconds long (11:11). We'll break it into segments of about 15 seconds (to be safe) or when the content changes.
+
+We have to make sure we cover the entire video. We'll use the provided frame timestamps to set the boundaries.
+
+Let's create the segments:
+
+1. 00:00 - 00:10: Robotic arm holding a shoe in a dark room with blue lights (then the arm moves the shoe).
+2. 00:10 - 00:20: Person in the bottom left talking; close-up of the shoe (then the shoe is shown again).
+3. 00:20 - 00:30: Woman on rooftop (film-style frame); then a black and white sneaker on a black platform with gold lights.
+4. 00:30 - 00:40: Text "exactly 10" appears; then a black and white sneaker with red sole; then the person reappears with close-up of the sneaker.
+5. 00:40 - 00:50: A phone, VR headset, and robotic arm; then a split screen of various tech devices; then a 3D animation of a robot with a phone and AirPods.
+6. 00:50 - 01:00: Person with text "TOO CONFUSING"; then a circular animation of Apple products with text "EVERYTHING THAT YOU COULD ASK FOR"; then a black car in a dark room.
+7. 01:00 - 01:10: Coca-Cola bottle with text; then a woman with braided hair.
+8. 01:10 - 01:20: Person in front of a background with code; then a screen showing "5 Prompt Generators Today" with 5 steps.
+9. 01:20 - 01:30: Person speaking; then a screen with "What does JSON mean?"; then a black background with "JAVASCRIPT OBJECT NOTATION".
+10. 01:30 - 01:40: Google Gemini interface showing a question about JSON; then the person in the corner; then a black background with green and blue dots and "Many Prompt Generators".
+11. 01:40 - 01:50: Person speaking; then a black grid background with "USE THESE: PROMPT GENERATORS"; then a screen showing "What is JSON? It's Just a List!".
+12. 01:50 - 02:00: A JSON example for birthday presents; then the same example with a note about nested braces.
+13. 02:00 - 02:10: The same JSON example, then a section "Making a Video Prompt with JSON" with a JSON example for a video.
+14. 02:10 - 02:20: The same JSON example for video; then a section with "By using a JSON list like this...".
+15. 02:20 - 02:30: A screen with a question about curly braces and a section "Think of { } as LEGO Boxes".
+16. 02:30 - 02:40: A screen with the LEGO boxes explanation and a JSON example for the main box.
+17. 02:40 - 02:50: The same screen, then a section "Why a Box Inside a Box?" with a nested JSON example.
+18. 02:50 - 03:00: The same screen, then a section "Let's look at our example again" with a nested JSON example.
+19. 03:00 - 03:10: A screen showing "JSON PROMPTS WITH VEO 3" on a computer monitor.
+20. 03:10 - 03:20: A screen with 3 sections: "01 WHY USE JSON?", "02 WHY IT MATTERS", "03 STRUCTURING".
+21. 03:20 - 03:30: The "01 WHY USE JSON?" section in detail; then the "02 WHY IT MATTERS" section.
+22. 03:30 - 03:40: The "03 STRUCTURING" section; then a black screen with "SHOT", "SUBJECT", "SCENE", "AUDIO", "CINEMATOGRAPHY".
+23. 03:40 - 03:50: A screen with "JSON FORMAT" and an explanation; then a JSON example for a video.
+24. 03:50 - 04:00: The same screen, then a section "Why this works so well" with an example.
+25. 04:00 - 04:10: A screen with "AI Video" and a diagram of related terms; then a screen showing a "Prompt Portal" interface.
+26. 04:10 - 04:20: The same Prompt Portal interface, showing different categories; then a grid of video prompt examples.
+27. 04:20 - 04:30: A woman with pink hair in a recording studio; then a black screen with "Prompt Generators".
+28. 04:30 - 04:40: The person in a room with shelves; then a blue bar with "Prompts are in the description".
+29. 04:40 - 04:50: The same person, then a screen showing the Prompt Portal with "5 Prompt Generators" and a "The Nested Version" tag.
+30. 04:50 - 05:00: A screen showing a detailed "Meta JSON Prompt Generator" on the Prompt Portal; then a screen showing a ChatGPT interface.
+31. 05:00 - 05:10: The same ChatGPT interface, showing a prompt for "What are your prompts?"; then the same ChatGPT interface with a video of a woman DJing by a pool.
+32. 05:10 - 05:20: The same video of the woman on a rooftop; then the same ChatGPT interface with a prompt for a music video and the response "BASE JSON PROMPT".
+33. 05:20 - 05:30: The same ChatGPT interface, showing the BASE JSON PROMPT in detail; then the text "Now, let's amplify it with realism-boosted meta tokens..." appears.
+34. 05:30 - 05:40: The same ChatGPT interface, then the "ENHANCED JSON WITH META TOKENS" appears; then the enhanced JSON in detail.
+35. 05:40 - 05:50: The same ChatGPT interface, then a section "Would you like a follow-up version..."; then a screen with "pop singer" and the response for a follow-up JSON prompt.
+36. 05:50 - 06:00: The same ChatGPT interface, then a video of a pop singer on stage; then the same video of the pop singer on stage.
+37. 06:00 - 06:10: The same ChatGPT interface, then a screen showing the Prompt Portal with "5 Prompt Generators" and a focus on "AI Video JSON V3" and "Nested".
+38. 06:10 - 06:20: A screen showing a detailed "AI Video JSON V3" prompt generator on the Prompt Portal; then a close-up of the prompt generator description.
+39. 06:20 - 06:30: The same screen, then a screen showing a ChatGPT interface with a prompt and the text "You are an expert prompt engineer for Google's Veo 3 text-to-video model".
+40. 06:30 - 06:40: The same ChatGPT interface, showing a step-by-step prompt for the user to describe their idea; then the user types "surprise me, you choose and generate the prompt!".
+41. 06:40 - 06:50: The same ChatGPT interface, then the response: a complete Veo 3 JSON prompt; then the text "Would you like me to generate a second version..." appears.
+42. 06:50 - 07:00: The same ChatGPT interface, then the user types "miami neon" and the response is a new JSON prompt; then the Miami neon version in detail.
+43. 07:00 - 07:10: The same ChatGPT interface, then a video of a car (from 29.0) and a woman in front of a red car (with a jet in the background).
+44. 07:10 - 07:20: The same video of the woman with the car and jet; then a screen with "THIS Isn't the final one" and "The NESTED version is after this one".
+45. 07:20 - 07:30: The same screen, then a screen showing a detailed "AI Video JSON V3" prompt generator on the Prompt Portal.
+46. 07:30 - 07:40: The same screen, then a screen showing the "MetricsMule Blog" website; then the "MetricsMule Blog" website with a "JOIN" form.
+47. 07:40 - 07:50: The same screen, then a screen showing a ChatGPT interface with the text "Hey, Eric. Ready to dive in?".
+48. 07:50 - 08:00: The same ChatGPT interface, then a screen with detailed instructions for the prompt generator; then the user types "a penguin surfing a wave, he falls off and begins to swim".
+49. 08:00 - 08:10: The same ChatGPT interface, then the response: a JSON prompt for the penguin; then the text "Would you like to customize this prompt further?" appears.
+50. 08:10 - 08:20: The same ChatGPT interface, then a screen with "ADVANCED" in green and a "Nest" text; then a screen showing a grid of JSON prompts on the Prompt Portal.
+51. 08:20 - 08:30: The same grid of JSON prompts, then a screen showing the "Nest" text again; then a screen showing a detailed JSON example (with "Version 1" and "Version 2").
+52. 08:30 - 08:40: The same screen, then a screen showing a "Nested JSON Prompt" example; then the same screen with the "Prompt Portal" and "JSON Nested Structured" generator.
+53. 08:40 - 08:50: The same screen, then a screen showing the ChatGPT interface with the "comedy short" variation; then the person in a room with shelves.
+54. 08:50 - 09:00: The same person, then a video of a woman DJing by a pool; then the same video of the woman DJing.
+55. 09:00 - 09:10: A car in a dark room; then a car in a bright room; then a penguin surfing in an animated style.
+56. 09:10 - 09:20: The same penguin surfing, then a woman by a car; then a snowboarder on a snowy slope.
+57. 09:20 - 09:30: The same snowboarder, then a robot in a city; then the person in a room with shelves (with the text "5 Actually" in the corner).
+58. 09:30 - 09:40: The same person, then a "Subscribe" button with a cursor clicking it; then a screen with "10X" and a "10X" text.
+59. 09:40 - 09:50: The same screen, then a split screen of two events (with "10X" text); then a screen with "CAPTIVATE THE AUDIENCE" text.
+60. 09:50 - 10:00: The same screen, then a screen with "TANDOUT" text and "METRICSMULE.COM"; then a screen with a logo and "METRICSMULE.COM" and "LET'S AI".
+
+We have 60 segments. But note: the video is 671 seconds long, and we have 60 segments of 11 seconds (60*11=660 seconds) which is close to 671.
+
+We must adjust to the exact timestamps. However, the problem says to break every 10-20 seconds OR when content changes. We are using the provided description to set the boundaries.
+
+We'll create the JSON array accordingly.
+
+Note: The last segment should end at about 11:11 (671 seconds). Our last segment ends at 10:00 (600 seconds) but the video goes until 11:11. So we need to cover the rest.
+
+We have to extend the segments until the end.
+
+Let's adjust:
+
+We note that from 10:00 to 11:11 (71 seconds) we have:
+
+- 10:00: The person in the room (with "5 Actually" text) -> 10:00 to 10:10
+- 10:10: The "Subscribe" button and a cursor clicking it -> 10:10 to 10:20
+- 10:20: The screen with "10X" and "10X" text -> 10:20 to 10:30
+- 10:30: Split screen of two events (with "10X" text) -> 10:30 to 10:40
+- 10:40: Screen with "CAPTIVATE THE AUDIENCE" text -> 10:40 to 10:50
+- 10:50: Screen with "TANDOUT" text and "METRICSMULE.COM" -> 10:50 to 11:00
+- 11:00: Screen with logo and "METRICSMULE.COM" and "LET'S AI" -> 11:00 to 11:11
+
+So we'll have 7 more segments from 10:00 to 11:11.
+
+We'll list all segments from 00:00 to 11:11.
+
+We have 67 segments (60+7) but let's count:
+
+00:00 - 00:10 (1)
+00:10 - 00:20 (2)
+...
+10:00 - 10:10 (61)
+10:10 - 10:20 (62)
+10:20 - 10:30 (63)
+10:30 - 10:40 (64)
+10:40 - 10:50 (65)
+10:50 - 11:00 (66)
+11:00 - 11:11 (67)
+
+But note: the last segment ends at 11:11 (671 seconds) which is the end.
+
+We'll write 67 segments.
+
+We have to be careful: the problem says "do not skip early content" and "continue until the end". We'll write each segment as:
+
+{
+  "start": "00:00",
+  "end": "00:10",
+  "description": "Robotic arm holding a shoe in a dark room with blue lights",
+  "activity_type": "animation"
+}
+
+We must keep the description under 15 words.
+
+Let's write the entire list.
+
+Note: The activity_type should be one of the options: "demo", "ui", "animation", "text", "graphics", "product", "code", etc.
+
+We'll assign:
+
+- When there is a person talking but the background is a screen (e.g., showing a code or UI), we can say "ui" or "code".
+- When it's a video clip (like the woman on the rooftop), we say "animation" or "video".
+- When it's a text overlay, we say "text".
+- When it's a product (like a shoe), we say "product".
+
+But note: the problem says "Focus on SCREEN CONTENT". So even if a person is in the bottom left, we describe what's behind them.
+
+We'll do:
+
+- For 00:00-00:10: the screen is an animation (the robotic arm and shoe) -> "animation"
+- For 00:10-00:20: the screen has a person in the bottom left and the shoe in the background (which is a product) but the main content is the shoe and the person -> but we focus on the screen: "product" (since the shoe is the main product) but also there is the person. However, the problem says "include segments even if humans are visible (we filter later)" but we only describe what's on screen. We can say: "Person in bottom left, shoe in background" but we have to keep under 15 words. We'll say: "Person talking, shoe in background".
+
+We have to be concise.
+
+We'll write:
+
+1. "00:00-00:10": "Robotic arm holds shoe in dark room with blue lights" -> "animation"
+2. "00:10-00:20": "Person talking, close-up of shoe" -> "product"
+3. "00:20-00:30": "Woman on rooftop with city background" -> "animation"
+4. "00:30-00:40": "Black and white sneaker on black platform with gold lights" -> "product"
+5. "00:40-00:50": "Text 'exactly 10' appears, then sneaker with red sole" -> "text"
+6. "00:50-01:00": "Person talking, close-up of sneaker" -> "product"
+7. "01:00-01:10": "Phone, VR headset, and robotic arm" -> "product"
+8. "01:10-01:20": "Split screen of tech devices (phone, tablet, VR, AirPods)" -> "ui"
+9. "01:20-01:30": "3D animation of robot with phone and AirPods" -> "animation"
+10. "01:30-01:40": "Person with text 'TOO CONFUSING' in green" -> "text"
+11. "01:40-01:50": "Circular animation of Apple products with text" -> "animation"
+12. "01:50-02:00": "Black car in dark room" -> "product"
+13. "02:00-02:10": "Coca-Cola bottle with text" -> "product"
+14. "02:10-02:20": "Woman with braided hair" -> "animation"
+15. "02:20-02:30": "Person in front of code background" -> "code"
+16. "02:30-02:40": "5 Prompt Generators Today with 5 steps" -> "ui"
+17. "02:40-02:50": "Person speaking, screen shows 'What does JSON mean?'" -> "text"
+18. "02:50-03:00": "Black background with 'JAVASCRIPT OBJECT NOTATION'" -> "text"
+19. "03:00-03:10": "Google Gemini interface showing JSON question" -> "ui"
+20. "03:10-03:20": "Person in corner, black background with green dots and 'Many Prompt Generators'" -> "ui"
+21. "03:20-03:30": "Person speaking, black grid background with 'USE THESE: PROMPT GENERATORS'" -> "text"
+22. "03:30-03:40": "Screen shows 'What is JSON? It's Just a List!'" -> "text"
+23. "03:40-03:50": "JSON example for birthday presents" -> "code"
+24. "03:50-04:00": "JSON example with note about nested braces" -> "code"
+25. "04:00-04:10": "Section 'Making a Video Prompt with JSON' with JSON example" -> "code"
+26. "04:10-04:20": "JSON example for video, then 'By using a JSON list...'" -> "code"
+27. "04:20-04:30": "Screen with question about curly braces" -> "text"
+28. "04:30-04:40": "LEGO boxes explanation with JSON example" -> "text"
+29. "04:40-04:50": "Section 'Why a Box Inside a Box?' with nested JSON example" -> "code"
+30. "04:50-05:00": "Section 'Let's look at our example again' with nested JSON" -> "code"
+31. "05:00-05:10": "Computer monitor showing 'JSON PROMPTS WITH VEO 3'" -> "ui"
+32. "05:10-05:20": "3 sections: '01 WHY USE JSON?', '02 WHY IT MATTERS', '03 STRUCTURING'" -> "ui"
+33. "05:20-05:30": "Section '01 WHY USE JSON?' in detail" -> "text"
+34. "05:30-05:40": "Section '02 WHY IT MATTERS' in detail" -> "text"
+35. "05:40-05:50": "Section '03 STRUCTURING' in detail" -> "text"
+36. "05:50-06:00": "Black screen with 'SHOT', 'SUBJECT', etc." -> "text"
+37. "06:00-06:10": "Screen with 'JSON FORMAT' and explanation" -> "text"
+38. "06:10-06:20": "JSON example for video and 'Why this works so well'" -> "code"
+39. "06:20-06:30": "Screen with 'AI Video' and diagram" -> "diagram"
+40. "06:30-06:40": "Prompt Portal interface showing video prompts" -> "ui"
+41. "06:40-06:50": "Prompt Portal showing different categories" -> "ui"
+42. "06:50-07:00": "Prompt Portal grid of video prompts" -> "ui"
+43. "07:00-07:10": "Woman with pink hair in recording studio" -> "animation"
+44. "07:10-07:20": "Black screen with 'Prompt Generators'" -> "text"
+45. "07:20-07:30": "Person speaking, blue bar 'Prompts are in the description'" -> "text"
+46. "07:30-07:40": "Person in room, Prompt Portal showing '5 Prompt Generators'" -> "ui"
+47. "07:40-07:50": "Prompt Portal 'Meta JSON Prompt Generator'" -> "ui"
+48. "07:50-08:00": "ChatGPT interface with 'What are you working on?'" -> "ui"
+49. "08:00-08:10": "ChatGPT interface with 'What are your prompts?'" -> "ui"
+50. "08:10-08:20": "Prompt Portal grid of prompts" -> "ui"
+51. "08:20-08:30": "Woman DJing by pool" -> "animation"
+52. "08:30-08:40": "Woman on rooftop" -> "animation"
+53. "08:40-08:50": "ChatGPT interface with BASE JSON PROMPT" -> "code"
+54. "08:50-09:00": "ChatGPT interface showing BASE JSON PROMPT" -> "code"
+55. "09:00-09:10": "ChatGPT interface with 'ENHANCED JSON WITH META TOKENS'" -> "code"
+56. "09:10-09:20": "ChatGPT interface showing enhanced JSON" -> "code"
+57. "09:20-09:30": "ChatGPT interface with 'Would you like a follow-up version?'" -> "text"
+58. "09:30-09:40": "ChatGPT interface with 'pop singer' and response" -> "code"
+59. "09:40-09:50": "Video of pop singer on stage" -> "animation"
+60. "09:50-10:00": "Video of pop singer on stage" -> "animation"
+61. "10:00-10:10": "Prompt Portal with '5 Prompt Generators'" -> "ui"
+62. "10:10-10:20": "Prompt Portal 'AI Video JSON V3' and 'Nested'" -> "ui"
+63. "10:20-10:30": "Prompt Portal 'Meta JSON Prompt Generator'" -> "ui"
+64. "10:30-10:40": "ChatGPT interface with 'You are an expert prompt engineer...'" -> "ui"
+65. "10:40-10:50": "ChatGPT interface with step-by-step prompt" -> "text"
+66. "10:50-11:00": "ChatGPT interface, user types 'surprise me...'" -> "text"
+67. "11:00-11:10": "ChatGPT interface, response: complete JSON prompt" -> "code"
+68. "11:10-11:11": "ChatGPT interface, 'Would you like to generate a second version...'" -> "text"
+
+But note: the video ends at 11:11, so the last segment ends at 11:11.
+
+We have 68 segments.
+
+We must be cautious: the problem says "segment every 10-20 seconds OR when screen content changes". We are using 10 seconds per segment to be safe.
+
+We'll write 68 segments.
+
+Now, we write the JSON.
+
+Note: The start and end times must be in "HH:MM" format (as in the example). We'll use the same as in the problem.
+
+We have to make sure the end time of the last segment is the end of the video (11:11).
+
+Let's do it.

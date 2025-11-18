@@ -1,0 +1,34 @@
+{
+  "sentences": [
+    {
+      "start": "00:00",
+      "end": "00:02",
+      "text": "You don't need to pay for Veo 3 or Sora 2 anymore."
+    },
+    {
+      "start": "00:02",
+      "end": "00:08",
+      "text": "Instead, just use this free and open-source alternative that lets you create high-quality AI videos with audio and sound effects in literally one shot."
+    },
+    {
+      "start": "00:08",
+      "end": "00:12",
+      "text": "The tool's called Ovi, and it's the world's first open-source video plus audio model."
+    },
+    {
+      "start": "00:12",
+      "end": "00:21",
+      "text": "You can use it to create unlimited videos from your own text or images and get results with synchronized visuals and sound with realistic speech, perfect lip sync, and music that actually fits the scene."
+    },
+    {
+      "start": "00:21",
+      "end": "00:27",
+      "text": "Now to run Ovi, you can either set it up using comfyUI or if you guys want to try it online, you can do so directly on this website."
+    },
+    {
+      "start": "00:27",
+      "end": "00:31",
+      "text": "Want to give it a try? Just comment video and I'll share the link with you directly."
+    }
+  ]
+}

@@ -52,6 +52,7 @@ def craft_prompt(
     transcription_path: Path = None,
     screen_analysis_path: Path = None,
     output_path: Path = None,
+    video_id: str = None,
     pause_for_review: bool = True,
     verbose: bool = True
 ) -> str:
@@ -60,8 +61,9 @@ def craft_prompt(
 
     Args:
         transcription_path: Path to step 1 output (default: from config)
-        screen_analysis_path: Path to step 2 output (default: from config)
-        output_path: Output text file path (default: from config)
+        screen_analysis_path: Path to step 2 output (default: from config or video_id)
+        output_path: Output text file path (default: from config or video_id)
+        video_id: Video identifier for multi-video support (e.g., 'video_001')
         pause_for_review: Wait for user approval before returning (default: True)
         verbose: Print progress messages
 
@@ -71,16 +73,30 @@ def craft_prompt(
     Raises:
         ValueError: If input files not found or API keys not configured
         Exception: If API call fails
+
+    Note:
+        If video_id is provided, uses outputs/{video_id}/ directory for step 2 and step 3.
+        Otherwise uses legacy single-video output paths.
     """
-    # Use config defaults if not provided
+    # Multi-video mode: use video-specific paths if video_id provided
+    if video_id:
+        screen_analysis_path = screen_analysis_path or config.get_video_step_output(video_id, 2)
+        output_path = output_path or config.get_video_step_output(video_id, 3, ".txt")
+        config.create_video_directories(video_id)
+    else:
+        # Legacy single-video mode
+        screen_analysis_path = screen_analysis_path or config.STEP2_OUTPUT
+        output_path = output_path or config.STEP3_OUTPUT
+
+    # Transcription is always from step 1 (single avatar video)
     transcription_path = transcription_path or config.STEP1_OUTPUT
-    screen_analysis_path = screen_analysis_path or config.STEP2_OUTPUT
-    output_path = output_path or config.STEP3_OUTPUT
 
     if verbose:
         print("=" * 60)
         print("STEP 3: CRAFT TARGETED PROMPT WITH GPT-5 MINI")
         print("=" * 60)
+        if video_id:
+            print(f"Video ID: {video_id}")
         print(f"Transcription: {transcription_path}")
         print(f"Screen analysis: {screen_analysis_path}")
         print(f"Model: {config.GPT5_MODEL}")
